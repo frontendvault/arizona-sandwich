@@ -1,0 +1,177 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .delivery-info {
+    margin-top: 20px;
+  }
+  .right-side {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.arizona-sandwich-banner {
+  background: #9E4122;
+}
+
+.arizona-sandwich-banner h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+aside {
+  width: 240px;
+}
+
+aside .block-stacked button {
+  font-weight: bold;
+  width: 48%;
+}
+
+aside .block-stacked .btn-brown {
+  background: #9E4122;
+  color: #fff;
+}
+
+aside .btn-blocks button {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 5px 3px #D8D8D8;
+          box-shadow: 0px 0px 5px 3px #D8D8D8;
+  color: #343434;
+}
+
+aside .left-listing .form-control {
+  border: 0;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+aside .left-listing .input-group-append .input-group-text {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+aside .left-listing .list-group .list-group-item .active {
+  font-weight: bold;
+}
+
+.right-side {
+  padding: 0 40px;
+}
+
+.right-side .delivery-info {
+  background: #fff;
+  border-radius: 6px;
+  color: #565656;
+  margin-top: -90px;
+}
+
+.right-side .delivery-info h4 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.right-side .delivery-info p {
+  margin-bottom: 0;
+  line-height: 22px;
+}
+
+.right-side .delivery-info .btn {
+  border: 1px solid #D8D8D8;
+}
+
+.right-side .alert-text p {
+  margin: 0;
+}
+
+.right-side .alert-text p span {
+  color: #9E4122;
+}
+
+.right-side .items-section .burger-banner img {
+  position: relative;
+}
+
+.right-side .items-section .burger-banner h4 {
+  font-weight: 600;
+  font-size: 24px;
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  color: #fff;
+}
+
+.right-side .items-section .item {
+  width: auto;
+  -webkit-box-shadow: 0px 0px 5px 3px #D8D8D8;
+          box-shadow: 0px 0px 5px 3px #D8D8D8;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+.right-side .items-section .item h5 {
+  font-size: 15px;
+  color: #565656;
+  font-weight: 600;
+  margin: 15px 0 10px;
+}
+
+.right-side .items-section .item p {
+  font-size: 14px;
+  font-weight: 100x;
+  color: #777777;
+  line-height: normal;
+  font-weight: 100;
+}
+
+.right-side .items-section .item .item-price-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.right-side .items-section .item .item-price-section strong {
+  color: #9E4122;
+}
+
+.right-side .items-section .item .item-price-section p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.right-side .items-section .item .item-price-section .btn {
+  background: #9E4122;
+  font-size: 60px;
+  color: #fff;
+  height: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 100;
+}
+/*# sourceMappingURL=main.css.map */

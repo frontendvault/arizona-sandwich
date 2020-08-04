@@ -1,0 +1,191 @@
+@import "customVariables";
+@import "font";
+@import "mediaBigScreen";
+@import "mediaMobile";
+
+// @import "fontFamily;";
+
+
+// Will go into global.SCSS later
+.arizona-sandwich-banner {
+    background: $brown;
+
+    h3 {
+        color: $white;
+        font-weight: 600;
+    }
+}
+
+aside {
+    width: 240px;
+
+
+    .block-stacked {
+        button {
+            font-weight: bold;
+            width: 48%;
+        }
+
+        .btn-brown {
+            background: $brown;
+            color: $white;
+
+        }
+    }
+
+    .btn-blocks {
+        button {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 5px 3px $light-grey;
+            color: $dark-grey;
+
+        }
+
+
+    }
+
+    .left-listing {
+
+
+        .form-control {
+            border: 0;
+            border-bottom: 1px solid $light-grey;
+
+            // &:focus {}
+        }
+
+        .input-group-append {
+            .input-group-text {
+                background: none;
+                border: none;
+                border-bottom: 1px solid $light-grey;
+            }
+        }
+
+        .list-group {
+            .list-group-item {
+
+
+                .active {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}
+
+.right-side {
+    padding: 0 40px;
+
+
+    .delivery-info {
+        // box-shadow: 0px 0px 5px 3px $light-grey;
+        background: $white;
+        border-radius: 6px;
+        color: $common-text;
+        margin-top: -90px;
+
+        h4 {
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        p {
+            margin-bottom: 0;
+            line-height: 22px;
+        }
+
+        .btn {
+            border: 1px solid $light-grey;
+        }
+
+    }
+
+    .alert-text {
+        p {
+            margin: 0;
+
+            span {
+                color: $brown;
+            }
+        }
+    }
+
+    .items-section {
+        .burger-banner {
+
+            img {
+                position: relative;
+            }
+
+            h4 {
+                font-weight: 600;
+                font-size: 24px;
+                position: absolute;
+                bottom: 15px;
+                left: 40px;
+                color: $white;
+            }
+        }
+
+        .item {
+            width: auto;
+            box-shadow: 0px 0px 5px 3px $light-grey;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+
+            h5 {
+                font-size: 15px;
+                color: $common-text;
+                font-weight: 600;
+                margin: 15px 0 10px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 100x;
+                color: $grey;
+                line-height: normal;
+                font-weight: 100;
+
+            }
+
+            .item-price-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                strong {
+                    color: $brown;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+
+
+                .btn {
+                    background: $brown;
+                    font-size: 60px;
+                    color: $white;
+                    height: 34px;
+                    width: 34px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 100;
+
+
+                }
+
+            }
+        }
+    }
+
+}
