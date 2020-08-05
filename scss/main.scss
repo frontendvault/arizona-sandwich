@@ -188,4 +188,169 @@ aside {
         }
     }
 
+    .cart-section {
+
+        padding: 0 20px;
+
+        .cart-inner {
+            box-shadow: 0px 0px 5px 3px $light-grey;
+            padding: 30px;
+            border-radius: 8;
+
+
+            h4 {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+
+            .two-col {
+
+                border-bottom: 2px dashed $light-grey;
+                padding: 15px 0;
+
+                .add-ons-container {
+                    h5 {
+                        font-weight: 500;
+                        font-size: 16px;
+                        margin-bottom: 15px;
+
+                    }
+
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+
+                .add-ons {
+                    display: flex;
+                    justify-content: space-between;
+
+
+
+                    .cart-desc-align {
+                        display: flex;
+
+                        .form-control {
+                            width: 22px;
+                            height: 22px;
+                            margin: 0 5px;
+                            text-align: center;
+                            padding: 0;
+                        }
+
+                        .btn {
+                            width: 22px;
+                            height: 22px;
+                            display: flex;
+                            align-items: center;
+                            background: $brown;
+                            justify-content: center;
+                            color: $white;
+                            font-size: 30px;
+
+                        }
+                    }
+                }
+
+                .title-price-holder {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .form-control {
+                        width: 22px;
+                        height: 22px;
+                        margin: 0 5px;
+                        text-align: center;
+                        padding: 0;
+                    }
+
+                    .btn {
+                        width: 22px;
+                        height: 22px;
+                        display: flex;
+                        align-items: center;
+                        background: $brown;
+                        justify-content: center;
+                        color: $white;
+                        font-size: 30px;
+
+                    }
+
+                    .add-remove-items {
+                        display: flex;
+
+                        .form-control {
+                            margin: 0 5px
+                        }
+                    }
+
+                    .edit-item {
+                        height: 22px;
+                        width: 22px;
+                        background: $white;
+                        border: 1px solid $light-grey;
+
+                        img {
+                            width: 10px;
+                        }
+                    }
+                }
+            }
+
+            .flat-border {
+                border-bottom: 1px solid $light-grey;
+                color: $common-text;
+
+                .cart-desc {
+
+                    p {
+                        font-size: 14px;
+                    }
+
+                    small {
+                        font-size: 12px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 0;
+                    }
+
+                    .add-ons {
+                        .price {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .total {
+                        h5 {
+                            font-size: 18px;
+                        }
+
+                        .price {
+                            font-size: 18px;
+                        }
+                    }
+
+                }
+            }
+
+            .checkout {
+                background: $brown;
+                color: $white;
+                font-weight: bold;
+                font-size: 16px;
+                border-radius: 0;
+                padding: 20px;
+                -webkit-border-bottom-right-radius: 8px;
+                -webkit-border-bottom-left-radius: 8px;
+                -moz-border-radius-bottomright: 8px;
+                -moz-border-radius-bottomleft: 8px;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+            }
+        }
+    }
+
 }
