@@ -1,8 +1,53 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+    aside {
+        .list-group {
+            width: 736px;
+        }
+
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     //    Ordering Menu page starts
     aside {
         width: 100%;
+        margin-top: 30px;
+
+        .list-group {
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+            // position: absolute;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-top: 1px solid $light-grey;
+            border-bottom: 1px solid $light-grey;
+            white-space: nowrap;
+
+            .list-group-item {
+                max-width: 200px;
+
+                .list-group-item-action {
+                    padding: 20px;
+                    color: $brown;
+
+                }
+            }
+        }
+
+        .block-stacked {
+            margin-top: 50px;
+
+            button {
+                width: 100%;
+                font-size: 20px;
+            }
+        }
 
         .btn-blocks {
             display: flex;
@@ -12,6 +57,24 @@
                 width: 30%;
                 margin-top: 0;
             }
+        }
+    }
+
+    .arizona-sandwich-banner {
+        height: 100px;
+
+        .arz-sandwich-logo {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 117px;
+            top: 35px;
+        }
+
+        .mobile-Nav {
+            padding: 0;
+
         }
     }
 

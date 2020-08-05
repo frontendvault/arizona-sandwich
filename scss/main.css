@@ -351,9 +351,49 @@ aside .left-listing .list-group .list-group-item .active {
   width: 100%;
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  aside .list-group {
+    width: 736px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   aside {
     width: 100%;
+    margin-top: 30px;
+  }
+  aside .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+  }
+  aside .list-group .list-group-item {
+    max-width: 200px;
+  }
+  aside .list-group .list-group-item .list-group-item-action {
+    padding: 20px;
+    color: #9E4122;
+  }
+  aside .block-stacked {
+    margin-top: 50px;
+  }
+  aside .block-stacked button {
+    width: 100%;
+    font-size: 20px;
   }
   aside .btn-blocks {
     display: -webkit-box;
@@ -366,6 +406,20 @@ aside .left-listing .list-group .list-group-item .active {
   aside .btn-blocks .btn {
     width: 30%;
     margin-top: 0;
+  }
+  .arizona-sandwich-banner {
+    height: 100px;
+  }
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 117px;
+    top: 35px;
+  }
+  .arizona-sandwich-banner .mobile-Nav {
+    padding: 0;
   }
   .right-side {
     padding: 0 20px;
@@ -389,13 +443,47 @@ aside .left-listing .list-group .list-group-item .active {
     width: 100%;
   }
   aside .block-stacked {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  aside .block-stacked button {
+    width: 100%;
+    font-size: 20px;
+  }
+  aside .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+  }
+  aside .list-group .list-group-item {
+    max-width: 200px;
+  }
+  aside .list-group .list-group-item .list-group-item-action {
+    padding: 20px;
+    color: #9E4122;
   }
   .arizona-sandwich-banner {
     height: 100px;
   }
   .arizona-sandwich-banner .arz-sandwich-logo {
-    width: 100% !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 117px;
+    top: 35px;
+  }
+  .arizona-sandwich-banner .mobile-Nav {
+    padding: 0;
   }
   .right-side {
     padding-left: 15px;
