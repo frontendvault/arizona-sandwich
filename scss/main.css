@@ -3,6 +3,12 @@ body {
   font-size: 18px;
 }
 
+input.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 aside {
   width: 240px;
 }
@@ -31,10 +37,19 @@ aside .left-listing .form-control {
   border-bottom: 1px solid #D8D8D8;
 }
 
+aside .left-listing .form-control:focus {
+  outline: none;
+}
+
 aside .left-listing .input-group-append .input-group-text {
   background: none;
   border: none;
   border-bottom: 1px solid #D8D8D8;
+}
+
+aside .left-listing .list-group .list-group-item {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 aside .left-listing .list-group .list-group-item .active {
@@ -367,14 +382,14 @@ aside .left-listing .list-group .list-group-item .active {
 }
 
 @media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
   aside {
     width: 100%;
   }
   aside .block-stacked {
     margin-top: 100px;
-  }
-  .delivery-info {
-    margin-top: 20px;
   }
   .arizona-sandwich-banner {
     height: 100px;
@@ -385,6 +400,9 @@ aside .left-listing .list-group .list-group-item .active {
   .right-side {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .right-side .delivery-info {
+    margin-top: 50px;
   }
   .right-side .items-section .item img {
     width: 100%;

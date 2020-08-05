@@ -1,4 +1,8 @@
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
     aside {
         width: 100%;
 
@@ -9,9 +13,7 @@
 
     }
 
-    .delivery-info {
-        margin-top: 20px;
-    }
+
 
     .arizona-sandwich-banner {
         height: 100px;
@@ -25,6 +27,9 @@
         padding-left: 15px;
         padding-right: 15px;
 
+        .delivery-info {
+            margin-top: 50px;
+        }
 
         .items-section {
             .item {

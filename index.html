@@ -51,8 +51,8 @@
               <img src="images/arizona-sandwish-logo.png" alt="" />
             </a>
           </div>
-          <div class="col-xl">
-            <h3 class="d-none d-md-block">Menu</h3>
+          <div class="col-md col-xl d-flex align-items-center">
+            <h3 class="d-none d-md-block mb-5 ml-3">Menu</h3>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
             </div>
 
             <div class="left-listing mt-5">
-              <div class="input-group mb-3">
+              <div class="input-group mb-5 mb-xl-3">
                 <input
                   type="text"
                   class="form-control"
@@ -91,7 +91,27 @@
                   </span>
                 </div>
               </div>
-              <ul class="list-group list-group-flush">
+              <div class="col">
+                <div class="d-block d-sm-block d-md-block d-lg-none">
+                  <label class="font-weight-bold mb-2">Select Category</label>
+                  <select
+                    class="form-control form-control-lg"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option>Pizza Slices</option>
+                    <option>What happens with a long?</option>
+                    <option>Burgers</option>
+                    <option>Pasta</option>
+                    <option>Appetizers</option>
+                    <option>Beverages</option>
+                    <option>Desserts</option>
+                  </select>
+                </div>
+              </div>
+
+              <ul
+                class="list-group list-group-flush d-none d-sm-none d-md-none d-lg-block"
+              >
                 <li class="list-group-item">
                   <a href="" class="list-group-item-action">Pizza Slices</a>
                 </li>
