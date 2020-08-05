@@ -3,30 +3,6 @@ body {
   font-size: 18px;
 }
 
-.container {
-  max-width: 1280px;
-  width: 100%;
-}
-
-@media only screen and (max-width: 767px) {
-  .delivery-info {
-    margin-top: 20px;
-  }
-  .right-side {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-.arizona-sandwich-banner {
-  background: #9E4122;
-}
-
-.arizona-sandwich-banner h3 {
-  color: #fff;
-  font-weight: 600;
-}
-
 aside {
   width: 240px;
 }
@@ -45,8 +21,8 @@ aside .btn-blocks button {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
-  -webkit-box-shadow: 0px 0px 5px 3px #D8D8D8;
-          box-shadow: 0px 0px 5px 3px #D8D8D8;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
   color: #343434;
 }
 
@@ -84,6 +60,7 @@ aside .left-listing .list-group .list-group-item .active {
 .right-side .delivery-info p {
   margin-bottom: 0;
   line-height: 22px;
+  font-size: 16px;
 }
 
 .right-side .delivery-info .btn {
@@ -113,8 +90,8 @@ aside .left-listing .list-group .list-group-item .active {
 
 .right-side .items-section .item {
   width: auto;
-  -webkit-box-shadow: 0px 0px 5px 3px #D8D8D8;
-          box-shadow: 0px 0px 5px 3px #D8D8D8;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
   padding: 15px;
   margin-bottom: 30px;
   border-radius: 6px;
@@ -180,10 +157,10 @@ aside .left-listing .list-group .list-group-item .active {
 }
 
 .right-side .cart-section .cart-inner {
-  -webkit-box-shadow: 0px 0px 5px 3px #D8D8D8;
-          box-shadow: 0px 0px 5px 3px #D8D8D8;
-  padding: 30px;
-  border-radius: 8;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+  padding: 30px 30px 0;
+  border-radius: 8px;
 }
 
 .right-side .cart-section .cart-inner h4 {
@@ -309,10 +286,13 @@ aside .left-listing .list-group .list-group-item .active {
 
 .right-side .cart-section .cart-inner .flat-border .cart-desc p {
   font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 0;
 }
 
 .right-side .cart-section .cart-inner .flat-border .cart-desc small {
   font-size: 12px;
+  font-weight: 100;
 }
 
 .right-side .cart-section .cart-inner .flat-border .cart-desc h5 {
@@ -324,11 +304,15 @@ aside .left-listing .list-group .list-group-item .active {
   font-size: 16px;
 }
 
-.right-side .cart-section .cart-inner .flat-border .cart-desc .total h5 {
+.right-side .cart-section .cart-inner .flat-border .cart-desc .sub-total .add-ons {
+  padding: 15px;
+}
+
+.right-side .cart-section .cart-inner .flat-border .cart-desc .sub-total .total h5 {
   font-size: 18px;
 }
 
-.right-side .cart-section .cart-inner .flat-border .cart-desc .total .price {
+.right-side .cart-section .cart-inner .flat-border .cart-desc .sub-total .total .price {
   font-size: 18px;
 }
 
@@ -345,5 +329,82 @@ aside .left-listing .list-group .list-group-item .active {
   -moz-border-radius-bottomleft: 8px;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  aside {
+    width: 100%;
+  }
+  aside .btn-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  aside .btn-blocks .btn {
+    width: 30%;
+    margin-top: 0;
+  }
+  .right-side {
+    padding: 0 20px;
+  }
+  .right-side .delivery-info {
+    margin-top: 40px;
+  }
+  .right-side .items-section .burger-banner {
+    padding: 0 1rem;
+  }
+  .right-side .items-section .burger-banner img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  aside {
+    width: 100%;
+  }
+  aside .block-stacked {
+    margin-top: 100px;
+  }
+  .delivery-info {
+    margin-top: 20px;
+  }
+  .arizona-sandwich-banner {
+    height: 100px;
+  }
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    width: 100% !important;
+  }
+  .right-side {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .right-side .items-section .item img {
+    width: 100%;
+  }
+  .right-side .cart-section {
+    padding: 0 15px;
+  }
+}
+
+.arizona-sandwich-banner {
+  background: #9E4122;
+}
+
+.arizona-sandwich-banner h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.arizona-sandwich-banner .arz-sandwich-logo {
+  width: 240px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

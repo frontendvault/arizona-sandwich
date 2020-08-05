@@ -1,0 +1,38 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    //    Ordering Menu page starts
+    aside {
+        width: 100%;
+
+        .btn-blocks {
+            display: flex;
+            justify-content: space-between;
+
+            .btn {
+                width: 30%;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .right-side {
+        padding: 0 20px;
+
+        .delivery-info {
+            margin-top: 40px;
+        }
+
+        .items-section {
+            .burger-banner {
+                padding: 0 1rem;
+                ;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    // Orderging Menu Page ends
+}
