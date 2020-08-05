@@ -380,6 +380,7 @@ aside .left-listing .list-group .list-group-item .active {
     border-top: 1px solid #D8D8D8;
     border-bottom: 1px solid #D8D8D8;
     white-space: nowrap;
+    overflow-y: hidden;
   }
   aside .list-group .list-group-item {
     max-width: 200px;
@@ -396,6 +397,7 @@ aside .left-listing .list-group .list-group-item .active {
     font-size: 20px;
   }
   aside .btn-blocks {
+    margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -404,7 +406,10 @@ aside .left-listing .list-group .list-group-item .active {
             justify-content: space-between;
   }
   aside .btn-blocks .btn {
+    margin-bottom: 0;
     width: 30%;
+  }
+  aside .btn-blocks .btn-block {
     margin-top: 0;
   }
   .arizona-sandwich-banner {
@@ -433,6 +438,9 @@ aside .left-listing .list-group .list-group-item .active {
   .right-side .items-section .burger-banner img {
     width: 100%;
   }
+  .right-side .items-section .item img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -441,13 +449,6 @@ aside .left-listing .list-group .list-group-item .active {
   }
   aside {
     width: 100%;
-  }
-  aside .block-stacked {
-    margin-top: 50px;
-  }
-  aside .block-stacked button {
-    width: 100%;
-    font-size: 20px;
   }
   aside .list-group {
     display: -webkit-box;
@@ -463,13 +464,33 @@ aside .left-listing .list-group .list-group-item .active {
     border-top: 1px solid #D8D8D8;
     border-bottom: 1px solid #D8D8D8;
     white-space: nowrap;
+    overflow-y: hidden;
   }
   aside .list-group .list-group-item {
-    max-width: 200px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   aside .list-group .list-group-item .list-group-item-action {
     padding: 20px;
     color: #9E4122;
+  }
+  aside .btn-blocks {
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  aside .btn-blocks .btn-block {
+    margin: 0;
+    width: 30%;
   }
   .arizona-sandwich-banner {
     height: 100px;
@@ -498,6 +519,11 @@ aside .left-listing .list-group .list-group-item .active {
   .right-side .cart-section {
     padding: 0 15px;
   }
+}
+
+.mobile-Nav nav .nav-link {
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .arizona-sandwich-banner {

@@ -6,15 +6,6 @@
     aside {
         width: 100%;
 
-        .block-stacked {
-            margin-top: 50px;
-
-            button {
-                width: 100%;
-                font-size: 20px;
-            }
-        }
-
         .list-group {
             display: flex;
             flex-direction: row;
@@ -25,15 +16,29 @@
             border-top: 1px solid $light-grey;
             border-bottom: 1px solid $light-grey;
             white-space: nowrap;
+            overflow-y: hidden;
 
             .list-group-item {
-                max-width: 200px;
+                height: 60px;
+                display: flex;
+                align-items: center;
 
                 .list-group-item-action {
                     padding: 20px;
                     color: $brown;
 
                 }
+            }
+        }
+
+        .btn-blocks {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+
+            .btn-block {
+                margin: 0;
+                width: 30%;
             }
         }
     }
