@@ -66,9 +66,6 @@
               <a class="nav-link" href="#">
                 <img src="images/cart-mobile.png" alt="" />
               </a>
-              <a class="nav-link" href="#">
-                <img src="images/van-icon.png" alt="" />
-              </a>
             </nav>
           </div>
         </div>
@@ -77,7 +74,7 @@
     <div class="container-fluid pb-5">
       <div class="container">
         <div class="row">
-          <aside>
+          <aside class="d-none d-md-none d-xl-block">
             <div class="block-stacked py-3 d-none d-md-none d-xl-block">
               <button class="btn btn-brown mb-3 d-none d-md-xl">
                 Blocks
@@ -198,21 +195,58 @@
                 </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <div class="btn-blocks d-flex d-md-flex d-xl-none">
-                  <button class="btn btn-lg btn-block border-0 bg-white">
-                    Order My Usual
-                  </button>
-                  <button class="btn btn-lg btn-block border-0 bg-white">
-                    Popular Picks
-                  </button>
-                  <button class="btn btn-lg btn-block border-0 bg-white">
-                    Rewards
-                  </button>
-                </div>
+
+            <aside class="d-block d-md-block d-xl-none">
+              <div class="btn-blocks mt-0">
+                <button class="btn btn-lg btn-block border-0 bg-white">
+                  Order My Usual
+                </button>
+                <button class="btn btn-lg btn-block border-0 bg-white">
+                  Popular Picks
+                </button>
+                <button class="btn btn-lg btn-block border-0 bg-white">
+                  Rewards
+                </button>
               </div>
-            </div>
+
+              <div class="left-listing my-4">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <a
+                      class="list-group-item-action font-weight-bold text-dark"
+                      href="#"
+                      >All Items</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Pizza Slices</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action"
+                      >What happens with a long?</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Burgers</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Pasta</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Appetizers</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Seafood</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Beverages</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="" class="list-group-item-action">Desserts</a>
+                  </li>
+                </ul>
+              </div>
+            </aside>
 
             <div class="row">
               <div class="col-xl-8 items-section">
@@ -244,7 +278,15 @@
                           <strong>$7.99</strong>
                           <p>6 Points</p>
                         </div>
-                        <div><button class="btn btn-lg">+</button></div>
+                        <div>
+                          <button
+                            class="btn btn-lg"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -265,7 +307,15 @@
                           <strong>$7.99</strong>
                           <p>6 Points</p>
                         </div>
-                        <div><button class="btn btn-lg">+</button></div>
+                        <div>
+                          <button
+                            class="btn btn-lg"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -286,7 +336,15 @@
                           <strong>$7.99</strong>
                           <p>6 Points</p>
                         </div>
-                        <div><button class="btn btn-lg">+</button></div>
+                        <div>
+                          <button
+                            class="btn btn-lg"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -307,7 +365,15 @@
                           <strong>$7.99</strong>
                           <p>6 Points</p>
                         </div>
-                        <div><button class="btn btn-lg">+</button></div>
+                        <div>
+                          <button
+                            class="btn btn-lg"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -328,7 +394,15 @@
                           <strong>$7.99</strong>
                           <p>6 Points</p>
                         </div>
-                        <div><button class="btn btn-lg">+</button></div>
+                        <div>
+                          <button
+                            class="btn btn-lg"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -349,7 +423,15 @@
                           <strong>$7.99</strong>
                           <p>6 Points</p>
                         </div>
-                        <div><button class="btn btn-lg">+</button></div>
+                        <div>
+                          <button
+                            class="btn btn-lg"
+                            data-toggle="modal"
+                            data-target="#exampleModal"
+                          >
+                            +
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -480,6 +562,43 @@
               </section>
             </div>
           </main>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
         </div>
       </div>
     </div>
