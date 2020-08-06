@@ -149,6 +149,7 @@ aside .left-listing .list-group .list-group-item .active {
   padding: 15px;
   margin-bottom: 30px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .right-side .items-section .item h5 {
