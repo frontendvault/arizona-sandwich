@@ -86,6 +86,30 @@
     .right-side {
         padding: 0 20px;
 
+        .alert-text {
+            background: $fade-grey;
+            position: relative;
+
+            p {
+                span {
+                    display: block;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+
+
+            }
+
+            a {
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                font-size: 25px;
+                color: $brown;
+                text-decoration: none;
+            }
+        }
+
         .delivery-info {
             margin-top: 40px;
         }

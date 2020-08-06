@@ -56,6 +56,24 @@ aside .left-listing .list-group .list-group-item .active {
   font-weight: bold;
 }
 
+.cart-items {
+  position: relative;
+  display: block;
+}
+
+.cart-items .badge {
+  position: absolute;
+  color: #9E4122;
+  background: #fff;
+  top: -6px;
+  right: -6px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 10px;
+}
+
 .right-side {
   padding: 0 40px;
 }
@@ -367,6 +385,10 @@ aside .left-listing .list-group .list-group-item .active {
   border-bottom-left-radius: 8px;
 }
 
+.custom-width-modal {
+  max-width: 485px;
+}
+
 .container {
   max-width: 1280px;
   width: 100%;
@@ -450,6 +472,23 @@ aside .left-listing .list-group .list-group-item .active {
   .right-side {
     padding: 0 20px;
   }
+  .right-side .alert-text {
+    background: #f5f5f5;
+    position: relative;
+  }
+  .right-side .alert-text p span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-side .alert-text a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    color: #9E4122;
+    text-decoration: none;
+  }
   .right-side .delivery-info {
     margin-top: 40px;
   }
@@ -497,7 +536,7 @@ aside .left-listing .list-group .list-group-item .active {
             align-items: center;
   }
   aside .list-group .list-group-item .list-group-item-action {
-    padding: 20px;
+    padding: 20px 15px;
     color: #9E4122;
   }
   aside .btn-blocks {
@@ -524,15 +563,34 @@ aside .left-listing .list-group .list-group-item .active {
     width: 117px;
     top: 35px;
   }
-  .arizona-sandwich-banner .mobile-Nav {
-    padding: 0;
+  .ordering-option select {
+    font-size: 16px;
   }
   .right-side {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .right-side .alert-text {
+    background: #f5f5f5;
+    position: relative;
+  }
+  .right-side .alert-text p span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-side .alert-text a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    color: #9E4122;
+    text-decoration: none;
+  }
   .right-side .delivery-info {
     margin-top: 50px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
   }
   .right-side .items-section .item img {
     width: 100%;

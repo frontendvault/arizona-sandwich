@@ -24,7 +24,7 @@
                 align-items: center;
 
                 .list-group-item-action {
-                    padding: 20px;
+                    padding: 20px 15px;
                     color: $brown;
 
                 }
@@ -55,9 +55,12 @@
             top: 35px;
         }
 
-        .mobile-Nav {
-            padding: 0;
 
+    }
+
+    .ordering-option {
+        select {
+            font-size: 16px;
         }
     }
 
@@ -65,8 +68,33 @@
         padding-left: 15px;
         padding-right: 15px;
 
+        .alert-text {
+            background: $fade-grey;
+            position: relative;
+
+            p {
+                span {
+                    display: block;
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+
+
+            }
+
+            a {
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                font-size: 25px;
+                color: $brown;
+                text-decoration: none;
+            }
+        }
+
         .delivery-info {
             margin-top: 50px;
+            box-shadow: none !important;
         }
 
         .items-section {
