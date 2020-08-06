@@ -1,0 +1,141 @@
+.custom-width-modal {
+    max-width: 485px;
+
+    .modal-body {
+        position: relative;
+
+        .close {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .item-description {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $light-grey;
+            padding-bottom: 30px;
+
+            .item-title {
+                h3 {
+                    font-size: 24px;
+                    color: $dark-grey;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 100;
+                    color: $grey;
+                }
+
+
+            }
+
+        }
+
+        .item-price {
+            color: $brown;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .add-remove-item {
+            display: flex;
+
+            .btn {
+                height: 32px;
+                width: 32px;
+                background: $brown;
+                font-size: 30px;
+                color: $white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .form-control {
+                height: 32px;
+                width: 32px;
+                text-align: center;
+                margin: 0 10px;
+            }
+        }
+
+        .toppings {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            .toppings-contents {
+                .add-remove-item {
+                    margin: 10px 0 25px;
+
+                    .btn {
+                        width: 22px;
+                        height: 22px;
+                    }
+
+                    .form-control {
+                        width: 22px;
+                        height: 22px;
+                        text-align: center;
+                        margin: 0 5px;
+                    }
+                }
+
+                .open-on-check {
+                    margin-left: 20px;
+
+                    .btns-area {
+                        .btn {
+                            box-shadow: 0px 0px 4px 2px $light-grey;
+                            margin-bottom: 10px;
+                            margin-right: 10px;
+                            min-width: 85px;
+                            height: 33px;
+                        }
+
+                        .brown-text {
+                            color: $brown;
+                        }
+                    }
+                }
+            }
+        }
+
+        .add-instructions {
+            margin-bottom: 20px;
+
+            a {
+                color: $brown;
+                font-size: 16px;
+            }
+        }
+
+        .custom-control-input:checked~.custom-control-label::before {
+            background: $brown;
+        }
+    }
+
+    .modal-footer {
+        .btn {
+            background: $brown;
+            font-size: 16px;
+            font-weight: 600;
+            height: 64px;
+            border-radius: 0;
+            -webkit-border-bottom-right-radius: 6px;
+            -webkit-border-bottom-left-radius: 6px;
+            -moz-border-radius-bottomright: 6px;
+            -moz-border-radius-bottomleft: 6px;
+            border-bottom-right-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+    }
+}
