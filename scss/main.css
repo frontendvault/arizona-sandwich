@@ -676,6 +676,7 @@ aside .left-listing .list-group .list-group-item .active {
   width: 32px;
   text-align: center;
   margin: 0 10px;
+  padding: 0;
 }
 
 .custom-width-modal .modal-body .toppings {
