@@ -8,6 +8,7 @@
             position: absolute;
             right: 30px;
             top: 30px;
+            z-index: 1;
         }
 
         img {
@@ -73,6 +74,8 @@
             padding-top: 10px;
             padding-bottom: 10px;
 
+
+
             .toppings-contents {
                 .add-remove-item {
                     margin: 10px 0 25px;
@@ -119,6 +122,12 @@
             }
         }
 
+        h5 {
+            font-size: 14px;
+            color: $grey;
+
+        }
+
         .custom-control-input:checked~.custom-control-label::before {
             background: $brown;
         }
@@ -137,6 +146,91 @@
             -moz-border-radius-bottomleft: 6px;
             border-bottom-right-radius: 6px;
             border-bottom-left-radius: 6px;
+        }
+    }
+}
+
+// Rewards modal Starts
+.rewards-modal {
+
+    max-width: 574px;
+
+    .rewards-top {
+        text-align: center;
+        margin-top: 20px;
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 0;
+        }
+
+        span {
+            font-size: 14px;
+            color: $grey;
+            opacity: .5;
+        }
+
+        .points-area {
+            background: $fade-grey;
+            width: 200px;
+            margin: 25px auto 20px;
+            padding: 15px 0;
+
+            h5 {
+                font-weight: 600;
+                font-size: 30px;
+                color: $brown;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .redeemable-items {
+        h5 {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            color: $grey;
+            margin-bottom: 30px;
+        }
+
+        .redeemable-btns {
+            display: flex;
+            justify-content: space-evenly;
+
+
+            .btn {
+                box-shadow: 0px 0px 4px 2px $light-grey;
+            }
+        }
+
+        .btn-brown {
+            color: $brown;
+        }
+    }
+
+    .table {
+        margin-top: 40px;
+        box-shadow: 0px 0px 4px 2px $light-grey;
+        border-radius: 6px;
+
+        th {
+            font-weight: normal;
+            color: $light-grey;
+        }
+
+        td {
+            a {
+                color: $brown;
+
+                img {
+                    width: 6px;
+                    margin-left: 5px;
+                }
+            }
         }
     }
 }
