@@ -585,7 +585,7 @@ aside .left-listing .list-group .list-group-item .active {
     text-decoration: none;
   }
   .right-side .delivery-info {
-    margin-top: 50px;
+    margin-top: 0px;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
