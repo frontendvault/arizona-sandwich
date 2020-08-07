@@ -122,5 +122,26 @@
 
     }
 
+    .custom-width-modal {
+        .modal-body {
+            .close {
+                opacity: 1;
+                margin-bottom: 15px;
+                position: static !important;
+            }
+        }
+    }
+
+    .rewards-modal {
+        .table {
+            box-shadow: none !important;
+
+            th,
+            td {
+                border-top: 0;
+                font-size: 14px;
+            }
+        }
+    }
 
 }

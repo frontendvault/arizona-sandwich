@@ -153,4 +153,15 @@
     }
 
     // Orderging Menu Page ends
+
+
+    .custom-width-modal {
+        .modal-body {
+            .close {
+                opacity: 1;
+                margin-bottom: 15px;
+                position: static !important;
+            }
+        }
+    }
 }

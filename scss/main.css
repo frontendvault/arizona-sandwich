@@ -512,6 +512,11 @@ aside .left-listing .list-group .list-group-item .active {
   .right-side .items-section .item img {
     width: 100%;
   }
+  .custom-width-modal .modal-body .close {
+    opacity: 1;
+    margin-bottom: 15px;
+    position: static !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -617,6 +622,20 @@ aside .left-listing .list-group .list-group-item .active {
   }
   .right-side .cart-section {
     padding: 0 15px;
+  }
+  .custom-width-modal .modal-body .close {
+    opacity: 1;
+    margin-bottom: 15px;
+    position: static !important;
+  }
+  .rewards-modal .table {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .rewards-modal .table th,
+  .rewards-modal .table td {
+    border-top: 0;
+    font-size: 14px;
   }
 }
 
