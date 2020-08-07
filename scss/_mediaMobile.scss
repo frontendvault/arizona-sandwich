@@ -59,6 +59,13 @@
     }
 
     .ordering-option {
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
         select {
             font-size: 16px;
         }
@@ -89,6 +96,10 @@
                 font-size: 25px;
                 color: $brown;
                 text-decoration: none;
+            }
+
+            .close {
+                opacity: 1;
             }
         }
 

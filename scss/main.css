@@ -466,6 +466,15 @@ aside .left-listing .list-group .list-group-item .active {
   .arizona-sandwich-banner .mobile-Nav {
     padding: 0;
   }
+  .ordering-option h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .ordering-option select {
+    font-size: 16px;
+  }
   .right-side {
     padding: 0 20px;
   }
@@ -486,8 +495,13 @@ aside .left-listing .list-group .list-group-item .active {
     color: #9E4122;
     text-decoration: none;
   }
+  .right-side .alert-text .close {
+    opacity: 1;
+  }
   .right-side .delivery-info {
-    margin-top: 40px;
+    margin-top: 0px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
   }
   .right-side .items-section .burger-banner {
     padding: 0 1rem;
@@ -560,6 +574,12 @@ aside .left-listing .list-group .list-group-item .active {
     width: 117px;
     top: 35px;
   }
+  .ordering-option h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
   .ordering-option select {
     font-size: 16px;
   }
@@ -583,6 +603,9 @@ aside .left-listing .list-group .list-group-item .active {
     font-size: 25px;
     color: #9E4122;
     text-decoration: none;
+  }
+  .right-side .alert-text .close {
+    opacity: 1;
   }
   .right-side .delivery-info {
     margin-top: 0px;
@@ -718,10 +741,12 @@ aside .left-listing .list-group .list-group-item .active {
   margin-right: 10px;
   min-width: 85px;
   height: 33px;
+  line-height: 20px;
 }
 
 .custom-width-modal .modal-body .toppings .toppings-contents .open-on-check .btns-area .brown-text {
   color: #9E4122;
+  font-weight: 600;
 }
 
 .custom-width-modal .modal-body .add-instructions {

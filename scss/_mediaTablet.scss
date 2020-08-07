@@ -83,6 +83,19 @@
         }
     }
 
+    .ordering-option {
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        select {
+            font-size: 16px;
+        }
+    }
+
     .right-side {
         padding: 0 20px;
 
@@ -108,10 +121,15 @@
                 color: $brown;
                 text-decoration: none;
             }
+
+            .close {
+                opacity: 1;
+            }
         }
 
         .delivery-info {
-            margin-top: 40px;
+            margin-top: 0px;
+            box-shadow: none !important;
         }
 
         .items-section {
