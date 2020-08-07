@@ -121,12 +121,21 @@ aside .left-listing .list-group .list-group-item .active {
   border: 1px solid #D8D8D8;
 }
 
+.right-side .alert-text {
+  background: #f5f5f5;
+}
+
 .right-side .alert-text p {
   margin: 0;
 }
 
 .right-side .alert-text p span {
   color: #9E4122;
+}
+
+.right-side .alert-text .close {
+  padding: 0;
+  opacity: 1;
 }
 
 .right-side .items-section .burger-banner img {
@@ -513,7 +522,6 @@ aside .left-listing .list-group .list-group-item .active {
     width: 100%;
   }
   .custom-width-modal .modal-body .close {
-    opacity: 1;
     margin-bottom: 15px;
     position: static !important;
   }
@@ -593,7 +601,6 @@ aside .left-listing .list-group .list-group-item .active {
     padding-right: 15px;
   }
   .right-side .alert-text {
-    background: #f5f5f5;
     position: relative;
   }
   .right-side .alert-text p span {
@@ -608,9 +615,6 @@ aside .left-listing .list-group .list-group-item .active {
     font-size: 25px;
     color: #9E4122;
     text-decoration: none;
-  }
-  .right-side .alert-text .close {
-    opacity: 1;
   }
   .right-side .delivery-info {
     margin-top: 0px;

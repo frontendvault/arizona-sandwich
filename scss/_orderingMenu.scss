@@ -138,12 +138,19 @@ aside {
     }
 
     .alert-text {
+        background: $fade-grey;
+
         p {
             margin: 0;
 
             span {
                 color: $brown;
             }
+        }
+
+        .close {
+            padding: 0;
+            opacity: 1;
         }
     }
 
