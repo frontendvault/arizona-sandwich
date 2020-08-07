@@ -135,8 +135,14 @@
 
             th,
             td {
-                border-top: 0;
+                border-top: 1px solid #e9e9e9;
                 font-size: 14px;
+                border-bottom: 0;
+            }
+
+            th {
+                color: $grey !important;
+                opacity: .7;
             }
         }
     }

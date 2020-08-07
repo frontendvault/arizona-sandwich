@@ -638,8 +638,13 @@ aside .left-listing .list-group .list-group-item .active {
   }
   .rewards-modal .table th,
   .rewards-modal .table td {
-    border-top: 0;
+    border-top: 1px solid #e9e9e9;
     font-size: 14px;
+    border-bottom: 0;
+  }
+  .rewards-modal .table th {
+    color: #777777 !important;
+    opacity: .7;
   }
 }
 
