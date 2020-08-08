@@ -147,4 +147,38 @@
         }
     }
 
+    // Start order page starts
+    .start-order {
+        .pickup-delivery {
+            .pickup-delivery-box {
+                margin: 5px;
+                padding: 10px;
+
+                .icon-holder {
+                    margin-bottom: 15px;
+                    height: 50px;
+                    width: 50px;
+
+                    img {
+                        width: 25px;
+                    }
+                }
+
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    // footer 
+    .start-order {
+        .policy-terms {
+            .nav-link {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+
 }

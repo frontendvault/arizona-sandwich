@@ -453,259 +453,6 @@ aside .left-listing .list-group .list-group-item .active {
   border-right: 1px solid #D8D8D8;
 }
 
-.container {
-  max-width: 1280px;
-  width: 100%;
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  aside .list-group {
-    width: 736px;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* For landscape layouts only */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  aside {
-    width: 100%;
-    margin-top: 30px;
-  }
-  aside .list-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    overflow-x: scroll;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top: 1px solid #D8D8D8;
-    border-bottom: 1px solid #D8D8D8;
-    white-space: nowrap;
-    overflow-y: hidden;
-  }
-  aside .list-group .list-group-item {
-    max-width: 200px;
-  }
-  aside .list-group .list-group-item .list-group-item-action {
-    padding: 20px;
-    color: #9E4122;
-  }
-  aside .block-stacked {
-    margin-top: 50px;
-  }
-  aside .block-stacked button {
-    width: 100%;
-    font-size: 20px;
-  }
-  aside .btn-blocks {
-    margin-top: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  aside .btn-blocks .btn {
-    margin-bottom: 0;
-    width: 30%;
-  }
-  aside .btn-blocks .btn-block {
-    margin-top: 0;
-  }
-  .arizona-sandwich-banner {
-    height: 100px;
-  }
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 117px;
-    top: 35px;
-  }
-  .arizona-sandwich-banner .mobile-Nav {
-    padding: 0;
-  }
-  .ordering-option h3 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  .ordering-option select {
-    font-size: 16px;
-  }
-  .right-side {
-    padding: 0 20px;
-  }
-  .right-side .alert-text {
-    background: #f5f5f5;
-    position: relative;
-  }
-  .right-side .alert-text p span {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .right-side .alert-text a {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 25px;
-    color: #9E4122;
-    text-decoration: none;
-  }
-  .right-side .alert-text .close {
-    opacity: 1;
-  }
-  .right-side .delivery-info {
-    margin-top: 0px;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  .right-side .items-section .burger-banner {
-    padding: 0 1rem;
-  }
-  .right-side .items-section .burger-banner img {
-    width: 100%;
-  }
-  .right-side .items-section .item img {
-    width: 100%;
-  }
-  .custom-width-modal .modal-body .close {
-    margin-bottom: 15px;
-    position: static !important;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 16px;
-  }
-  aside {
-    width: 100%;
-  }
-  aside .list-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    overflow-x: scroll;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top: 1px solid #D8D8D8;
-    border-bottom: 1px solid #D8D8D8;
-    white-space: nowrap;
-    overflow-y: hidden;
-  }
-  aside .list-group .list-group-item {
-    height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  aside .list-group .list-group-item .list-group-item-action {
-    padding: 20px 15px;
-    color: #9E4122;
-  }
-  aside .btn-blocks {
-    margin-top: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  aside .btn-blocks .btn-block {
-    margin: 0;
-    width: 30%;
-  }
-  .arizona-sandwich-banner {
-    height: 100px;
-  }
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 117px;
-    top: 35px;
-  }
-  .ordering-option h3 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  .ordering-option select {
-    font-size: 16px;
-  }
-  .right-side {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .right-side .alert-text {
-    position: relative;
-  }
-  .right-side .alert-text p span {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .right-side .alert-text a {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 25px;
-    color: #9E4122;
-    text-decoration: none;
-  }
-  .right-side .delivery-info {
-    margin-top: 0px;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  .right-side .items-section .item img {
-    width: 100%;
-  }
-  .right-side .cart-section {
-    padding: 0 15px;
-  }
-  .custom-width-modal .modal-body .close {
-    opacity: 1;
-    margin-bottom: 15px;
-    position: static !important;
-  }
-  .rewards-modal .table {
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  .rewards-modal .table th,
-  .rewards-modal .table td {
-    border-top: 1px solid #e9e9e9;
-    font-size: 14px;
-    border-bottom: 0;
-  }
-  .rewards-modal .table th {
-    color: #777777 !important;
-    opacity: .7;
-  }
-}
-
 .mobile-Nav nav .nav-link {
   padding-left: 8px;
   padding-right: 8px;
@@ -960,6 +707,337 @@ aside .left-listing .list-group .list-group-item .active {
   .mobile-heading h3 {
     color: #343434;
     font-size: 20px;
+  }
+}
+
+.location-status-map {
+  margin-top: 20px;
+  padding: 15px 50px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+}
+
+.location-status-map .map-area {
+  max-width: 332px;
+  height: 458px;
+}
+
+.location-status-map .location-container .location {
+  background: #f5f5f5;
+}
+
+.location-status-map .location-container .location .location-left h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.location-status-map .location-container .location .location-left p {
+  color: #343434;
+  font-size: 16px;
+}
+
+.location-status-map .location-container .location .location-right {
+  background: #fff;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 180px;
+}
+
+.location-status-map .location-container .location .location-right h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.location-status-map .location-container .location .location-right small {
+  font-size: 12px;
+  color: #D8D8D8;
+  line-height: 12px;
+}
+
+.location-status-map .location-container .location .location-right p {
+  color: #9E4122;
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 15px;
+}
+
+.location-status-map .location-container .location .location-right .open {
+  color: #258E00;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  aside .list-group {
+    width: 736px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  aside {
+    width: 100%;
+    margin-top: 30px;
+  }
+  aside .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  aside .list-group .list-group-item {
+    max-width: 200px;
+  }
+  aside .list-group .list-group-item .list-group-item-action {
+    padding: 20px;
+    color: #9E4122;
+  }
+  aside .block-stacked {
+    margin-top: 50px;
+  }
+  aside .block-stacked button {
+    width: 100%;
+    font-size: 20px;
+  }
+  aside .btn-blocks {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  aside .btn-blocks .btn {
+    margin-bottom: 0;
+    width: 30%;
+  }
+  aside .btn-blocks .btn-block {
+    margin-top: 0;
+  }
+  .arizona-sandwich-banner {
+    height: 100px;
+  }
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 117px;
+    top: 35px;
+  }
+  .arizona-sandwich-banner .mobile-Nav {
+    padding: 0;
+  }
+  .ordering-option h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .ordering-option select {
+    font-size: 16px;
+  }
+  .right-side {
+    padding: 0 20px;
+  }
+  .right-side .alert-text {
+    background: #f5f5f5;
+    position: relative;
+  }
+  .right-side .alert-text p span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-side .alert-text a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    color: #9E4122;
+    text-decoration: none;
+  }
+  .right-side .alert-text .close {
+    opacity: 1;
+  }
+  .right-side .delivery-info {
+    margin-top: 0px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .right-side .items-section .burger-banner {
+    padding: 0 1rem;
+  }
+  .right-side .items-section .burger-banner img {
+    width: 100%;
+  }
+  .right-side .items-section .item img {
+    width: 100%;
+  }
+  .custom-width-modal .modal-body .close {
+    margin-bottom: 15px;
+    position: static !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  aside {
+    width: 100%;
+  }
+  aside .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  aside .list-group .list-group-item {
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  aside .list-group .list-group-item .list-group-item-action {
+    padding: 20px 15px;
+    color: #9E4122;
+  }
+  aside .btn-blocks {
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  aside .btn-blocks .btn-block {
+    margin: 0;
+    width: 30%;
+  }
+  .arizona-sandwich-banner {
+    height: 100px;
+  }
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 117px;
+    top: 35px;
+  }
+  .ordering-option h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .ordering-option select {
+    font-size: 16px;
+  }
+  .right-side {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .right-side .alert-text {
+    position: relative;
+  }
+  .right-side .alert-text p span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-side .alert-text a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    color: #9E4122;
+    text-decoration: none;
+  }
+  .right-side .delivery-info {
+    margin-top: 0px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .right-side .items-section .item img {
+    width: 100%;
+  }
+  .right-side .cart-section {
+    padding: 0 15px;
+  }
+  .custom-width-modal .modal-body .close {
+    opacity: 1;
+    margin-bottom: 15px;
+    position: static !important;
+  }
+  .rewards-modal .table {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .rewards-modal .table th,
+  .rewards-modal .table td {
+    border-top: 1px solid #e9e9e9;
+    font-size: 14px;
+    border-bottom: 0;
+  }
+  .rewards-modal .table th {
+    color: #777777 !important;
+    opacity: .7;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box {
+    margin: 5px;
+    padding: 10px;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box .icon-holder {
+    margin-bottom: 15px;
+    height: 50px;
+    width: 50px;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box .icon-holder img {
+    width: 25px;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box h3 {
+    font-size: 20px;
+  }
+  .start-order .policy-terms .nav-link {
+    font-size: 16px;
+    font-weight: 500;
   }
 }
 
