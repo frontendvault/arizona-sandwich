@@ -445,6 +445,12 @@ aside .left-listing .list-group .list-group-item .active {
 .start-order .policy-terms .nav-link {
   color: #9E4122;
   font-weight: 700;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.start-order .policy-terms .active {
+  border-right: 1px solid #D8D8D8;
 }
 
 .container {

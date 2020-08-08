@@ -44,6 +44,12 @@
         .nav-link {
             color: $brown;
             font-weight: 700;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .active {
+            border-right: 1px solid $light-grey;
         }
     }
 }
