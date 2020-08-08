@@ -3,6 +3,12 @@ $(function () {
     $('.method').hide();
     $('#' + $(this).val()).show();
   });
+  $('#customScroll').mCustomScrollbar({
+    theme: 'dark-thin',
+  });
 });
-
-// $('.alert').alert();
+$(document).ready(function () {
+  $('.toggle-map').click(function () {
+    $('.toggle-map-container').toggle();
+  });
+});

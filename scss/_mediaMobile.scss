@@ -181,4 +181,37 @@
         }
     }
 
+    .location-status-map {
+        padding: 15px;
+
+        .location-container {
+            height: auto;
+
+            .location {
+                .location-left {
+                    h3 {
+                        font-size: 18px;
+                    }
+
+                    h4 {
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+
+                .location-right {
+                    max-width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+
+    .map-area {
+        display: none;
+    }
 }

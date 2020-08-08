@@ -1,6 +1,6 @@
 .location-status-map {
     margin-top: 20px;
-    padding: 15px 50px;
+    padding: 15px 30px 15px 20px;
     background: $white;
     border-radius: 5px;
     box-shadow: 0px 0px 4px 2px $light-grey;
@@ -11,8 +11,29 @@
     }
 
     .location-container {
+        height: 462px;
+
+
         .location {
             background: $fade-grey;
+            border-radius: 5px;
+
+
+            .open-time,
+            .close-time {
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            .open-time {
+                color: $green;
+            }
+
+            .close-time {
+                color: $dark-red;
+
+            }
 
             .location-left {
                 h3 {
@@ -34,10 +55,7 @@
                 padding-bottom: 15px;
                 max-width: 180px;
 
-                h4 {
-                    font-size: 16px;
-                    font-weight: 600;
-                }
+
 
                 small {
                     font-size: 12px;
@@ -52,10 +70,106 @@
                     line-height: 15px;
                 }
 
-                .open {
-                    color: $green;
-                }
+            }
+        }
+
+        .select-btn-container {
+            margin-left: -33px;
+            margin-right: -33px;
+            margin-top: 20px;
+
+            .select-btn {
+                background: $brown;
+
+                color: $white;
+                border-radius: 0;
+                -webkit-border-bottom-right-radius: 5px;
+                -webkit-border-bottom-left-radius: 5px;
+                -moz-border-radius-bottomright: 5px;
+                -moz-border-radius-bottomleft: 5px;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
             }
         }
     }
+}
+
+.toggle-img {
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+// Toggle Switch
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 16px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: -5px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0px 0px 4px 2px $grey;
+    top: -3px;
+}
+
+input:checked+.slider {
+    background-color: $brown;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px $brown;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.go-back-btn {
+    border: 2px solid $brown;
+    color: $brown;
+    font-size: 16px;
+
+    &:hover {
+        background: $brown;
+        color: $white;
+    }
+
 }

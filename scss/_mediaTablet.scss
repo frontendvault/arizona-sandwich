@@ -98,6 +98,7 @@
 
     .right-side {
         padding: 0 20px;
+        margin-top: 70px;
 
         .alert-text {
             background: $fade-grey;
@@ -162,5 +163,25 @@
                 position: static !important;
             }
         }
+    }
+
+    .location-status-map {
+        padding: 20px;
+
+        .location-container {
+            height: auto;
+
+            .location {
+
+                .open-time,
+                .close-time {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .map-area {
+        display: none;
     }
 }
