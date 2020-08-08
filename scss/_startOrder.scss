@@ -1,0 +1,49 @@
+// All Start order page Styles goes here
+.arizona-sandwich-banner {
+    h3 {
+        margin-top: -100px !important;
+    }
+}
+
+.start-order {
+    margin-top: -100px;
+
+    .pickup-delivery {
+        box-shadow: 0px 0px 4px 2px $light-grey;
+        background: $white;
+        margin-top: 20px;
+        border-radius: 5px;
+
+        .pickup-delivery-box {
+            background: $fade-grey;
+            text-align: center;
+            margin: 10px;
+            border-radius: 5px;
+            padding: 56px 0;
+
+            .icon-holder {
+                height: 66px;
+                width: 66px;
+                border-radius: 50%;
+                background: $white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+
+            h3 {
+                font-size: 28px;
+                font-weight: 600;
+                color: $brown;
+            }
+        }
+    }
+
+    .policy-terms {
+        .nav-link {
+            color: $brown;
+            font-weight: 700;
+        }
+    }
+}
