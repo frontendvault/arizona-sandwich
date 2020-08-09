@@ -1011,7 +1011,7 @@ input:checked + .slider:before {
     right: 0;
     margin: auto;
     width: 117px;
-    top: 35px;
+    top: 18px;
   }
   .arizona-sandwich-banner .mobile-Nav {
     padding: 0;
