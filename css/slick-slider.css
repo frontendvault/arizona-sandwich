@@ -1,10 +1,39 @@
 .slider {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
+    background: #f5f5f5;
+
+}
+
+.slider:before {
+    display: none;
 }
 
 .slick-slide {
     margin: 0 5px;
+    text-align: center;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.slick-slide span {
+    padding: 10px 20px;
+
+
+}
+
+.slick-current span {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px rgb(236, 235, 235);
+}
+
+.slick-slide p {
+    margin-bottom: 0;
 }
 
 .slick-list {
@@ -47,21 +76,17 @@ button.slick-prev:hover {
     height: 324px;
 }
 
-/* Slick Slider Styles -- Provided by https://kenwheeler.github.io/slick/ */
+
 /* Slider */
 .slick-slider {
     position: relative;
-
-    display: block;
-
+    display: flex;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
     -webkit-touch-callout: none;
     -khtml-user-select: none;
     -ms-touch-action: pan-y;
@@ -132,9 +157,6 @@ button.slick-prev:hover {
     float: right;
 }
 
-.slick-slide img {
-    display: block;
-}
 
 .slick-slide.slick-loading img {
     display: none;
@@ -162,6 +184,17 @@ button.slick-prev:hover {
 
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.slick-arrow {
+    border: 0;
+    width: 30px;
+    background: transparent;
+}
+
+.slick-arrow img {
+    width: 14px;
+    height: 28px;
 }
 
 /* @charset 'UTF-8'; */

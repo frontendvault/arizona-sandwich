@@ -14,11 +14,13 @@ jQuery(document).ready(function ($) {
     speed: 500,
     slidesToShow: 8,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     arrows: true,
-    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-    nextArrow: '<button class="slide-arrow next-arrow"></button>',
+    prevArrow:
+      '<button class="slide-arrow prev-arrow">                    <img src="images/caret-left-slider.png" alt=""></button>',
+    nextArrow:
+      '<button class="slide-arrow next-arrow">                    <img src="images/caret-right-slider.png" alt=""></button>',
     responsive: [
       {
         breakpoint: 600,
@@ -30,7 +32,7 @@ jQuery(document).ready(function ($) {
       {
         breakpoint: 400,
         settings: {
-          arrows: true,
+          arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1,
         },
