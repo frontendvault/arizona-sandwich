@@ -44,7 +44,9 @@
     }
 
     .arizona-sandwich-banner {
-        height: 100px;
+        height: 75px;
+        display: flex;
+        align-items: center;
 
         .arz-sandwich-logo {
             position: absolute;
@@ -52,7 +54,7 @@
             right: 0;
             margin: auto;
             width: 80px !important;
-            top: 35px;
+            top: 32px;
 
 
         }
@@ -76,6 +78,10 @@
     .right-side {
         padding-left: 15px;
         padding-right: 15px;
+
+        .top-spacing {
+            margin-top: 35px;
+        }
 
         .alert-text {
 
@@ -109,8 +115,40 @@
 
         .items-section {
             .item {
-                img {
-                    width: 100%;
+                display: flex;
+
+                .item-img {
+                    margin-right: 15px;
+                    width: 150px;
+
+                    img {}
+
+                    .badge {
+
+                        background: $fade-grey;
+                        width: 60px;
+                        margin: 10px auto 0;
+                        border-radius: 20px;
+                        font-size: 13px;
+                        font-weight: normal;
+                    }
+                }
+
+                .item-title-block {
+                    .item-title {
+                        display: flex;
+                        justify-content: space-between;
+
+                        h5 {
+                            margin-top: 0;
+                        }
+
+                        span {
+                            color: $brown;
+                            font-weight: 600;
+                            font-size: 16px;
+                        }
+                    }
                 }
             }
         }

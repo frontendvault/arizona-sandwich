@@ -68,7 +68,9 @@
     }
 
     .arizona-sandwich-banner {
-        height: 100px;
+        height: 75px;
+        display: flex;
+        align-items: center;
 
         .arz-sandwich-logo {
             position: absolute;
