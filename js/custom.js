@@ -1,12 +1,3 @@
-$(function () {
-  $('#orderingStatus').change(function () {
-    $('.method').hide();
-    $('#' + $(this).val()).show();
-  });
-  $('#customScroll').mCustomScrollbar({
-    theme: 'dark-thin',
-  });
-});
 jQuery(document).ready(function ($) {
   $('.slider').slick({
     dots: false,
@@ -23,9 +14,9 @@ jQuery(document).ready(function ($) {
       '<button class="slide-arrow next-arrow">                    <img src="images/caret-right-slider.png" alt=""></button>',
     responsive: [
       {
-        breakpoint: 600,
+        breakpoint: 767,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },
@@ -38,6 +29,16 @@ jQuery(document).ready(function ($) {
         },
       },
     ],
+  });
+});
+
+$(function () {
+  $('#orderingStatus').change(function () {
+    $('.method').hide();
+    $('#' + $(this).val()).show();
+  });
+  $('#customScroll').mCustomScrollbar({
+    theme: 'dark-thin',
   });
 });
 $('.toggle-map').click(function () {

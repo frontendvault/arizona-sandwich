@@ -53,4 +53,65 @@
         }
     }
 
+    .time-date-section {
+
+        .slick-slider {
+            margin-bottom: 0;
+            border-radius: 5px;
+
+
+        }
+    }
+
+    .time-section {
+        padding: 20px;
+        box-shadow: 0px 0px 4px 2px $light-grey;
+        margin-left: 122px;
+        margin-right: 122px;
+        border-radius: 5px;
+        height: 444px;
+
+        .select-time {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-bottom: 1px solid $fade-grey;
+            display: flex;
+            justify-content: space-between;
+
+            .custom-control-input:checked~.custom-control-label::before {
+                background: $brown;
+                border: 1px solid $brown;
+            }
+        }
+    }
+
 }
+
+
+.scrollbar {
+
+    height: 400px;
+    overflow-y: scroll;
+}
+
+#style-4::-webkit-scrollbar-track {
+
+    background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+    background-color: $medium-grey;
+    border: 2px solid $medium-grey;
+    border-radius: 6px;
+}
+
+
+/*
+ *  STYLE 5
+ */

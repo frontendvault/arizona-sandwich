@@ -453,6 +453,62 @@ aside .left-listing .list-group .list-group-item .active {
   border-right: 1px solid #D8D8D8;
 }
 
+.start-order .time-date-section .slick-slider {
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.start-order .time-section {
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+  margin-left: 122px;
+  margin-right: 122px;
+  border-radius: 5px;
+  height: 444px;
+}
+
+.start-order .time-section .select-time {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.start-order .time-section .select-time .custom-control-input:checked ~ .custom-control-label::before {
+  background: #9E4122;
+  border: 1px solid #9E4122;
+}
+
+.scrollbar {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+#style-4::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar {
+  width: 4px;
+  background-color: #F5F5F5;
+  position: relative;
+}
+
+#style-4::-webkit-scrollbar-thumb {
+  background-color: #A0A0A0;
+  border: 2px solid #A0A0A0;
+  border-radius: 6px;
+}
+
+/*
+ *  STYLE 5
+ */
 .mobile-Nav nav .nav-link {
   padding-left: 8px;
   padding-right: 8px;
@@ -1022,6 +1078,12 @@ input:checked + .slider:before {
   .map-area {
     display: none;
   }
+  .start-order .time-section {
+    margin-left: 12px;
+    margin-right: 12px;
+    -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
+            box-shadow: 0 0 4px 2px #f5f5f5;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1157,6 +1219,33 @@ input:checked + .slider:before {
   }
   .start-order .pickup-delivery .pickup-delivery-box h3 {
     font-size: 20px;
+  }
+  .start-order .time-date-section {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+  }
+  .start-order .time-date-section .time-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
+            box-shadow: 0 0 4px 2px #f5f5f5;
+  }
+  .start-order .time-date-section .time-section .select-time {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .start-order .time-date-section .time-section .select-time label {
+    text-align: center;
+    margin: auto;
+  }
+  .start-order .time-date-section .time-section .select-time .custom-control {
+    display: none;
+  }
+  .start-order .time-date-section .slick-arrow {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .start-order .policy-terms .nav-link {
     font-size: 16px;

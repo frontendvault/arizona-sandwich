@@ -169,10 +169,40 @@
                 }
             }
         }
-    }
 
-    // footer 
-    .start-order {
+        .time-date-section {
+            box-shadow: none;
+            padding: 0;
+
+            .time-section {
+                margin-left: 10px;
+                margin-right: 10px;
+                box-shadow: 0 0 4px 2px $fade-grey;
+
+
+                .select-time {
+                    text-align: center;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+
+                    label {
+                        text-align: center;
+                        margin: auto;
+                    }
+
+
+                    .custom-control {
+                        display: none;
+                    }
+                }
+            }
+
+            .slick-arrow {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
         .policy-terms {
             .nav-link {
                 font-size: 16px;
@@ -180,6 +210,10 @@
             }
         }
     }
+
+    // footer 
+
+
 
     .location-status-map {
         padding: 15px;
