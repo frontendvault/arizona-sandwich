@@ -1143,7 +1143,7 @@ input:checked + .slider:before {
     left: 0;
     right: 0;
     margin: auto;
-    width: 117px;
+    width: 80px !important;
     top: 35px;
   }
   .ordering-option h3 {
@@ -1292,5 +1292,22 @@ input:checked + .slider:before {
 .arizona-sandwich-banner .arz-sandwich-logo {
   width: 240px;
   text-align: center;
+}
+
+.mobile-method {
+  min-width: 11rem;
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+  border: 0;
+}
+
+.mobile-method h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mobile-method p {
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
