@@ -1425,6 +1425,7 @@ input:checked + .slider:before {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-bottom: 15px;
   }
   .right-side .items-section .item .item-img {
     margin-right: 15px;
