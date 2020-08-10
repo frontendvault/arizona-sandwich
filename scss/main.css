@@ -1382,6 +1382,153 @@ input:checked + .slider:before {
   }
 }
 
+.checkout-pages .delivery-info {
+  margin-top: 0;
+}
+
+.checkout-pages .checkout-inner-container {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+}
+
+.checkout-pages .checkout-inner-container label {
+  margin-bottom: 15px;
+}
+
+.checkout-pages .checkout-inner-container .form-control {
+  margin-bottom: 30px;
+  height: 55px;
+}
+
+.checkout-pages .checkout-inner-container .form-control::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+.checkout-pages .checkout-inner-container .form-control:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.checkout-pages .checkout-inner-container .form-control::-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.checkout-pages .checkout-inner-container .form-control::placeholder {
+  font-size: 16px;
+}
+
+.checkout-pages .checkout-inner-container select.form-control {
+  font-size: 16px;
+}
+
+.checkout-pages h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.checkout-pages .order-summary h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.checkout-pages .order-summary h5 {
+  font-size: 14px;
+  color: #D8D8D8;
+}
+
+.checkout-pages .order-summary small {
+  font-size: 12px;
+  color: #D8D8D8;
+}
+
+.checkout-pages .order-summary .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout-pages .order-summary .quantity .btn {
+  width: 32px;
+  height: 32px;
+  background: #9E4122;
+  font-size: 40px;
+  padding: 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 100px;
+}
+
+.checkout-pages .order-summary .quantity .btn .minus {
+  margin-top: -5px;
+}
+
+.checkout-pages .order-summary .quantity .form-control {
+  height: 32px;
+  width: 32px;
+  margin: 0 10px;
+}
+
+.checkout-pages .table thead tr th {
+  border: 0;
+  font-weight: normal;
+  font-style: 14px;
+  color: #A0A0A0;
+  font-size: 14px;
+  padding: 15px 30px;
+}
+
+.checkout-pages .table tbody {
+  padding: 20px;
+}
+
+.checkout-pages .table tbody tr td {
+  padding: 30px;
+}
+
+.checkout-pages .table tbody tr td .dotted-line {
+  border-bottom: 2px dashed #D8D8D8;
+  height: 2px;
+  margin-bottom: 15px;
+}
+
+.checkout-pages .table tbody tr td .loyality-points {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #9E4122;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.checkout-pages .table tbody tr .instructions p {
+  font-style: italic;
+  font-size: 18px;
+  color: #A0A0A0;
+}
+
+.checkout-pages .table tbody tr .instructions p span {
+  font-size: 14px;
+  display: block;
+}
+
 .arizona-sandwich-banner {
   background: #9E4122;
 }
