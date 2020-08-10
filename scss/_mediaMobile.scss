@@ -60,6 +60,12 @@
 
         }
 
+        .mobile-search-container {
+            position: absolute;
+            top: 63px;
+            box-shadow: 0 0 10px 2px $light-grey;
+            z-index: 1;
+        }
 
     }
 

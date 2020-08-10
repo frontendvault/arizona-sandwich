@@ -1171,6 +1171,13 @@ input:checked + .slider:before {
     width: 66px !important;
     top: 32px;
   }
+  .arizona-sandwich-banner .mobile-search-container {
+    position: absolute;
+    top: 63px;
+    -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
+            box-shadow: 0 0 10px 2px #D8D8D8;
+    z-index: 1;
+  }
   .ordering-option h3 {
     text-align: center;
     font-weight: 600;
