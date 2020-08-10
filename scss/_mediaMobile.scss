@@ -47,14 +47,14 @@
         height: 75px;
         display: flex;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 70px;
 
         .arz-sandwich-logo {
             position: absolute;
             left: 0;
             right: 0;
             margin: auto;
-            width: 75px !important;
+            width: 100px !important;
             top: 32px;
 
 
@@ -65,6 +65,15 @@
             top: 63px;
             box-shadow: 0 0 10px 2px $light-grey;
             z-index: 1;
+        }
+
+        .mobile-Nav {
+            .btn-group {
+                img {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
         }
 
     }

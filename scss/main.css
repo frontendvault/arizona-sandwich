@@ -1020,6 +1020,10 @@ input:checked + .slider:before {
   .arizona-sandwich-banner .mobile-Nav {
     padding: 0;
   }
+  .arizona-sandwich-banner .mobile-Nav .btn-group {
+    width: 20px;
+    height: 20px;
+  }
   .arizona-sandwich-banner .mobile-search-container {
     position: absolute;
     top: 63px;
@@ -1172,14 +1176,14 @@ input:checked + .slider:before {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   .arizona-sandwich-banner .arz-sandwich-logo {
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    width: 75px !important;
+    width: 100px !important;
     top: 32px;
   }
   .arizona-sandwich-banner .mobile-search-container {
@@ -1188,6 +1192,10 @@ input:checked + .slider:before {
     -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
             box-shadow: 0 0 10px 2px #D8D8D8;
     z-index: 1;
+  }
+  .arizona-sandwich-banner .mobile-Nav .btn-group img {
+    width: 22px;
+    height: 22px;
   }
   .ordering-option h3 {
     text-align: center;
