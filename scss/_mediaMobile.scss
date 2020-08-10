@@ -306,12 +306,17 @@
         }
 
         .modal-body {
-            padding-bottom: 0;
+            padding-bottom: 10px;
         }
 
         .cart-inner {
             box-shadow: none;
             padding: 0;
+
+            .checkout {
+                border-radius: 6px;
+                padding: 12px;
+            }
         }
     }
 }

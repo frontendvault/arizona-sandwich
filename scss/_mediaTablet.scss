@@ -173,7 +173,7 @@
         .modal-body {
             .close {
                 margin-bottom: 15px;
-                position: static !important;
+
             }
         }
     }
@@ -206,10 +206,26 @@
         }
     }
 
+
+    .modal-body {
+        padding-bottom: 10px;
+
+        .close {
+            opacity: 1;
+            position: absolute !important;
+            z-index: 1;
+        }
+    }
+
     .cart-section {
         .cart-inner {
             box-shadow: none;
             padding: 0;
+
+            .checkout {
+                border-radius: 6px;
+                padding: 12px;
+            }
         }
     }
 
