@@ -40,7 +40,10 @@ $(function () {
   $('#customScroll').mCustomScrollbar({
     theme: 'dark-thin',
   });
+  $('.toggle-map').click(function () {
+    $('.toggle-map-container').toggle();
+  });
 });
-$('.toggle-map').click(function () {
-  $('.toggle-map-container').toggle();
+$('.mobile-search').click(function () {
+  $('.mobile-search-container').toggle();
 });
