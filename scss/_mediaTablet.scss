@@ -85,8 +85,10 @@
             padding: 0;
 
             .btn-group {
-                width: 20px;
-                height: 20px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
             }
 
         }

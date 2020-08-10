@@ -1020,7 +1020,7 @@ input:checked + .slider:before {
   .arizona-sandwich-banner .mobile-Nav {
     padding: 0;
   }
-  .arizona-sandwich-banner .mobile-Nav .btn-group {
+  .arizona-sandwich-banner .mobile-Nav .btn-group img {
     width: 20px;
     height: 20px;
   }
@@ -1184,7 +1184,7 @@ input:checked + .slider:before {
     right: 0;
     margin: auto;
     width: 100px !important;
-    top: 32px;
+    top: 24px;
   }
   .arizona-sandwich-banner .mobile-search-container {
     position: absolute;
