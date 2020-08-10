@@ -47,6 +47,7 @@
 
                     .btn {
                         font-weight: 600;
+                        margin-right: 5px;
                     }
 
                     .active {
@@ -68,12 +69,45 @@
                                 background: $brown;
                                 color: $white;
                                 height: 55px;
+                                border: 1px solid $brown;
                             }
                         }
                     }
                 }
 
 
+            }
+        }
+
+        .custom-control-input:checked~.custom-control-label::before {
+            border-color: $brown;
+            background: $brown;
+        }
+
+        .amount-total {
+            background: $lightest-grey;
+            border-radius: 6px;
+            padding: 40px;
+        }
+
+        .amount-total {
+            .brown {
+                color: $brown;
+            }
+
+            a {
+                margin-left: 20px;
+            }
+
+            .total {
+                border-top: 2px solid $light-grey;
+                margin-top: 20px;
+                padding-top: 30px;
+
+                p {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
             }
         }
     }

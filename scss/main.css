@@ -1447,6 +1447,7 @@ input:checked + .slider:before {
 
 .checkout-pages .checkout-inner-container .coupon-section .coupon-section-inner .add-trip .btn {
   font-weight: 600;
+  margin-right: 5px;
 }
 
 .checkout-pages .checkout-inner-container .coupon-section .coupon-section-inner .add-trip .active {
@@ -1464,6 +1465,37 @@ input:checked + .slider:before {
   background: #9E4122;
   color: #fff;
   height: 55px;
+  border: 1px solid #9E4122;
+}
+
+.checkout-pages .checkout-inner-container .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #9E4122;
+  background: #9E4122;
+}
+
+.checkout-pages .checkout-inner-container .amount-total {
+  background: #FCFCFC;
+  border-radius: 6px;
+  padding: 40px;
+}
+
+.checkout-pages .checkout-inner-container .amount-total .brown {
+  color: #9E4122;
+}
+
+.checkout-pages .checkout-inner-container .amount-total a {
+  margin-left: 20px;
+}
+
+.checkout-pages .checkout-inner-container .amount-total .total {
+  border-top: 2px solid #D8D8D8;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.checkout-pages .checkout-inner-container .amount-total .total p {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .checkout-pages h3 {
