@@ -25,9 +25,59 @@
             font-size: 16px;
 
         }
+
+        .coupon-section {
+            border: 2px dashed $light-grey;
+            border-radius: 5px;
+            margin: 0 20px;
+            padding: 25px;
+        }
+
+        .coupon-section {
+            .coupon-section-inner {
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                .add-trip {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .btn {
+                        font-weight: 600;
+                    }
+
+                    .active {
+                        background: $brown;
+                        color: $white;
+                    }
+
+                    .input-group {
+
+
+                        .form-control {
+                            background: $fade-grey;
+                            height: 55px;
+                            margin-bottom: 0;
+                        }
+
+                        .input-group-append {
+                            .btn {
+                                background: $brown;
+                                color: $white;
+                                height: 55px;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
     }
 
-    .guest-details {}
 
     h3 {
         font-size: 24px;
@@ -137,4 +187,6 @@
             }
         }
     }
+
+
 }
