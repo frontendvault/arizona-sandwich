@@ -1179,7 +1179,7 @@ input:checked + .slider:before {
     left: 0;
     right: 0;
     margin: auto;
-    width: 66px !important;
+    width: 75px !important;
     top: 32px;
   }
   .arizona-sandwich-banner .mobile-search-container {
