@@ -1168,7 +1168,7 @@ input:checked + .slider:before {
     left: 0;
     right: 0;
     margin: auto;
-    width: 80px !important;
+    width: 66px !important;
     top: 32px;
   }
   .ordering-option h3 {
