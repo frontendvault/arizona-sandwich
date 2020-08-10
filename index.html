@@ -71,7 +71,7 @@
               <img src="images/search-mobile.png" alt="" />
           </a>
 
-  <input type="text" class="form-control mobile-search-container" style="display: none;">
+          <input type="text" class="form-control mobile-search-container" placeholder="Enter Search Here" style="display: none;">
 
             <nav
               class="nav ml-auto d-flex d-md-flex d-xl-none align-items-center"
@@ -118,7 +118,8 @@
                   </div>
                 </div>
               </div>
-              <a class="nav-link cart-items" href="#">
+              <a class="nav-link cart-items" href="#"  data-toggle="modal"
+              data-target="#cartModal">
                 <img src="images/cart-mobile.png" alt="" />
                 <span class="badge">2</span>
               </a>
@@ -586,7 +587,7 @@
               </div>
               <!-- Catergory Items Ends -->
               <!-- Cart Section starts -->
-              <section class="col-xl-4 cart-section">
+              <section class="col-xl-4 cart-section d-none d-md-block">
                 <div class="cart-inner">
                   <div class="row">
                     <div class="col"><h4>Cart</h4></div>
@@ -1028,6 +1029,167 @@
       </div>
     </div>
     <!--Rewards Modla Ends-->
+
+
+    <!--Mobile modal cart Starts-->
+    <div
+      class="modal fade"
+      id="cartModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered custom-width-modal rewards-modal"
+      >
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true"
+                ><img
+                  src="images/item-modal-close.png"
+                  class="w-100 d-none d-md-none d-xl-block"
+                  alt=""
+                />
+                <img
+                  src="images/cross-brown.png"
+                  class="w-100 d-block d-md-block d-xl-none"
+                  alt=""
+                />
+              </span>
+            </button>
+            <section class="col-xl-4 cart-section">
+              <div class="cart-inner">
+                <div class="row">
+                  <div class="col"><h4>Cart</h4></div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="two-col">
+                      <div class="add-ons-container">
+                        <div class="d-flex justify-content-between">
+                          <h5>Blazin Burger</h5>
+                          <strong>$8.50</strong>
+                        </div>
+                        <div class="title-price-holder">
+                          <div class="add-remove-items">
+                            <button class="btn">-</button>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="1"
+                            />
+                            <button class="btn">+</button>
+                          </div>
+
+                          <button class="btn edit-item">
+                            <img src="images/pencil-icon.png" alt="" />
+                          </button>
+                        </div>
+                        <div class="cart-desc-align"></div>
+                      </div>
+                    </div>
+                    <div class="two-col flat-border">
+                      <div class="cart-desc">
+                        <p>Add-ons</p>
+                        <small>Left</small>
+                        <div class="add-ons">
+                          <h5>Ancovies</h5>
+                          <span class="ml-4">x2</span>
+                          <div class="price">$4.00</div>
+                        </div>
+                        <small>Right</small>
+                        <div class="add-ons">
+                          <h5>Pepperoni</h5>
+                          <span class="ml-4">x2</span>
+                          <div class="price">$4.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="two-col">
+                      <div class="add-ons-container">
+                        <div class="d-flex justify-content-between">
+                          <h5>Grilled Sandwich</h5>
+                          <strong>$8.50</strong>
+                        </div>
+                        <div class="title-price-holder">
+                          <div class="add-remove-items">
+                            <button class="btn">-</button>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="1"
+                            />
+                            <button class="btn">+</button>
+                          </div>
+
+                          <button class="btn edit-item">
+                            <img src="images/pencil-icon.png" alt="" />
+                          </button>
+                        </div>
+                        <div class="cart-desc-align"></div>
+                      </div>
+                    </div>
+                    <div class="two-col flat-border pb-0">
+                      <div class="cart-desc">
+                        <p>Add-ons</p>
+                        <small>Left</small>
+                        <div class="add-ons">
+                          <h5>Ancovies</h5>
+                          <span class="ml-4">x2</span>
+                          <div class="price">$4.00</div>
+                        </div>
+                        <small>Right</small>
+                        <div class="add-ons">
+                          <h5>Pepperoni</h5>
+                          <span class="ml-4">x2</span>
+                          <div class="price">$4.00</div>
+                        </div>
+                        <div class="row">
+                          <div class="row">
+                            <div class="col sub-total mt-4 bg-light">
+                              <div class="add-ons">
+                                <h5>Sub Total</h5>
+                                <div class="price">$13.00</div>
+                              </div>
+                              <div class="add-ons">
+                                <h5>Tax</h5>
+                                <div class="price">$$0.10</div>
+                              </div>
+                              <div class="add-ons">
+                                <h5>Online Ordering</h5>
+                                <div class="price">$1.00</div>
+                              </div>
+                              <div class="add-ons total">
+                                <h5><strong>Total</strong></h5>
+                                <div class="price">
+                                  <strong>$14.10</strong>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <button class="btn checkout btn-block btn-lg">
+                                  Proceed to Checkout
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Mobile modal cart Ends-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

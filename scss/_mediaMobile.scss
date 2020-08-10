@@ -289,4 +289,18 @@
     .map-area {
         display: none;
     }
+
+    #cartModal {
+        .close {
+            position: absolute !important;
+            right: 20px;
+            top: 20px;
+
+        }
+
+        .cart-inner {
+            box-shadow: none;
+            padding: 0;
+        }
+    }
 }
