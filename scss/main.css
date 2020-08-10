@@ -1172,7 +1172,7 @@ input:checked + .slider:before {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .arizona-sandwich-banner .arz-sandwich-logo {
     position: absolute;
