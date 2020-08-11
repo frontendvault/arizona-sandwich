@@ -328,4 +328,66 @@
             }
         }
     }
+
+    // Checkout page CSS
+
+    .checkout-pages {
+        margin-top: -20px;
+
+        .table {
+            thead {
+                tr {
+                    th {
+                        padding: 8px;
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+
+        .progress {
+            margin-bottom: 35px;
+        }
+
+        .checkout-inner-container {
+            padding: 20px;
+
+
+            .coupon-section {
+                .coupon-section-inner {
+                    .add-trip {
+                        flex-direction: column;
+                    }
+                }
+            }
+
+            .amount-total {
+                padding: 20px;
+            }
+        }
+
+        .guest-details {
+            form {
+                .social-login {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+
+                    .btn {
+                        margin-right: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+
+    }
 }

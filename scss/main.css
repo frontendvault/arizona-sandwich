@@ -934,461 +934,9 @@ input:checked + .slider:before {
   color: #fff;
 }
 
-.container {
-  max-width: 1280px;
-  width: 100%;
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  aside .list-group {
-    width: 736px;
-  }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* For landscape layouts only */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  aside {
-    width: 100%;
-    margin-top: 30px;
-  }
-  aside .list-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    overflow-x: scroll;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top: 1px solid #D8D8D8;
-    border-bottom: 1px solid #D8D8D8;
-    white-space: nowrap;
-    overflow-y: hidden;
-  }
-  aside .list-group .list-group-item {
-    max-width: 200px;
-  }
-  aside .list-group .list-group-item .list-group-item-action {
-    padding: 20px;
-    color: #9E4122;
-  }
-  aside .block-stacked {
-    margin-top: 50px;
-  }
-  aside .block-stacked button {
-    width: 100%;
-    font-size: 20px;
-  }
-  aside .btn-blocks {
-    margin-top: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  aside .btn-blocks .btn {
-    margin-bottom: 0;
-    width: 30%;
-  }
-  aside .btn-blocks .btn-block {
-    margin-top: 0;
-  }
-  .arizona-sandwich-banner {
-    height: 75px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 117px;
-    top: 18px;
-  }
-  .arizona-sandwich-banner .mobile-Nav {
-    padding: 0;
-  }
-  .arizona-sandwich-banner .mobile-Nav .btn-group img {
-    width: 20px;
-    height: 20px;
-  }
-  .arizona-sandwich-banner .mobile-search-container {
-    position: absolute;
-    top: 63px;
-    -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
-            box-shadow: 0 0 10px 2px #D8D8D8;
-    z-index: 1;
-  }
-  .ordering-option h3 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  .ordering-option select {
-    font-size: 16px;
-  }
-  .right-side {
-    padding: 0 20px;
-    margin-top: 70px;
-  }
-  .right-side .alert-text {
-    background: #f5f5f5;
-    position: relative;
-  }
-  .right-side .alert-text p span {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .right-side .alert-text a {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 25px;
-    color: #9E4122;
-    text-decoration: none;
-  }
-  .right-side .alert-text .close {
-    opacity: 1;
-  }
-  .right-side .delivery-info {
-    margin-top: 0px;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  .right-side .items-section .burger-banner {
-    padding: 0 1rem;
-  }
-  .right-side .items-section .burger-banner img {
-    width: 100%;
-  }
-  .right-side .items-section .item img {
-    width: 100%;
-  }
-  .custom-width-modal .modal-body .close {
-    margin-bottom: 15px;
-  }
-  .location-status-map {
-    padding: 20px;
-  }
-  .location-status-map .location-container {
-    height: auto;
-  }
-  .location-status-map .location-container .location .open-time,
-  .location-status-map .location-container .location .close-time {
-    margin-bottom: 20px;
-  }
-  .map-area {
-    display: none;
-  }
-  .start-order .time-section {
-    margin-left: 12px;
-    margin-right: 12px;
-    -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
-            box-shadow: 0 0 4px 2px #f5f5f5;
-  }
-  .modal-body {
-    padding-bottom: 10px;
-  }
-  .modal-body .close {
-    opacity: 1;
-    position: absolute !important;
-    z-index: 1;
-  }
-  .cart-section .cart-inner {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    padding: 0;
-  }
-  .cart-section .cart-inner .checkout {
-    border-radius: 6px;
-    padding: 12px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 16px;
-  }
-  aside {
-    width: 100%;
-  }
-  aside .list-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    overflow-x: scroll;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top: 1px solid #D8D8D8;
-    border-bottom: 1px solid #D8D8D8;
-    white-space: nowrap;
-    overflow-y: hidden;
-  }
-  aside .list-group .list-group-item {
-    height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  aside .list-group .list-group-item .list-group-item-action {
-    padding: 20px 15px;
-    color: #9E4122;
-  }
-  aside .btn-blocks {
-    margin-top: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  aside .btn-blocks .btn-block {
-    margin: 0;
-    width: 30%;
-  }
-  .arizona-sandwich-banner {
-    height: 75px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 70px;
-  }
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100px !important;
-    top: 24px;
-  }
-  .arizona-sandwich-banner .mobile-search-container {
-    position: absolute;
-    top: 63px;
-    -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
-            box-shadow: 0 0 10px 2px #D8D8D8;
-    z-index: 1;
-  }
-  .arizona-sandwich-banner .mobile-Nav .btn-group img {
-    width: 22px;
-    height: 22px;
-  }
-  .ordering-option h3 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  .ordering-option select {
-    font-size: 16px;
-  }
-  .right-side {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .right-side .top-spacing {
-    margin-top: 35px;
-  }
-  .right-side .alert-text {
-    position: relative;
-  }
-  .right-side .alert-text p span {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
-  .right-side .alert-text a {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 25px;
-    color: #9E4122;
-    text-decoration: none;
-  }
-  .right-side .delivery-info {
-    margin-top: 0px;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  .right-side .items-section .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 15px;
-  }
-  .right-side .items-section .item .item-img {
-    margin-right: 15px;
-    width: 150px;
-  }
-  .right-side .items-section .item .item-img .badge {
-    background: #f5f5f5;
-    width: 60px;
-    margin: 10px auto 0;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: normal;
-  }
-  .right-side .items-section .item .item-title-block .item-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .right-side .items-section .item .item-title-block .item-title h5 {
-    margin-top: 0;
-  }
-  .right-side .items-section .item .item-title-block .item-title span {
-    color: #9E4122;
-    font-weight: 600;
-    font-size: 16px;
-  }
-  .right-side .cart-section {
-    padding: 0 15px;
-  }
-  .custom-width-modal .modal-body .close {
-    opacity: 1;
-    margin-bottom: 15px;
-    position: static !important;
-  }
-  .rewards-modal .table {
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  .rewards-modal .table th,
-  .rewards-modal .table td {
-    border-top: 1px solid #e9e9e9;
-    font-size: 14px;
-    border-bottom: 0;
-  }
-  .rewards-modal .table th {
-    color: #777777 !important;
-    opacity: .7;
-  }
-  .start-order .pickup-delivery .pickup-delivery-box {
-    margin: 5px;
-    padding: 15px;
-  }
-  .start-order .pickup-delivery .pickup-delivery-box .icon-holder {
-    margin-bottom: 15px;
-    height: 50px;
-    width: 50px;
-  }
-  .start-order .pickup-delivery .pickup-delivery-box .icon-holder img {
-    width: 25px;
-  }
-  .start-order .pickup-delivery .pickup-delivery-box h3 {
-    font-size: 20px;
-  }
-  .start-order .time-date-section {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    padding: 0;
-  }
-  .start-order .time-date-section .time-section {
-    margin-left: 10px;
-    margin-right: 10px;
-    -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
-            box-shadow: 0 0 4px 2px #f5f5f5;
-  }
-  .start-order .time-date-section .time-section .select-time {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .start-order .time-date-section .time-section .select-time label {
-    text-align: center;
-    margin: auto;
-  }
-  .start-order .time-date-section .time-section .select-time .custom-control {
-    display: none;
-  }
-  .start-order .time-date-section .slick-arrow {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .start-order .policy-terms .nav-link {
-    font-size: 16px;
-    font-weight: 500;
-  }
-  .location-status-map {
-    padding: 15px;
-  }
-  .location-status-map .location-container {
-    height: auto;
-  }
-  .location-status-map .location-container .location .location-left h3 {
-    font-size: 18px;
-  }
-  .location-status-map .location-container .location .location-left h4 {
-    margin-bottom: 15px;
-  }
-  .location-status-map .location-container .location .location-left p {
-    font-size: 15px;
-  }
-  .location-status-map .location-container .location .location-right {
-    max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .map-area {
-    display: none;
-  }
-  #cartModal .close {
-    position: absolute !important;
-    right: 20px;
-    top: 20px;
-  }
-  #cartModal .modal-body {
-    padding-bottom: 10px;
-  }
-  #cartModal .cart-inner {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    padding: 0;
-  }
-  #cartModal .cart-inner .checkout {
-    border-radius: 6px;
-    padding: 12px;
-  }
-}
-
 .checkout-pages {
   /* Tooltip text */
   /* Show the tooltip text when you mouse over the tooltip container */
-}
-
-.checkout-pages .delivery-info {
-  margin-top: 0;
 }
 
 .checkout-pages .custom-control-label {
@@ -1889,6 +1437,492 @@ input:checked + .slider:before {
   border-bottom-color: #5c4084;
   border-width: 5px;
   margin-left: -5px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  aside .list-group {
+    width: 736px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  aside {
+    width: 100%;
+    margin-top: 30px;
+  }
+  aside .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  aside .list-group .list-group-item {
+    max-width: 200px;
+  }
+  aside .list-group .list-group-item .list-group-item-action {
+    padding: 20px;
+    color: #9E4122;
+  }
+  aside .block-stacked {
+    margin-top: 50px;
+  }
+  aside .block-stacked button {
+    width: 100%;
+    font-size: 20px;
+  }
+  aside .btn-blocks {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  aside .btn-blocks .btn {
+    margin-bottom: 0;
+    width: 30%;
+  }
+  aside .btn-blocks .btn-block {
+    margin-top: 0;
+  }
+  .arizona-sandwich-banner {
+    height: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 117px;
+    top: 18px;
+  }
+  .arizona-sandwich-banner .mobile-Nav {
+    padding: 0;
+  }
+  .arizona-sandwich-banner .mobile-Nav .btn-group img {
+    width: 20px;
+    height: 20px;
+  }
+  .arizona-sandwich-banner .mobile-search-container {
+    position: absolute;
+    top: 63px;
+    -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
+            box-shadow: 0 0 10px 2px #D8D8D8;
+    z-index: 1;
+  }
+  .ordering-option h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .ordering-option select {
+    font-size: 16px;
+  }
+  .right-side {
+    padding: 0 20px;
+    margin-top: 70px;
+  }
+  .right-side .alert-text {
+    background: #f5f5f5;
+    position: relative;
+  }
+  .right-side .alert-text p span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-side .alert-text a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    color: #9E4122;
+    text-decoration: none;
+  }
+  .right-side .alert-text .close {
+    opacity: 1;
+  }
+  .right-side .delivery-info {
+    margin-top: 0px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .right-side .items-section .burger-banner {
+    padding: 0 1rem;
+  }
+  .right-side .items-section .burger-banner img {
+    width: 100%;
+  }
+  .right-side .items-section .item img {
+    width: 100%;
+  }
+  .custom-width-modal .modal-body .close {
+    margin-bottom: 15px;
+  }
+  .location-status-map {
+    padding: 20px;
+  }
+  .location-status-map .location-container {
+    height: auto;
+  }
+  .location-status-map .location-container .location .open-time,
+  .location-status-map .location-container .location .close-time {
+    margin-bottom: 20px;
+  }
+  .map-area {
+    display: none;
+  }
+  .start-order .time-section {
+    margin-left: 12px;
+    margin-right: 12px;
+    -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
+            box-shadow: 0 0 4px 2px #f5f5f5;
+  }
+  .modal-body {
+    padding-bottom: 10px;
+  }
+  .modal-body .close {
+    opacity: 1;
+    position: absolute !important;
+    z-index: 1;
+  }
+  .cart-section .cart-inner {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+  }
+  .cart-section .cart-inner .checkout {
+    border-radius: 6px;
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  aside {
+    width: 100%;
+  }
+  aside .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  aside .list-group .list-group-item {
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  aside .list-group .list-group-item .list-group-item-action {
+    padding: 20px 15px;
+    color: #9E4122;
+  }
+  aside .btn-blocks {
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  aside .btn-blocks .btn-block {
+    margin: 0;
+    width: 30%;
+  }
+  .arizona-sandwich-banner {
+    height: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 70px;
+  }
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px !important;
+    top: 24px;
+  }
+  .arizona-sandwich-banner .mobile-search-container {
+    position: absolute;
+    top: 63px;
+    -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
+            box-shadow: 0 0 10px 2px #D8D8D8;
+    z-index: 1;
+  }
+  .arizona-sandwich-banner .mobile-Nav .btn-group img {
+    width: 22px;
+    height: 22px;
+  }
+  .ordering-option h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .ordering-option select {
+    font-size: 16px;
+  }
+  .right-side {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .right-side .top-spacing {
+    margin-top: 35px;
+  }
+  .right-side .alert-text {
+    position: relative;
+  }
+  .right-side .alert-text p span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-side .alert-text a {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+    color: #9E4122;
+    text-decoration: none;
+  }
+  .right-side .delivery-info {
+    margin-top: 0px;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .right-side .items-section .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .right-side .items-section .item .item-img {
+    margin-right: 15px;
+    width: 150px;
+  }
+  .right-side .items-section .item .item-img .badge {
+    background: #f5f5f5;
+    width: 60px;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .right-side .items-section .item .item-title-block .item-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .right-side .items-section .item .item-title-block .item-title h5 {
+    margin-top: 0;
+  }
+  .right-side .items-section .item .item-title-block .item-title span {
+    color: #9E4122;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .right-side .cart-section {
+    padding: 0 15px;
+  }
+  .custom-width-modal .modal-body .close {
+    opacity: 1;
+    margin-bottom: 15px;
+    position: static !important;
+  }
+  .rewards-modal .table {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .rewards-modal .table th,
+  .rewards-modal .table td {
+    border-top: 1px solid #e9e9e9;
+    font-size: 14px;
+    border-bottom: 0;
+  }
+  .rewards-modal .table th {
+    color: #777777 !important;
+    opacity: .7;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box {
+    margin: 5px;
+    padding: 15px;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box .icon-holder {
+    margin-bottom: 15px;
+    height: 50px;
+    width: 50px;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box .icon-holder img {
+    width: 25px;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box h3 {
+    font-size: 20px;
+  }
+  .start-order .time-date-section {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+  }
+  .start-order .time-date-section .time-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
+            box-shadow: 0 0 4px 2px #f5f5f5;
+  }
+  .start-order .time-date-section .time-section .select-time {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .start-order .time-date-section .time-section .select-time label {
+    text-align: center;
+    margin: auto;
+  }
+  .start-order .time-date-section .time-section .select-time .custom-control {
+    display: none;
+  }
+  .start-order .time-date-section .slick-arrow {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .start-order .policy-terms .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .location-status-map {
+    padding: 15px;
+  }
+  .location-status-map .location-container {
+    height: auto;
+  }
+  .location-status-map .location-container .location .location-left h3 {
+    font-size: 18px;
+  }
+  .location-status-map .location-container .location .location-left h4 {
+    margin-bottom: 15px;
+  }
+  .location-status-map .location-container .location .location-left p {
+    font-size: 15px;
+  }
+  .location-status-map .location-container .location .location-right {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .map-area {
+    display: none;
+  }
+  #cartModal .close {
+    position: absolute !important;
+    right: 20px;
+    top: 20px;
+  }
+  #cartModal .modal-body {
+    padding-bottom: 10px;
+  }
+  #cartModal .cart-inner {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0;
+  }
+  #cartModal .cart-inner .checkout {
+    border-radius: 6px;
+    padding: 12px;
+  }
+  .checkout-pages {
+    margin-top: -20px;
+  }
+  .checkout-pages .table thead tr th {
+    padding: 8px;
+  }
+  .checkout-pages .table tbody tr td {
+    padding: 8px;
+  }
+  .checkout-pages .progress {
+    margin-bottom: 35px;
+  }
+  .checkout-pages .checkout-inner-container {
+    padding: 20px;
+  }
+  .checkout-pages .checkout-inner-container .coupon-section .coupon-section-inner .add-trip {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .checkout-pages .checkout-inner-container .amount-total {
+    padding: 20px;
+  }
+  .checkout-pages .guest-details form .social-login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .checkout-pages .guest-details form .social-login .btn {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .arizona-sandwich-banner {
