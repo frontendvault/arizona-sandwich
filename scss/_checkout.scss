@@ -3,6 +3,106 @@
         margin-top: 0;
     }
 
+
+    .guest-details {
+        padding: 30px;
+
+        .nav-pills {
+            .nav-item {
+                .nav-link {
+                    color: $grey;
+                    font-weight: 600;
+                }
+
+                .active {
+                    background: $brown;
+                    color: $white;
+                }
+            }
+        }
+
+        form {
+            .form-control {
+                background: $fade-grey;
+                margin-bottom: 20px;
+            }
+
+            .custom-control-label {
+                line-height: 34px;
+                padding-left: 12px;
+
+                &::before {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                &::after {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            a {
+                color: $brown;
+                font-size: 16px;
+            }
+
+            .btn-submit {
+                background: $brown;
+                color: $white;
+                font-size: 16px;
+                font-weight: 600;
+
+            }
+
+            p {
+                font-size: 16px;
+                color: $medium-grey;
+                margin: 30px 0;
+            }
+
+            .btn-fb {
+                background: $blue;
+            }
+
+            .btn-google {
+                background: $light-red;
+            }
+
+            .btn {
+                color: $white;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 12px 25px;
+                margin-right: 20px;
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+
+            .forgot-password {
+                color: $brown;
+                font-size: 16px;
+            }
+
+            .custom-checkbox {
+                font-size: 16px;
+                color: $medium-grey;
+            }
+        }
+
+        .guest-form {
+
+
+            .btn {
+                color: $brown;
+                font-weight: 600;
+            }
+        }
+    }
+
+
     .checkout-inner-container {
         border-radius: 5px;
         box-shadow: 0px 0px 4px 2px $light-grey;
@@ -327,13 +427,42 @@
 
     }
 
+    .custom-tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
 
+        .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+        }
+
+        &:hover .tooltiptext {
+            visibility: visible;
+        }
+    }
+
+    /* Tooltip text */
+
+    /* Show the tooltip text when you mouse over the tooltip container */
     .progress {
         overflow: visible;
         margin-bottom: 26px;
         border-radius: 10px;
         height: 18px;
 
+        &:hover {
+            .earned-points {
+                display: block;
+            }
+        }
 
 
         .progress-bar {
