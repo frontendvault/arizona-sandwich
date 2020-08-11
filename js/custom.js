@@ -8,12 +8,9 @@ jQuery(document).ready(function ($) {
     autoplay: false,
     autoplaySpeed: 2000,
     arrows: true,
-    prevArrow:
-      '<button class="slide-arrow prev-arrow">                    <img src="images/caret-left-slider.png" alt=""></button>',
-    nextArrow:
-      '<button class="slide-arrow next-arrow">                    <img src="images/caret-right-slider.png" alt=""></button>',
-    responsive: [
-      {
+    prevArrow: '<button class="slide-arrow prev-arrow">                    <img src="images/caret-left-slider.png" alt=""></button>',
+    nextArrow: '<button class="slide-arrow next-arrow">                    <img src="images/caret-right-slider.png" alt=""></button>',
+    responsive: [{
         breakpoint: 767,
         settings: {
           slidesToShow: 4,
@@ -30,6 +27,32 @@ jQuery(document).ready(function ($) {
       },
     ],
   });
+  $('.item-slider').slick({
+
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+
+    responsive: [{
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          arrows: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+
 });
 
 $(function () {
@@ -43,6 +66,7 @@ $(function () {
   $('.toggle-map').click(function () {
     $('.toggle-map-container').toggle();
   });
+
 });
 $('.mobile-search').click(function () {
   $('.mobile-search-container').toggle();

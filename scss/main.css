@@ -1606,6 +1606,165 @@ input:checked + .slider:before {
   display: block;
 }
 
+.checkout-pages .suggest-order-addition h3 {
+  font-size: 20px;
+}
+
+.checkout-pages .item-slider .slick-slide {
+  padding: 10px;
+  margin: 0 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order {
+  -webkit-box-shadow: 0px 0px 4px 2px #f5f5f5;
+          box-shadow: 0px 0px 4px 2px #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-img {
+  margin-right: 10px;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content strong {
+  color: #9E4122;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content .earn-points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content .earn-points p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content .earn-points p .points-circle {
+  height: 32px;
+  width: 32px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.checkout-pages .item-slider .slick-slide .suggestion-order .suggest-content .earn-points .btn {
+  height: 34px;
+  width: 34px;
+  background: #9E4122;
+  font-size: 60px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.checkout-pages .range-section .btn {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.checkout-pages .unlock-rewards {
+  padding: 30px;
+  background: #f5f5f5;
+}
+
+.checkout-pages .unlock-rewards .suggestion-order {
+  background: #fff;
+}
+
+.checkout-pages .proceed-payment {
+  background: #9E4122;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.checkout-pages .progress {
+  overflow: visible;
+  margin-bottom: 26px;
+  border-radius: 10px;
+  height: 18px;
+}
+
+.checkout-pages .progress .progress-bar {
+  background-color: #9E4122;
+  position: relative;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.checkout-pages .progress .progress-bar span {
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 0;
+  border: 2px solid #9E4122;
+  border-radius: 50%;
+}
+
+.checkout-pages .progress .progress-bar span:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #5c4084;
+  border-width: 5px;
+  margin-left: -5px;
+}
+
 .arizona-sandwich-banner {
   background: #9E4122;
 }

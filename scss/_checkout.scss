@@ -222,5 +222,154 @@
         }
     }
 
+    // Checkout items slider
+    .suggest-order-addition {
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .item-slider {
+        .slick-slide {
+            padding: 10px;
+            margin: 0 5px;
+            padding-left: 0;
+            padding-right: 0;
+
+            .suggestion-order {
+                box-shadow: 0px 0px 4px 2px $fade-grey;
+                border-radius: 5px;
+                padding: 10px;
+                display: flex;
+                width: 95%;
+
+                .suggest-img {
+                    margin-right: 10px;
+                }
+
+                .suggest-content {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    flex: 1;
+
+                    h4 {
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+
+                    strong {
+                        color: $brown;
+                    }
+
+                    .earn-points {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+
+                        p {
+                            font-size: 14px;
+                            margin-top: 10px;
+
+                            .points-circle {
+                                height: 32px;
+                                width: 32px;
+                                box-shadow: none;
+                                border-radius: 50%;
+                                display: inline-block;
+                                padding: 0;
+                                text-align: center;
+                                line-height: 30px;
+                                color: $white;
+                            }
+                        }
+
+                        .btn {
+                            height: 34px;
+                            width: 34px;
+                            background: $brown;
+                            font-size: 60px;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .range-section {
+        .btn {
+            font-size: 16px;
+            color: $white;
+            font-weight: 600;
+        }
+    }
+
+    .unlock-rewards {
+        padding: 30px;
+        background: $fade-grey;
+
+        .suggestion-order {
+            background: $white;
+        }
+    }
+
+    .proceed-payment {
+        background: $brown;
+        color: $white;
+        font-size: 16px;
+        font-weight: 900;
+
+    }
+
+
+    .progress {
+        overflow: visible;
+        margin-bottom: 26px;
+        border-radius: 10px;
+        height: 18px;
+
+
+
+        .progress-bar {
+            background-color: $brown;
+            position: relative;
+            border-radius: 10px;
+            z-index: 1;
+
+            span {
+                background: $white;
+                width: 30px;
+                height: 30px;
+                display: block;
+                position: absolute;
+                right: 0;
+                border: 2px solid $brown;
+                border-radius: 50%;
+
+                &:after {
+                    bottom: 100%;
+                    left: 50%;
+                    border: solid transparent;
+                    content: " ";
+                    height: 0;
+                    width: 0;
+                    position: absolute;
+                    pointer-events: none;
+                    border-color: rgba(255, 255, 255, 0);
+                    border-bottom-color: #5c4084;
+                    border-width: 5px;
+                    margin-left: -5px;
+                }
+
+            }
+
+        }
+    }
 
 }
