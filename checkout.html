@@ -825,14 +825,14 @@
                 <!-- Method info Delivery, Location and Time starts -->
                 <div class="col p-4 border-bottom items-to-checkout">
                   <div class="row">
-                    <div class="col-xl-7">
+                    <div class="col-md-8 col-xl-7">
                       <h4>Blazin Burger, Grilled Sandwich <span>+2 Addons</span> </h4>
                     </div>
 
-                    <div class="col-xl-4">
+                    <div class="col-md-3 col-xl-4">
                       <strong>$15.40</strong>
                     </div>
-                    <div class="col-xl-1">
+                    <div class="col-md-1 col-xl-1">
                       <button class="btn">
                         <img src="images/pencil-icon.png" alt="" />
                       </button>
@@ -843,86 +843,91 @@
               </div>
               <div class="row mt-5">
                 <div class="col">
-                   
-                    <div class="row">
-                      <div class="col-md-12 px-4"> <h3>Guest Details</h3></div>
-                        <div class="col guest-details ">
-                            <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="pills-home-tab1" data-toggle="pill"
-                                        href="#pills-home1" role="tab" aria-controls="pills-home1"
-                                        aria-selected="true">Sign In</a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="pills-profile-tab1" data-toggle="pill"
-                                        href="#pills-profile1" role="tab" aria-controls="pills-profile1"
-                                        aria-selected="false">Register</a>
-                                </li>
-
-                            </ul>
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane signin-form fade show active" id="pills-home1"
-                                    role="tabpanel" aria-labelledby="pills-home-tab1">
-                                    new card
-                                    <form>
-
-                                        <div class="form-group">
-
-                                            <input type="text" class="form-control" id="inputAddress"
-                                                placeholder="1234 Main St">
-                                        </div>
-                                        <div class="form-group">
-
-                                            <input type="text" class="form-control" id="inputAddress2"
-                                                placeholder="Apartment, studio, or floor">
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="form-group col-lg-4">
-
-                                                <input type="text" class="form-control" id="inputCity">
-                                            </div>
-                                            <div class="form-group col-lg-4">
-
-                                                <select id="inputState" class="form-control">
-                                                    <option selected>Choose...</option>
-                                                    <option>...</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-lg-4">
-
-                                                <input type="text" class="form-control" id="inputZip">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input"
-                                                    id="customCheck1">
-                                                <label class="custom-control-label" for="customCheck1">Check
-                                                    this custom checkbox</label>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Sign in</button>
-                                    </form>
-                                </div>
-                                <div class="tab-pane register-form fade" id="pills-profile1" role="tabpanel"
-                                    aria-labelledby="pills-profile-tab1">
-                                    saved card
-                                </div>
-
-                            </div>
-                        </div>
+                  <div class="row">
+                    <div class="col-md-12 px-4">
+                      <h3>Payment Method</h3>
                     </div>
+                    <div class="col guest-details ">
+                      <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="pills-home-tab1" data-toggle="pill" href="#pills-home1"
+                            role="tab" aria-controls="pills-home1" aria-selected="true"> 
+                            <!-- <img src="images/new-card.svg"
+                              alt="">  -->
+                              <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.49666 8.44702H3.04532C2.91623 8.44702 2.79243 8.4983 2.70115 8.58958C2.60987 8.68086 2.55859 8.80466 2.55859 8.93375V10.4913C2.55859 10.6204 2.60987 10.7442 2.70115 10.8354C2.79243 10.9267 2.91623 10.978 3.04532 10.978H8.49666C8.62575 10.978 8.74955 10.9267 8.84083 10.8354C8.93211 10.7442 8.98339 10.6204 8.98339 10.4913V8.93375C8.98339 8.80466 8.93211 8.68086 8.84083 8.58958C8.74955 8.4983 8.62575 8.44702 8.49666 8.44702ZM8.00993 10.0045H3.53205V9.42047H8.00993V10.0045Z" fill="white" stroke="white" stroke-width="0.4"/>
+                                <path d="M6.15955 11.9026H3.09317C2.96408 11.9026 2.84028 11.9539 2.749 12.0451C2.65773 12.1364 2.60645 12.2602 2.60645 12.3893C2.60645 12.5184 2.65773 12.6422 2.749 12.7335C2.84028 12.8248 2.96408 12.876 3.09317 12.876H6.15955C6.28864 12.876 6.41244 12.8248 6.50372 12.7335C6.595 12.6422 6.64628 12.5184 6.64628 12.3893C6.64628 12.2602 6.595 12.1364 6.50372 12.0451C6.41244 11.9539 6.28864 11.9026 6.15955 11.9026Z" fill="white" stroke="white" stroke-width="0.4"/>
+                                <path d="M25.3532 14.3809C25.299 12.9383 25.1898 11.5847 25.1887 11.5712C25.1807 11.4731 25.1432 11.3797 25.0811 11.3034C25.0189 11.227 24.9351 11.1713 24.8407 11.1436L22.2213 10.3746V2.26549C22.2209 1.92998 22.0875 1.60831 21.8502 1.37107C21.613 1.13382 21.2913 1.00037 20.9558 1H2.26549C1.92998 1.00037 1.60831 1.13382 1.37107 1.37107C1.13382 1.60831 1.00037 1.92998 1 2.26549V14.7257C1.00037 15.0612 1.13382 15.3829 1.37107 15.6201C1.60831 15.8574 1.92998 15.9908 2.26549 15.9912H13.4126C13.4202 17.3704 13.5417 17.8266 13.6576 18.0584C13.7445 18.2322 13.9753 18.6937 16.5974 20.8775C17.8606 21.9296 19.0866 22.8874 19.0989 22.897C19.1844 22.9637 19.2898 23 19.3984 23C19.5069 23 19.6123 22.9637 19.6978 22.897C19.7101 22.8872 20.9361 21.9296 22.1993 20.8775C24.8214 18.6937 25.0521 18.2322 25.1391 18.0584C25.2916 17.7531 25.4538 17.0593 25.3532 14.3809ZM1.97345 5.0885H21.2478V6.45134H1.97345V5.0885ZM2.26549 1.97345H20.9558C21.0332 1.97353 21.1075 2.00432 21.1622 2.05907C21.217 2.11382 21.2478 2.18806 21.2478 2.26549V4.11505H1.97345V2.26549C1.97353 2.18806 2.00432 2.11382 2.05907 2.05907C2.11382 2.00432 2.18806 1.97353 2.26549 1.97345ZM1.97345 14.7257V7.42479H21.2478V10.0888L19.5353 9.5861C19.4458 9.55982 19.3507 9.55982 19.2612 9.5861L13.9559 11.1436C13.8614 11.1713 13.7776 11.227 13.7155 11.3034C13.6533 11.3797 13.6158 11.4731 13.6078 11.5712C13.6068 11.5847 13.4975 12.9383 13.4433 14.3809C13.4348 14.6071 13.4283 14.819 13.4234 15.0177H2.26549C2.18806 15.0177 2.11382 14.9869 2.05907 14.9321C2.00432 14.8774 1.97353 14.8031 1.97345 14.7257ZM24.2683 17.6231C24.0368 18.086 21.664 20.1119 19.3983 21.8949C17.1326 20.112 14.7598 18.0861 14.5283 17.6231C14.4979 17.5622 14.3687 17.2018 14.388 15.5116C14.388 15.5092 14.3884 15.5067 14.3884 15.5045C14.3884 15.5029 14.3884 15.5015 14.3884 15.5C14.3921 15.1875 14.4008 14.8299 14.4162 14.4205C14.4536 13.4234 14.5177 12.4687 14.5531 11.9829L19.3983 10.5604L24.2437 11.9829C24.279 12.4681 24.343 13.4209 24.3804 14.4174C24.4797 17.0566 24.3045 17.5508 24.2683 17.6231Z" fill="white" stroke="white" stroke-width="0.4"/>
+                                <path d="M22.9944 12.6302L19.537 11.6152C19.4475 11.5889 19.3523 11.5889 19.2628 11.6152L15.8054 12.6302C15.7092 12.6584 15.6241 12.7157 15.5616 12.7942C15.4992 12.8726 15.4626 12.9684 15.4566 13.0685C15.3735 14.4774 15.3155 16.2601 15.4028 17.0385C15.4145 17.1423 15.4592 17.2396 15.5304 17.316C16.1239 17.9531 17.7606 19.3299 19.0943 20.4059C19.1808 20.4757 19.2887 20.5138 19.3999 20.5138C19.5111 20.5138 19.619 20.4757 19.7055 20.4059C21.0392 19.3299 22.6759 17.9531 23.2694 17.316C23.3406 17.2396 23.3854 17.1423 23.397 17.0385C23.4841 16.2601 23.4262 14.4773 23.3432 13.0685C23.3373 12.9684 23.3006 12.8726 23.2382 12.7942C23.1758 12.7157 23.0906 12.6584 22.9944 12.6302ZM22.4439 16.7699C21.9362 17.2802 20.789 18.272 19.3999 19.4011C18.011 18.2719 16.8636 17.2802 16.3559 16.7699C16.3117 16.1457 16.3316 14.9054 16.4091 13.4676L19.3999 12.5895L22.3907 13.4675C22.4682 14.9052 22.4881 16.1455 22.4439 16.7699Z" fill="white" stroke="white" stroke-width="0.4"/>
+                                <path d="M21.2588 13.9563C21.2089 13.9163 21.1516 13.8866 21.0902 13.8688C21.0288 13.8511 20.9646 13.8455 20.901 13.8526C20.8375 13.8596 20.776 13.8792 20.72 13.91C20.664 13.9408 20.6146 13.9824 20.5747 14.0323L19.296 15.6308L18.4991 15.0995C18.3917 15.0293 18.2609 15.0044 18.1352 15.0301C18.0095 15.0559 17.899 15.1302 17.8278 15.237C17.7567 15.3437 17.7305 15.4743 17.7551 15.6002C17.7797 15.7262 17.853 15.8373 17.9591 15.9095L19.1273 16.6882C19.2286 16.7558 19.3516 16.7829 19.4719 16.7642C19.5923 16.7455 19.7013 16.6824 19.7773 16.5873L21.3349 14.6404C21.3748 14.5905 21.4045 14.5332 21.4223 14.4718C21.4401 14.4104 21.4456 14.3461 21.4385 14.2826C21.4315 14.2191 21.412 14.1576 21.3812 14.1016C21.3503 14.0456 21.3088 13.9962 21.2588 13.9563Z" fill="white" stroke="white" stroke-width="0.4"/>
+                                </svg>
+                                
+                              
+                              New Card</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="pills-profile-tab1" data-toggle="pill" href="#pills-profile1"
+                            role="tab" aria-controls="pills-profile1" aria-selected="false"> <img
+                              src="images/saved-card.svg" alt=""> Saved Card</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane signin-form fade show active" id="pills-home1" role="tabpanel"
+                          aria-labelledby="pills-home-tab1">
 
+                          <form>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="cardName" placeholder="Name">
+                            </div>
+                            <div class="input-group"> <input type="text" class="form-control" placeholder="Card Number">
+                              <div class="input-group-append">
+                                <span class="input-group-text"> <img src="images/card-img.png" alt=""> </span>
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-lg-4">
+                                <input type="text" class="form-control" placeholder="Expiry Date">
+                              </div>
+                              <div class="input-group form-group col-lg-4"> <input type="text" class="form-control"
+                                  placeholder="Card Number">
+                                <div class="input-group-append">
+                                  <span class="input-group-text"> <img src="images/info-icon-card.png" alt=""> </span>
+                                </div>
+                              </div>
+                              <div class="form-group col-lg-4">
+                                <input type="text" class="form-control" id="inputZip" placeholder="Zip Code">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="saveCard">
+                                <label class="custom-control-label" for="saveCard">Save card for future
+                                  purchases</label>
+                              </div>
+                            </div>
+                            <div class="col text-center"><button type="submit"
+                                class="btn btn-submit btn-lg btn-primary px-5">Pay $15.40</button></div>
+                          </form>
+                        </div>
+                        <div class="tab-pane register-form fade" id="pills-profile1" role="tabpanel"
+                          aria-labelledby="pills-profile-tab1">
+                          saved card
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
                 </div>
-            </div>
-
+              </div>
             </div>
           </div>
+        </main>
       </div>
-      <!-- Main container with right side content ends -->
     </div>
+    <!-- Main container with right side content ends -->
   </div>
-  </div>
+
 
 
   <!-- Optional JavaScript -->
