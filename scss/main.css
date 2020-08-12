@@ -1495,6 +1495,10 @@ input:checked + .slider:before {
   fill: #fff;
 }
 
+.confirm-payment .guest-details .form-group {
+  margin-bottom: 0;
+}
+
 .confirm-payment .saved-cards .table tr th {
   font-weight: 600;
 }
