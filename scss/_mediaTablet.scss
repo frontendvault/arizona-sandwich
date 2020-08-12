@@ -1,9 +1,17 @@
 // for  iPad/Tablet Portrait
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
-    aside {
-        .list-group {
-            width: 736px;
+    // aside {
+    //     .list-group {
+    //         width: 736px;
+    //     }
+
+    //}
+
+    .arizona-sandwich-banner {
+        .arz-sandwich-logo {
+            width: 180px !important;
         }
+
 
     }
 }
@@ -68,38 +76,69 @@
     }
 
     .arizona-sandwich-banner {
-        height: 75px;
-        display: flex;
-        align-items: center;
-
         .arz-sandwich-logo {
-            position: absolute;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 117px;
-            top: 18px;
+            width: 180px;
         }
 
-        .mobile-Nav {
-            padding: 0;
+        h3 {
+            margin-bottom: 0;
+        }
+    }
 
-            .btn-group {
-                img {
-                    width: 20px;
-                    height: 20px;
+    // Checkout iPad
+    .checkout-pages {
+        .guest-details {
+            form {
+                .social-login {
+                    .btn {
+                        min-width: 300px;
+                        margin-bottom: 20px;
+                    }
                 }
+            }
+        }
+
+        .order-summary {
+
+            h4 {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .quantity {
+                width: 280px;
             }
 
         }
 
-        .mobile-search-container {
-            position: absolute;
-            top: 63px;
-            box-shadow: 0 0 10px 2px $light-grey;
-            z-index: 1;
+        .table {
+            tbody {
+                tr {
+                    .instructions {
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    td {
+                        .btn-outline {
+                            margin-left: 10PX;
+                        }
+
+                        .ipad-price {
+                            margin-top: 122px;
+                        }
+                    }
+                }
+            }
         }
 
+        .unlock-rewards {
+            padding: 20px 0;
+            margin-left: -24px;
+            margin-right: -24px;
+        }
     }
 
     .ordering-option {
@@ -149,8 +188,8 @@
         }
 
         .delivery-info {
-            margin-top: 0px;
-            box-shadow: none !important;
+            margin-top: -30px;
+
         }
 
         .items-section {

@@ -18,7 +18,7 @@
 
 <body>
   <!-- Top Navigation Desktop Starts-->
-  <div class="container d-none d-md-none d-xl-block">
+  <div class="container d-none d-md-block d-xl-block">
     <nav class="navbar">
       <ul class="nav ml-auto">
         <li class="nav-item">
@@ -43,7 +43,7 @@
 
   <!-- Arizona Sandwich Container with brown bg starts -->
 
-  <div class="container-fluid arizona-sandwich-banner py-xl-5">
+  <div class="container-fluid arizona-sandwich-banner py-md-3 py-xl-5">
     <div class="container">
       <div class="row">
         <div class="arz-sandwich-logo">
@@ -58,18 +58,18 @@
         <div
           class="col-md col-xl d-flex align-items-center mobile-Nav px-0"
         >
-          <h3 class="d-none d-md-none d-xl-block ml-3">Checkout</h3>
-          <a href="#" class="d-block d-md-block d-xl-none">
+          <h3 class="d-none d-md-block d-xl-block ml-3">Checkout</h3>
+          <a href="#" class="d-block d-md-none d-xl-none">
             <img src="images/hamburger.png" alt="" />
           </a>  
-          <a href="#" class="navbar-brand d-block d-md-block d-xl-none ml-3 mobile-search"> 
+          <a href="#" class="navbar-brand d-block d-md-none d-xl-none ml-3 mobile-search"> 
             <img src="images/search-mobile.png" alt="" />
         </a>
 
         <input type="text" class="form-control mobile-search-container" placeholder="Enter Search Here" style="display: none;">
 
           <nav
-            class="nav ml-auto d-flex d-md-flex d-xl-none align-items-center"
+            class="nav ml-auto d-flex d-md-none d-xl-none align-items-center"
           >
             <a class="nav-link " href="#">
           
@@ -128,19 +128,19 @@
     <div class="container">
       <div class="row">
         <!-- Main container with right side content starts -->
-        <main class="col-xl-10 offset-xl-2 right-side start-order checkout-pages mt-0">
-          <div class="row d-block d-md-block d-xl-none">
+        <main class="col-md-9 col-xl-10 offset-md-3 offset-xl-2 right-side start-order checkout-pages mt-0">
+          <div class="row d-block d-md-none d-xl-none">
             <div class="col mobile-heading text-center">
               <h3 class="font-weight-bold mb-0">Checkout</h3>
             </div>
           </div>
           <div class="row ">
             <!-- Method info Delivery, Location and Time starts -->
-            <div class="col delivery-info py-4 shadow d-none d-xl-block">
+            <div class="col delivery-info py-4 shadow d-none d-md-block d-xl-block">
               <div class="row">
-                <div class="col-md-4 mb-4 mb-md-0">
+                <div class="col-md-4 col-xl-4 mb-4 mb-md-0">
                   <div class="row">
-                    <div class="col-2 col-md-auto pr-0">
+                    <div class="col-2 d-md-none d-xl-block col-xl-auto pr-0">
                       <img src="images/delivery-icon.png" alt="" />
                     </div>
                     <div class="col">
@@ -153,9 +153,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 mb-4 mb-md-0">
+                <div class="col-md-4 col-xl-4 mb-4 mb-md-0">
                   <div class="row">
-                    <div class="col-2 col-md-auto pr-0">
+                    <div class="col-2 d-md-none d-xl-block col-xl-auto pr-0">
                       <img src="images/location.png" alt="" />
                     </div>
                     <div class="col">
@@ -168,9 +168,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4 col-xl-3">
                   <div class="row">
-                    <div class="col-2 col-md-auto pr-0">
+                    <div class="col-2 d-md-none d-xl-block col-xl-auto pr-0">
                       <img src="images/time-icon.png" alt="" />
                     </div>
                     <div class="col">
@@ -182,7 +182,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-1">
+                <div class="d-md-none d-xl-block col-xl-1">
                   <button class="btn">
                     <img src="images/pencil-icon.png" alt="" />
                   </button>
@@ -377,7 +377,7 @@
                           &amp; Quantity</span> </th>
                         <th class="d-none d-xl-table-cell">Quantity</th>
                         <th>Price</th>
-                        <th class="d-none d-xl-table-cell"  >Loyalty Points</th>
+                        <th class="d-none d-sm-table-cell d-xl-table-cell"  >Loyalty Points</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -406,11 +406,11 @@
                         <td>
                           <p class="mb-5"><strong>$8.50</strong></p>
 
-                          <p class="mb-5">$4.00</p>
+                          <p class="ipad-price mb-xl-5">$4.00</p>
 
                           <p>$2.00</p>
                         </td>
-                        <td class="d-none d-xl-table-cell">
+                        <td class="d-none d-sm-table-cell d-xl-table-cell">
                           <div class="loyality-points bg-warning">+8</div>
                         </td>
                         <td class="d-none d-xl-table-cell">
@@ -447,13 +447,13 @@
                           </div>
                         </td>
                         <td>
-                          <p class="mb-5"><strong>$4.50</strong></p>
+                          <p class=" mb-xl-5"><strong>$4.50</strong></p>
 
-                          <p>$2.00</p>
+                          <p class="ipad-price">$2.00</p>
 
 
                         </td>
-                        <td class="d-none d-xl-table-cell">
+                        <td class="d-none d-sm-table-cell d-md-table-cell d-xl-table-cell">
                           <div class="loyality-points bg-warning">+6</div>
                         </td>
                         <td class="d-none d-xl-table-cell">
@@ -474,7 +474,7 @@
               <div class="row">
                 <div class="col coupon-section">
 
-                  <div class="coupon-section-inner col-md-5 offset-md-7 px-0">
+                  <div class="coupon-section-inner col col-xl-5 offset-xl-7 px-0">
 
 
                     <h3>Add a Tip</h3>
@@ -687,7 +687,7 @@
 
               <div class="row range-section">
                 <div class="col-xl-9">
-                  <div class="progress" data-toggle="tooltip" data-html="true" title="" type="button">
+                  <div class="progress mb-4 mb-xl-0" data-toggle="tooltip" data-html="true" title="" type="button">
                     <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                       aria-valuemax="100" style="width: 50%;" data-toggle="tooltip" data-html="true" title=""
                       type="button">

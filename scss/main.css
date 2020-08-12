@@ -1461,8 +1461,8 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  aside .list-group {
-    width: 736px;
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    width: 180px !important;
   }
 }
 
@@ -1521,36 +1521,41 @@ input:checked + .slider:before {
   aside .btn-blocks .btn-block {
     margin-top: 0;
   }
-  .arizona-sandwich-banner {
-    height: 75px;
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    width: 180px;
+  }
+  .arizona-sandwich-banner h3 {
+    margin-bottom: 0;
+  }
+  .checkout-pages .guest-details form .social-login .btn {
+    min-width: 300px;
+    margin-bottom: 20px;
+  }
+  .checkout-pages .order-summary h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 20px;
   }
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 117px;
-    top: 18px;
+  .checkout-pages .order-summary .quantity {
+    width: 280px;
   }
-  .arizona-sandwich-banner .mobile-Nav {
-    padding: 0;
+  .checkout-pages .table tbody tr .instructions p {
+    margin-bottom: 0;
   }
-  .arizona-sandwich-banner .mobile-Nav .btn-group img {
-    width: 20px;
-    height: 20px;
+  .checkout-pages .table tbody tr td .btn-outline {
+    margin-left: 10PX;
   }
-  .arizona-sandwich-banner .mobile-search-container {
-    position: absolute;
-    top: 63px;
-    -webkit-box-shadow: 0 0 10px 2px #D8D8D8;
-            box-shadow: 0 0 10px 2px #D8D8D8;
-    z-index: 1;
+  .checkout-pages .table tbody tr td .ipad-price {
+    margin-top: 122px;
+  }
+  .checkout-pages .unlock-rewards {
+    padding: 20px 0;
+    margin-left: -24px;
+    margin-right: -24px;
   }
   .ordering-option h3 {
     text-align: center;
@@ -1586,9 +1591,7 @@ input:checked + .slider:before {
     opacity: 1;
   }
   .right-side .delivery-info {
-    margin-top: 0px;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    margin-top: -30px;
   }
   .right-side .items-section .burger-banner {
     padding: 0 1rem;

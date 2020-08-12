@@ -36,20 +36,20 @@ jQuery(document).ready(function ($) {
     arrows: false,
 
     responsive: [{
+        breakpoint: 1024,
+        settings: {
+          arrows: false,
+          slidesToShow: 1.6,
+          slidesToScroll: 1,
+        },
+      }, {
         breakpoint: 767,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
-      {
-        breakpoint: 400,
-        settings: {
-          arrows: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+
     ],
   });
   $('[data-toggle="tooltip"]').tooltip()
