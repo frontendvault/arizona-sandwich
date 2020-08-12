@@ -239,3 +239,68 @@
         }
     }
 }
+
+.order-usual-modal {
+    max-width: 630px;
+
+    .close {
+        opacity: 1;
+    }
+
+    .order-my-usual {
+
+
+        .table {
+            box-shadow: none;
+
+            th {
+                border-top: 0;
+                font-size: 14px;
+                color: $medium-grey;
+            }
+
+            .img-col {
+                width: 140px;
+            }
+
+            td {
+                padding: 20px;
+
+                img {
+                    border-radius: 10px;
+                    width: 100%;
+                }
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 600;
+
+                }
+
+                p {
+                    font-size: 14px;
+                    margin-bottom: 0;
+                    color: $medium-grey;
+
+                    strong {
+                        color: $brown;
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                        display: block
+                    }
+                }
+            }
+
+            .btn {
+                background: $brown;
+                font-size: 40px;
+                height: 32px;
+                width: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $white;
+            }
+        }
+    }
+}
