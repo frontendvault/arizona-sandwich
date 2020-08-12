@@ -26,6 +26,7 @@
                 .nav-link {
                     color: $grey;
                     font-weight: 600;
+                    font-size: 16px;
                 }
 
                 .active {
@@ -553,5 +554,61 @@
         .btn {
             border: 1px solid $light-grey;
         }
+    }
+
+
+
+    .guest-details {
+        .nav-pills {
+            .nav-item {
+                .nav-link {
+                    svg {
+                        margin-right: 5px;
+
+                        path {
+                            fill: $brown;
+                        }
+                    }
+                }
+
+                .active {
+                    svg {
+                        path {
+                            fill: $white;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .saved-cards {
+        .table {
+            tr {
+                th {
+                    font-weight: 600;
+                }
+
+                td,
+                th {
+                    padding: 10px !important;
+                    font-size: 16px;
+                }
+
+                td {
+                    color: $grey;
+                }
+            }
+        }
+    }
+
+    .btn-submit {
+        background: $brown;
+        border: 1px solid $brown;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 600;
     }
 }

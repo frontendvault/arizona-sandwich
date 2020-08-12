@@ -961,6 +961,7 @@ input:checked + .slider:before {
 .checkout-pages .guest-details .nav-pills .nav-item .nav-link {
   color: #777777;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .checkout-pages .guest-details .nav-pills .nav-item .active {
@@ -1480,6 +1481,40 @@ input:checked + .slider:before {
 
 .confirm-payment .items-to-checkout .btn {
   border: 1px solid #D8D8D8;
+}
+
+.confirm-payment .guest-details .nav-pills .nav-item .nav-link svg {
+  margin-right: 5px;
+}
+
+.confirm-payment .guest-details .nav-pills .nav-item .nav-link svg path {
+  fill: #9E4122;
+}
+
+.confirm-payment .guest-details .nav-pills .nav-item .active svg path {
+  fill: #fff;
+}
+
+.confirm-payment .saved-cards .table tr th {
+  font-weight: 600;
+}
+
+.confirm-payment .saved-cards .table tr td,
+.confirm-payment .saved-cards .table tr th {
+  padding: 10px !important;
+  font-size: 16px;
+}
+
+.confirm-payment .saved-cards .table tr td {
+  color: #777777;
+}
+
+.confirm-payment .btn-submit {
+  background: #9E4122;
+  border: 1px solid #9E4122;
+  font-size: 16px;
+  padding: 12px 25px;
+  font-weight: 600;
 }
 
 .container {
