@@ -41,6 +41,21 @@
                 margin-bottom: 20px;
             }
 
+            .input-group {
+                .form-control {
+                    border-right: none;
+                }
+
+                .input-group-append {
+                    .input-group-text {
+                        height: 55px;
+                        background: $fade-grey;
+                        border-left: 0;
+                        ;
+                    }
+                }
+            }
+
 
 
             a {
@@ -518,4 +533,24 @@
         }
     }
 
+}
+
+.confirm-payment {
+    .items-to-checkout {
+        h4 {
+            font-size: 18px;
+            margin-bottom: 0;
+            font-weight: 600;
+
+            span {
+                font-weight: 300;
+                font-size: 16px;
+                margin-left: 20px;
+            }
+        }
+
+        .btn {
+            border: 1px solid $light-grey;
+        }
+    }
 }

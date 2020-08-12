@@ -48,76 +48,63 @@
       <div class="row">
         <div class="arz-sandwich-logo">
           <a href="#">
-            <img
-              src="images/arizona-sandwish-logo.png"
-              alt=""
-              class="img-fluid"
-            />
+            <img src="images/arizona-sandwish-logo.png" alt="" class="img-fluid" />
           </a>
         </div>
-        <div
-          class="col-md col-xl d-flex align-items-center mobile-Nav px-0"
-        >
+        <div class="col-md col-xl d-flex align-items-center mobile-Nav px-0">
           <h3 class="d-none d-md-block d-xl-block ml-3">Checkout</h3>
           <a href="#" class="d-block d-md-none d-xl-none">
             <img src="images/hamburger.png" alt="" />
-          </a>  
-          <a href="#" class="navbar-brand d-block d-md-none d-xl-none ml-3 mobile-search"> 
+          </a>
+          <a href="#" class="navbar-brand d-block d-md-none d-xl-none ml-3 mobile-search">
             <img src="images/search-mobile.png" alt="" />
-        </a>
+          </a>
 
-        <input type="text" class="form-control mobile-search-container" placeholder="Enter Search Here" style="display: none;">
+          <input type="text" class="form-control mobile-search-container" placeholder="Enter Search Here"
+            style="display: none;">
 
-          <nav
-            class="nav ml-auto d-flex d-md-none d-xl-none align-items-center"
-          >
+          <nav class="nav ml-auto d-flex d-md-none d-xl-none align-items-center">
             <a class="nav-link " href="#">
-          
-            <div class="btn-group">
-              <button
-                type="button"
-                class="btn btn-secondary dropdown-toggle"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <img src="images/info.png" alt="" class="img-fluid">
-              </button>
-              <div class="dropdown-menu dropdown-menu-right mobile-method">
-                <div class="row">
-                  <div class="col-xl-4">
-                    <h4>Delivery</h4>
-                    <p>
-                      123 Main Street <br />
-                      Apt 234 <br />
-                      New Symnerna Beach, NC 34212
-                    </p>
-                  </div>
 
-                  <div class="col-xl-4">
-                    <h4>Location</h4>
-                    <p>
-                      2002 Academy Lane, <br />
-                      Farmers Branch, TX, <br />
-                      USA
-                    </p>
-                  </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <img src="images/info.png" alt="" class="img-fluid">
+                </button>
+                <div class="dropdown-menu dropdown-menu-right mobile-method">
+                  <div class="row">
+                    <div class="col-xl-4">
+                      <h4>Delivery</h4>
+                      <p>
+                        123 Main Street <br />
+                        Apt 234 <br />
+                        New Symnerna Beach, NC 34212
+                      </p>
+                    </div>
 
-                  <div class="col-xl-3">
-                    <h4>Time</h4>
-                    <p>
-                      4:00 PM <br />
-                      07/24/2020
-                    </p>
+                    <div class="col-xl-4">
+                      <h4>Location</h4>
+                      <p>
+                        2002 Academy Lane, <br />
+                        Farmers Branch, TX, <br />
+                        USA
+                      </p>
+                    </div>
+
+                    <div class="col-xl-3">
+                      <h4>Time</h4>
+                      <p>
+                        4:00 PM <br />
+                        07/24/2020
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <a class="nav-link cart-items" href="#"  data-toggle="modal"
-            data-target="#cartModal">
-              <img src="images/cart-mobile.png" alt="" />
-              <span class="badge">2</span>
-            </a>
+              <a class="nav-link cart-items" href="#" data-toggle="modal" data-target="#cartModal">
+                <img src="images/cart-mobile.png" alt="" />
+                <span class="badge">2</span>
+              </a>
           </nav>
         </div>
       </div>
@@ -269,10 +256,18 @@
                         </div>
                         <div class="row">
                           <div class="col-xl-6">
-                            <input type="date" class="form-control" placeholder="Birthday">
+                            <div class="input-group"> <input type="text" class="form-control" placeholder="Birthday">
+                              <div class="input-group-append">
+                                <span class="input-group-text"> <img src="images/calender.png" alt=""> </span>
+                              </div>
+                            </div>
                           </div>
                           <div class="col-xl-6">
-                            <input type="date" class="form-control" placeholder="Anniversary">
+                            <div class="input-group"> <input type="text" class="form-control" placeholder="Anniversary">
+                              <div class="input-group-append">
+                                <span class="input-group-text"> <img src="images/calender.png" alt=""> </span>
+                              </div>
+                            </div>
                           </div>
                         </div>
                         <div class="row">
@@ -373,17 +368,19 @@
                   <table class="table ">
                     <thead>
                       <tr>
-                        <th class="item-desc-mobile"> <span class="d-none d-xl-inline-block">Item  Description</span> <span class="d-block d-xl-none"> Item Description <br>
-                          &amp; Quantity</span> </th>
+                        <th class="item-desc-mobile"> <span class="d-none d-xl-inline-block">Item Description</span>
+                          <span class="d-block d-xl-none"> Item Description <br>
+                            &amp; Quantity</span> </th>
                         <th class="d-none d-xl-table-cell">Quantity</th>
                         <th>Price</th>
-                        <th class="d-none d-sm-table-cell d-xl-table-cell"  >Loyalty Points</th>
+                        <th class="d-none d-sm-table-cell d-xl-table-cell">Loyalty Points</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr class="border-dashed-bottom">
                         <td>
-                          <h4>Blazin Burger <button class="btn btn-outline d-block d-xl-none"><img src="images/pencil-brown.png" alt=""></button> </h4>
+                          <h4>Blazin Burger <button class="btn btn-outline d-block d-xl-none"><img
+                                src="images/pencil-brown.png" alt=""></button> </h4>
                           <div class="quantity d-flex d-xl-none mt-2 mb-3">
                             <button class="btn"> <span class="minus">-</span> </button>
                             <input type="text" placeholder="1" class="form-control">
@@ -429,7 +426,8 @@
                       </tr>
                       <tr class="border-dashed-bottom">
                         <td>
-                          <h4>Grilled Sandwich <button class="btn btn-outline d-block d-xl-none"><img src="images/pencil-brown.png" alt=""></button></h4>
+                          <h4>Grilled Sandwich <button class="btn btn-outline d-block d-xl-none"><img
+                                src="images/pencil-brown.png" alt=""></button></h4>
                           <div class="quantity d-flex d-xl-none mt-2 mb-3">
                             <button class="btn"> <span class="minus">-</span> </button>
                             <input type="text" placeholder="1" class="form-control">
@@ -822,8 +820,102 @@
             </div>
           </div>
           <div class="row mt-5">
-            <div class="col text-center">
-              <button class="btn btn-lg proceed-payment  mx-auto px-xl-5 py-xl-3">Proceed to Payment</button>
+            <div class="col checkout-inner-container confirm-payment">
+              <div class="row ">
+                <!-- Method info Delivery, Location and Time starts -->
+                <div class="col p-4 border-bottom items-to-checkout">
+                  <div class="row">
+                    <div class="col-xl-7">
+                      <h4>Blazin Burger, Grilled Sandwich <span>+2 Addons</span> </h4>
+                    </div>
+
+                    <div class="col-xl-4">
+                      <strong>$15.40</strong>
+                    </div>
+                    <div class="col-xl-1">
+                      <button class="btn">
+                        <img src="images/pencil-icon.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Method info Delivery, Location and Time Ends -->
+              </div>
+              <div class="row mt-5">
+                <div class="col">
+                   
+                    <div class="row">
+                      <div class="col-md-12 px-4"> <h3>Guest Details</h3></div>
+                        <div class="col guest-details ">
+                            <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="pills-home-tab1" data-toggle="pill"
+                                        href="#pills-home1" role="tab" aria-controls="pills-home1"
+                                        aria-selected="true">Sign In</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="pills-profile-tab1" data-toggle="pill"
+                                        href="#pills-profile1" role="tab" aria-controls="pills-profile1"
+                                        aria-selected="false">Register</a>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane signin-form fade show active" id="pills-home1"
+                                    role="tabpanel" aria-labelledby="pills-home-tab1">
+                                    new card
+                                    <form>
+
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="inputAddress"
+                                                placeholder="1234 Main St">
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input type="text" class="form-control" id="inputAddress2"
+                                                placeholder="Apartment, studio, or floor">
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-lg-4">
+
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="form-group col-lg-4">
+
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-lg-4">
+
+                                                <input type="text" class="form-control" id="inputZip">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input"
+                                                    id="customCheck1">
+                                                <label class="custom-control-label" for="customCheck1">Check
+                                                    this custom checkbox</label>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane register-form fade" id="pills-profile1" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab1">
+                                    saved card
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             </div>
           </div>
       </div>
