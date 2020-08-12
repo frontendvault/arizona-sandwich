@@ -305,6 +305,16 @@
                         font-size: 14px;
                         font-weight: 600;
                     }
+
+                    .btn-outline {
+                        border: 1px solid $light-grey;
+                        padding: 0;
+                        height: 32px;
+                        width: 32px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
                 }
 
                 .instructions {

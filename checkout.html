@@ -367,24 +367,30 @@
                 <div class="table-responsive checkout-inner-container">
                   <table class="table ">
                     <thead>
-                      <tr class="tr">
-                        <th>Item Description</th>
-                        <th>Quantity</th>
+                      <tr>
+                        <th class="item-desc-mobile"> <span class="d-none d-xl-inline-block">Item  Description</span> <span class="d-block d-xl-none"> Item Description <br>
+                          &amp; Quantity</span> </th>
+                        <th class="d-none d-xl-table-cell">Quantity</th>
                         <th>Price</th>
-                        <th>Loyalty Points</th∏>
+                        <th class="d-none d-xl-table-cell"  >Loyalty Points</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr class="border-dashed-bottom">
                         <td>
-                          <h4>Blazin Burger</h4>
+                          <h4>Blazin Burger <button class="btn btn-outline d-block d-xl-none"><img src="images/pencil-brown.png" alt=""></button> </h4>
+                          <div class="quantity d-flex d-xl-none mt-2 mb-3">
+                            <button class="btn"> <span class="minus">-</span> </button>
+                            <input type="text" placeholder="1" class="form-control">
+                            <button class="btn"> <span>+</span> </button>
+                          </div>
                           <h5>Add-ons</h5>
                           <small>Left</small>
                           <p>Ancovies <span>x2</span></p>
                           <small>Left</small>
                           <p>Ancovies <span>x2</span></p>
                         </td>
-                        <td>
+                        <td class="d-none d-xl-table-cell">
                           <div class="quantity">
                             <button class="btn"> <span class="minus">-</span> </button>
                             <input type="text" placeholder="1" class="form-control">
@@ -399,11 +405,11 @@
 
                           <p>$2.00</p>
                         </td>
-                        <td>
+                        <td class="d-none d-xl-table-cell">
                           <div class="loyality-points bg-warning">+8</div>
                         </td>
-                        <td>
-                          <button class="btn btn-outine">
+                        <td class="d-none d-xl-table-cell">
+                          <button class="btn btn-outline">
                             <img src="images/pencil-brown.png" alt="">
                           </button>
                         </td>
@@ -418,12 +424,17 @@
                       </tr>
                       <tr class="border-dashed-bottom">
                         <td>
-                          <h4>Grilled Sandwich</h4>
+                          <h4>Grilled Sandwich <button class="btn btn-outline d-block d-xl-none"><img src="images/pencil-brown.png" alt=""></button></h4>
+                          <div class="quantity d-flex d-xl-none mt-2 mb-3">
+                            <button class="btn"> <span class="minus">-</span> </button>
+                            <input type="text" placeholder="1" class="form-control">
+                            <button class="btn"> <span>+</span> </button>
+                          </div>
                           <h5>Add-ons</h5>
                           <small>All</small>
                           <p>Ancovies </p>
                         </td>
-                        <td>
+                        <td class="d-none d-xl-table-cell">
                           <div class="quantity">
                             <button class="btn"> <span class="minus">-</span> </button>
                             <input type="text" placeholder="1" class="form-control">
@@ -437,11 +448,11 @@
 
 
                         </td>
-                        <td>
+                        <td class="d-none d-xl-table-cell">
                           <div class="loyality-points bg-warning">+6</div>
                         </td>
-                        <td>
-                          <button class="btn btn-outine">
+                        <td class="d-none d-xl-table-cell">
+                          <button class="btn btn-outline">
                             <img src="images/pencil-brown.png" alt="">
                           </button>
                         </td>

@@ -1235,6 +1235,22 @@ input:checked + .slider:before {
   font-weight: 600;
 }
 
+.checkout-pages .table tbody tr td .btn-outline {
+  border: 1px solid #D8D8D8;
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .checkout-pages .table tbody tr .instructions p {
   font-style: italic;
   font-size: 18px;
@@ -1888,11 +1904,28 @@ input:checked + .slider:before {
   .checkout-pages {
     margin-top: -20px;
   }
+  .checkout-pages h3 {
+    font-size: 18px;
+  }
+  .checkout-pages .table {
+    margin-bottom: 0;
+  }
   .checkout-pages .table thead tr th {
     padding: 8px;
   }
+  .checkout-pages .table thead tr .loyality-points-mobile {
+    width: 68px;
+  }
   .checkout-pages .table tbody tr td {
     padding: 8px;
+  }
+  .checkout-pages .table tbody tr td .btn-outline {
+    margin-left: 10px;
+    height: 26px;
+    width: 26px;
+  }
+  .checkout-pages .table tbody tr td .btn-outline img {
+    width: 12px;
   }
   .checkout-pages .progress {
     margin-bottom: 35px;
@@ -1905,6 +1938,9 @@ input:checked + .slider:before {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .checkout-pages .checkout-inner-container .amount-total {
     padding: 20px;
@@ -1922,6 +1958,22 @@ input:checked + .slider:before {
   .checkout-pages .guest-details form .social-login .btn {
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  .checkout-pages .order-summary h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .checkout-pages .order-summary h5 {
+    color: #777777;
+  }
+  .checkout-pages .order-summary small {
+    color: #777777;
   }
 }
 

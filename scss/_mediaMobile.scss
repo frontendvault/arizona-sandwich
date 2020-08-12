@@ -334,11 +334,22 @@
     .checkout-pages {
         margin-top: -20px;
 
+        h3 {
+            font-size: 18px
+        }
+
         .table {
+            margin-bottom: 0;
+
             thead {
                 tr {
                     th {
                         padding: 8px;
+                    }
+
+
+                    .loyality-points-mobile {
+                        width: 68px;
                     }
                 }
             }
@@ -347,6 +358,16 @@
                 tr {
                     td {
                         padding: 8px;
+
+                        .btn-outline {
+                            margin-left: 10px;
+                            height: 26px;
+                            width: 26px;
+
+                            img {
+                                width: 12px;
+                            }
+                        }
                     }
                 }
             }
@@ -364,6 +385,7 @@
                 .coupon-section-inner {
                     .add-trip {
                         flex-direction: column;
+                        align-items: flex-start;
                     }
                 }
             }
@@ -388,6 +410,22 @@
             }
         }
 
+        .order-summary {
+            h4 {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+
+            h5 {
+                color: $grey;
+            }
+
+            small {
+                color: $grey;
+            }
+        }
 
     }
 }
