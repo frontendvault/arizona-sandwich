@@ -339,6 +339,13 @@
             margin-bottom: 20px;
         }
 
+        .suggest-order-addition {
+            h3 {
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+
         .table {
             margin-bottom: 0;
 
@@ -399,7 +406,25 @@
             }
         }
 
+        .confirm-payment {
+            .guest-details {
+                .nav {
+                    background: none;
+                    padding: 0;
+
+                    .nav-item {
+                        .nav-link {
+                            padding: 10px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
         .guest-details {
+            padding: 20px;
+
             form {
                 .social-login {
                     display: flex;
@@ -455,6 +480,10 @@
             p {
                 margin-bottom: 0;
             }
+        }
+
+        .unlock-rewards {
+            padding: 15px 0;
         }
     }
 

@@ -2069,6 +2069,10 @@ input:checked + .slider:before {
     font-size: 18px;
     margin-bottom: 20px;
   }
+  .checkout-pages .suggest-order-addition h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .checkout-pages .table {
     margin-bottom: 0;
   }
@@ -2109,6 +2113,17 @@ input:checked + .slider:before {
             align-items: flex-start;
   }
   .checkout-pages .checkout-inner-container .amount-total {
+    padding: 20px;
+  }
+  .checkout-pages .confirm-payment .guest-details .nav {
+    background: none;
+    padding: 0;
+  }
+  .checkout-pages .confirm-payment .guest-details .nav .nav-item .nav-link {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .checkout-pages .guest-details {
     padding: 20px;
   }
   .checkout-pages .guest-details form .social-login {
@@ -2158,6 +2173,9 @@ input:checked + .slider:before {
   }
   .checkout-pages .items-to-checkout p {
     margin-bottom: 0;
+  }
+  .checkout-pages .unlock-rewards {
+    padding: 15px 0;
   }
   .order-usual-modal .order-my-usual .table .img-col {
     width: 100px;
