@@ -1618,72 +1618,17 @@ input:checked + .slider:before {
   width: 100%;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    width: 180px !important;
-  }
-}
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* For landscape layouts only */
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  aside {
-    width: 100%;
-    margin-top: 30px;
-  }
-  aside .list-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    overflow-x: scroll;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top: 1px solid #D8D8D8;
-    border-bottom: 1px solid #D8D8D8;
-    white-space: nowrap;
-    overflow-y: hidden;
-  }
-  aside .list-group .list-group-item {
-    max-width: 200px;
-  }
-  aside .list-group .list-group-item .list-group-item-action {
-    padding: 20px;
-    color: #9E4122;
-  }
-  aside .block-stacked {
-    margin-top: 50px;
-  }
-  aside .block-stacked button {
-    width: 100%;
-    font-size: 20px;
-  }
-  aside .btn-blocks {
-    margin-top: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  aside .btn-blocks .btn {
-    margin-bottom: 0;
-    width: 30%;
-  }
-  aside .btn-blocks .btn-block {
-    margin-top: 0;
-  }
-  .arizona-sandwich-banner .arz-sandwich-logo {
-    width: 180px;
-  }
   .arizona-sandwich-banner h3 {
-    margin-bottom: 0;
+    margin-bottom: 50px;
+  }
+  aside {
+    width: 210px;
+    margin-top: 30px;
   }
   .checkout-pages .guest-details form .social-login .btn {
     min-width: 300px;
@@ -1725,17 +1670,16 @@ input:checked + .slider:before {
     font-size: 16px;
   }
   .right-side {
-    padding: 0 20px;
-    margin-top: 70px;
+    padding: 0 20px 0 40px;
   }
   .right-side .alert-text {
     background: #f5f5f5;
     position: relative;
   }
-  .right-side .alert-text p span {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 15px;
+  .right-side .alert-text p {
+    font-size: 16px;
+    padding-right: 20px;
+    text-align: left;
   }
   .right-side .alert-text a {
     position: absolute;
@@ -1749,7 +1693,14 @@ input:checked + .slider:before {
     opacity: 1;
   }
   .right-side .delivery-info {
-    margin-top: -30px;
+    margin-top: -60px;
+  }
+  .right-side .delivery-info h4 {
+    font-size: 16px;
+  }
+  .right-side .delivery-info p {
+    font-size: 14px;
+    line-height: 18px;
   }
   .right-side .items-section .burger-banner {
     padding: 0 1rem;
@@ -1798,6 +1749,36 @@ input:checked + .slider:before {
   .cart-section .cart-inner .checkout {
     border-radius: 6px;
     padding: 12px;
+  }
+  .home-fixed-checkout {
+    height: 72px;
+    background: #9E4122;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 30px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .home-fixed-checkout h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 7px;
+  }
+  .home-fixed-checkout h4 span {
+    font-weight: 300;
+    margin-left: 20px;
+  }
+  .home-fixed-checkout p {
+    margin-bottom: 0;
   }
 }
 

@@ -7,13 +7,13 @@
 
     //}
 
-    .arizona-sandwich-banner {
-        .arz-sandwich-logo {
-            width: 180px !important;
-        }
+    // .arizona-sandwich-banner {
+    //     .arz-sandwich-logo {
+    //         width: 180px !important;
+    //     }
 
 
-    }
+    // }
 }
 
 // for  iPad/Tablet Landscape
@@ -24,68 +24,75 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     //    Ordering Menu page starts
-    aside {
-        width: 100%;
-        margin-top: 30px;
+    // aside {
+    //     width: 100%;
+    //     margin-top: 30px;
 
-        .list-group {
-            display: flex;
-            flex-direction: row;
-            overflow-x: scroll;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-top: 1px solid $light-grey;
-            border-bottom: 1px solid $light-grey;
-            white-space: nowrap;
-            overflow-y: hidden;
+    //     .list-group {
+    //         display: flex;
+    //         flex-direction: row;
+    //         overflow-x: scroll;
+    //         padding-left: 15px;
+    //         padding-right: 15px;
+    //         border-top: 1px solid $light-grey;
+    //         border-bottom: 1px solid $light-grey;
+    //         white-space: nowrap;
+    //         overflow-y: hidden;
 
-            .list-group-item {
-                max-width: 200px;
+    //         .list-group-item {
+    //             max-width: 200px;
 
-                .list-group-item-action {
-                    padding: 20px;
-                    color: $brown;
+    //             .list-group-item-action {
+    //                 padding: 20px;
+    //                 color: $brown;
 
-                }
-            }
-        }
+    //             }
+    //         }
+    //     }
 
-        .block-stacked {
-            margin-top: 50px;
+    //     .block-stacked {
+    //         margin-top: 50px;
 
-            button {
-                width: 100%;
-                font-size: 20px;
-            }
-        }
+    //         button {
+    //             width: 100%;
+    //             font-size: 20px;
+    //         }
+    //     }
 
-        .btn-blocks {
-            margin-top: 50px;
-            display: flex;
-            justify-content: space-between;
+    //     .btn-blocks {
+    //         margin-top: 50px;
+    //         display: flex;
+    //         justify-content: space-between;
 
-            .btn {
-                margin-bottom: 0;
-                width: 30%;
-            }
+    //         .btn {
+    //             margin-bottom: 0;
+    //             width: 30%;
+    //         }
 
-            .btn-block {
-                margin-top: 0;
-            }
-        }
-    }
+    //         .btn-block {
+    //             margin-top: 0;
+    //         }
+    //     }
+    // }
 
     .arizona-sandwich-banner {
-        .arz-sandwich-logo {
-            width: 180px;
-        }
+
 
         h3 {
-            margin-bottom: 0;
+            margin-bottom: 50px;
         }
     }
 
+
+
+
     // Checkout iPad
+
+    aside {
+        width: 210px;
+        margin-top: 30px;
+    }
+
     .checkout-pages {
         .guest-details {
             form {
@@ -155,8 +162,7 @@
     }
 
     .right-side {
-        padding: 0 20px;
-        margin-top: 70px;
+        padding: 0 20px 0 40px;
 
 
         .alert-text {
@@ -164,12 +170,9 @@
             position: relative;
 
             p {
-                span {
-                    display: block;
-                    font-size: 18px;
-                    margin-bottom: 15px;
-                }
-
+                font-size: 16px;
+                padding-right: 20px;
+                text-align: left;
 
             }
 
@@ -188,7 +191,16 @@
         }
 
         .delivery-info {
-            margin-top: -30px;
+            h4 {
+                font-size: 16px;
+            }
+
+            margin-top: -60px;
+
+            p {
+                font-size: 14px;
+                line-height: 18px;
+            }
 
         }
 
@@ -272,6 +284,38 @@
                 border-radius: 6px;
                 padding: 12px;
             }
+        }
+    }
+
+    .home-fixed-checkout {
+        height: 72px;
+        background: $brown;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+        font-weight: 600;
+        color: $white;
+
+        h4 {
+            font-size: 18px;
+            margin-bottom: 0;
+            font-weight: 600;
+            margin-top: 7px;
+
+            span {
+                font-weight: 300;
+                margin-left: 20px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+
+
         }
     }
 
