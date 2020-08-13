@@ -434,7 +434,7 @@
                           <input
                             type="email"
                             class="form-control form-control-lg"
-                            placeholder="Register"
+                            placeholder="E-mail Address"
                             id="guestEmail"
                           />
                           <input
@@ -1160,10 +1160,13 @@
               </div>
             </div>
             <div class="row mt-5">
+              <div class="col-md-12 px-0">
+                <h3>Payment Method</h3>
+              </div>
               <div class="col checkout-inner-container confirm-payment">
                 <div class="row">
                   <!-- Method info Delivery, Location and Time starts -->
-                  <div class="col p-4 border-bottom items-to-checkout">
+                  <!-- <div class="col p-4 border-bottom items-to-checkout">
                     <div class="row">
                       <div class="col-md-10 col-xl-7">
                         <h4>
@@ -1179,15 +1182,12 @@
                       </div>
                       <div class="col text-xl-right mt-2"><p>$15.40</p></div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- Method info Delivery, Location and Time Ends -->
                 </div>
-                <div class="row mt-5">
+                <div class="row">
                   <div class="col">
                     <div class="row">
-                      <div class="col-md-12 px-4">
-                        <h3>Payment Method</h3>
-                      </div>
                       <div class="col guest-details">
                         <ul
                           class="nav nav-pills mb-5"
@@ -1401,11 +1401,12 @@
                               <tbody>
                                 <tr>
                                   <td>
-                                    <div class="custom-control custom-checkbox">
+                                    <div class="custom-control custom-radio">
                                       <input
-                                        type="checkbox"
+                                        type="radio"
                                         class="custom-control-input"
                                         id="selectCard1"
+                                        name="selectCard1"
                                         checked
                                       />
                                       <label
@@ -1419,11 +1420,12 @@
                                 </tr>
                                 <tr>
                                   <td>
-                                    <div class="custom-control custom-checkbox">
+                                    <div class="custom-control custom-radio">
                                       <input
-                                        type="checkbox"
+                                        type="radio"
                                         class="custom-control-input"
                                         id="selectCard2"
+                                        name="selectCard1"
                                       />
                                       <label
                                         class="custom-control-label"
