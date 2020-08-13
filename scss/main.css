@@ -214,6 +214,7 @@ aside .left-listing .list-group .list-group-item .active {
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: 100;
+  line-height: 16px;
 }
 
 .cart-section {
@@ -320,6 +321,7 @@ aside .left-listing .list-group .list-group-item .active {
           justify-content: center;
   color: #fff;
   font-size: 30px;
+  line-height: 8px;
 }
 
 .cart-section .cart-inner .two-col .title-price-holder .add-remove-items {
@@ -582,6 +584,7 @@ aside .left-listing .list-group .list-group-item .active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  line-height: 16px;
 }
 
 .custom-width-modal .modal-body .add-remove-item .form-control {
@@ -821,6 +824,7 @@ aside .left-listing .list-group .list-group-item .active {
       -ms-flex-pack: center;
           justify-content: center;
   color: #fff;
+  line-height: 16px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1260,7 +1264,12 @@ input:checked + .slider:before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  line-height: 100px;
+  line-height: 20px;
+}
+
+.checkout-pages .order-summary .quantity .btn span {
+  display: block;
+  width: 100%;
 }
 
 .checkout-pages .order-summary .quantity .btn .minus {
@@ -1436,6 +1445,7 @@ input:checked + .slider:before {
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
+  line-height: 20px;
 }
 
 .checkout-pages .range-section {
