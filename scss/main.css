@@ -1618,8 +1618,47 @@ input:checked + .slider:before {
   width: 100%;
 }
 
+.arizona-sandwich-banner {
+  background: #9E4122;
+}
+
+.arizona-sandwich-banner h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.arizona-sandwich-banner .arz-sandwich-logo {
+  width: 240px;
+  text-align: center;
+}
+
+.mobile-method {
+  min-width: 11rem;
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+  border: 0;
+}
+
+.mobile-method h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mobile-method p {
+  font-size: 14px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .arizona-sandwich-banner .arz-sandwich-logo {
+    width: 195px;
+  }
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* For landscape layouts only */
+  .arizona-sandwich-banner h3 {
+    margin-left: 35px !important;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -1726,6 +1765,9 @@ input:checked + .slider:before {
   }
   .map-area {
     display: none;
+  }
+  .start-order {
+    margin-top: -40px;
   }
   .start-order .time-section {
     margin-left: 12px;
@@ -2164,36 +2206,5 @@ input:checked + .slider:before {
   .order-usual-modal .order-my-usual .table td {
     padding: .75rem;
   }
-}
-
-.arizona-sandwich-banner {
-  background: #9E4122;
-}
-
-.arizona-sandwich-banner h3 {
-  color: #fff;
-  font-weight: 600;
-}
-
-.arizona-sandwich-banner .arz-sandwich-logo {
-  width: 240px;
-  text-align: center;
-}
-
-.mobile-method {
-  min-width: 11rem;
-  padding: 15px;
-  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
-          box-shadow: 0px 0px 4px 2px #D8D8D8;
-  border: 0;
-}
-
-.mobile-method h4 {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.mobile-method p {
-  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
