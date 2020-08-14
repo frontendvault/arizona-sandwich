@@ -402,7 +402,7 @@ aside .left-listing .list-group .list-group-item .active {
 }
 
 .start-order {
-  margin-top: -100px;
+  margin-top: -100px !important;
 }
 
 .start-order .pickup-delivery {
@@ -1657,13 +1657,13 @@ input:checked + .slider:before {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .arizona-sandwich-banner h3 {
-    margin-left: 35px !important;
+    margin-left: 0;
   }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .arizona-sandwich-banner h3 {
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
   aside {
     width: 210px;
@@ -1709,7 +1709,7 @@ input:checked + .slider:before {
     font-size: 16px;
   }
   .right-side {
-    padding: 0 20px 0 40px;
+    padding: 20px;
   }
   .right-side .alert-text {
     background: #f5f5f5;
@@ -1761,19 +1761,28 @@ input:checked + .slider:before {
   }
   .location-status-map .location-container .location .open-time,
   .location-status-map .location-container .location .close-time {
-    margin-bottom: 20px;
+    margin-bottom: 0;
+  }
+  .location-status-map .location-container .location .location-left h3 {
+    font-size: 18px;
+  }
+  .location-status-map .location-container .location .location-right {
+    max-width: 156px;
   }
   .map-area {
     display: none;
   }
   .start-order {
-    margin-top: -40px;
+    margin-top: -40px !important;
   }
   .start-order .time-section {
     margin-left: 12px;
     margin-right: 12px;
     -webkit-box-shadow: 0 0 4px 2px #f5f5f5;
             box-shadow: 0 0 4px 2px #f5f5f5;
+  }
+  .start-order .pickup-delivery .pickup-delivery-box {
+    padding: 30px 0;
   }
   .modal-body {
     padding-bottom: 10px;
@@ -1994,6 +2003,9 @@ input:checked + .slider:before {
   .rewards-modal .table th {
     color: #777777 !important;
     opacity: .7;
+  }
+  .start-order {
+    margin-top: 0 !important;
   }
   .start-order .pickup-delivery .pickup-delivery-box {
     margin: 5px;
