@@ -1618,6 +1618,181 @@ input:checked + .slider:before {
   width: 100%;
 }
 
+.order-confirmed {
+  -webkit-box-shadow: 0px 0px 4px 2px #D8D8D8;
+          box-shadow: 0px 0px 4px 2px #D8D8D8;
+  padding: 40px;
+  margin-top: -90px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.order-confirmed .success-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-confirmed .success-wrapper h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.order-confirmed .success-wrapper h2 span {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.order-confirmed .success-wrapper .success-check {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background: #3BB54A;
+  line-height: 65px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.order-confirmed .review-experience p {
+  color: #A0A0A0;
+  margin-bottom: 8px;
+}
+
+.order-confirmed .review-experience .experience-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.order-confirmed .review-experience .experience-icons a {
+  height: 36px;
+  width: 36px;
+  border-radius: 5px;
+  background: #f5f5f5;
+  text-align: center;
+  line-height: 36px;
+  margin-left: 10px;
+}
+
+.order-confirmed .order-confirmed-content {
+  border-top: 1px solid #D8D8D8;
+  padding-top: 40px;
+}
+
+.order-confirmed .order-confirmed-content h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.order-confirmed .order-confirmed-content h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.order-confirmed .order-confirmed-content .order-left {
+  padding: 40px;
+}
+
+.order-confirmed .order-confirmed-content .order-left h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order-confirmed .order-confirmed-content .order-left h6 span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.order-confirmed .order-confirmed-content .order-left p {
+  margin-bottom: 8px;
+}
+
+.order-confirmed .order-confirmed-content .order-left .order-status {
+  margin-bottom: 50px;
+}
+
+.order-confirmed .order-confirmed-content .order-left .order-status p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.order-confirmed .order-confirmed-content .order-left .order-status a {
+  color: #C72014;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.order-confirmed .order-confirmed-content .order-left .order-details {
+  margin-bottom: 50px;
+}
+
+.order-confirmed .order-confirmed-content .order-left .order-details .icon-holder {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  line-height: 22px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.order-confirmed .order-confirmed-content .order-left .order-details p span {
+  color: #A0A0A0;
+  margin-right: 5px;
+}
+
+.order-confirmed .order-confirmed-content .order-right {
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.order-confirmed .order-confirmed-content .order-right p {
+  font-size: 16px;
+  color: #777777;
+  margin-bottom: 0;
+}
+
+.order-confirmed .order-confirmed-content .order-right span {
+  font-size: 14px;
+  color: #A0A0A0;
+}
+
+.order-confirmed .order-confirmed-content .order-right small {
+  font-size: 12px;
+  color: #A0A0A0;
+}
+
+.order-confirmed .order-confirmed-content .order-right .special-inst {
+  border-top: 2px dashed #D8D8D8;
+  font-style: italic;
+  font-style: 16px;
+  padding-top: 15px;
+  color: #A0A0A0;
+}
+
+.order-confirmed .order-confirmed-content .order-right .special-inst span {
+  font-size: 12px;
+}
+
+.order-confirmed .order-confirmed-content .order-right .price {
+  font-size: 16px;
+  color: #A0A0A0;
+}
+
+.order-confirmed .order-confirmed-content .order-right .price strong {
+  color: #343434;
+}
+
 .arizona-sandwich-banner {
   background: #9E4122;
 }
