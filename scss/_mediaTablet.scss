@@ -347,6 +347,20 @@
             padding-top: 0;
         }
 
+
+    }
+
+    #successModal {
+        .order-right {
+            .accordion {
+                margin-top: 20px;
+
+                .card {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
     }
 
 }

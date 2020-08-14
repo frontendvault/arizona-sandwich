@@ -1791,28 +1791,32 @@ input:checked + .slider:before {
   margin-right: 5px;
 }
 
-.order-confirmed .order-confirmed-content .order-right {
+#successModal .close {
+  opacity: 1;
+}
+
+.order-right {
   background: #f5f5f5;
   border-radius: 5px;
 }
 
-.order-confirmed .order-confirmed-content .order-right p {
+.order-right p {
   font-size: 16px;
   color: #777777;
   margin-bottom: 0;
 }
 
-.order-confirmed .order-confirmed-content .order-right span {
+.order-right span {
   font-size: 14px;
   color: #A0A0A0;
 }
 
-.order-confirmed .order-confirmed-content .order-right small {
+.order-right small {
   font-size: 12px;
   color: #A0A0A0;
 }
 
-.order-confirmed .order-confirmed-content .order-right .special-inst {
+.order-right .special-inst {
   border-top: 2px dashed #D8D8D8;
   font-style: italic;
   font-style: 16px;
@@ -1820,34 +1824,34 @@ input:checked + .slider:before {
   color: #A0A0A0;
 }
 
-.order-confirmed .order-confirmed-content .order-right .special-inst span {
+.order-right .special-inst span {
   font-size: 12px;
 }
 
-.order-confirmed .order-confirmed-content .order-right .price {
+.order-right .price {
   font-size: 16px;
   color: #A0A0A0;
 }
 
-.order-confirmed .order-confirmed-content .order-right .price strong {
+.order-right .price strong {
   color: #343434;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion {
+.order-right .accordion {
   margin-top: 40px;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card {
+.order-right .accordion .card {
   border: none;
   margin-bottom: 20px;
   padding: 20px;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card .price-right {
+.order-right .accordion .card .price-right {
   margin-right: 50px;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card h2 {
+.order-right .accordion .card h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1862,22 +1866,22 @@ input:checked + .slider:before {
   font-size: 18px;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card h2.collapsed {
+.order-right .accordion .card h2.collapsed {
   background-image: url(../images/caret-bottom.png);
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card h2 span {
+.order-right .accordion .card h2 span {
   color: #343434;
   font-size: 20px;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card .card-body {
+.order-right .accordion .card .card-body {
   padding: 0;
   padding-top: 20px;
   border-top: 1px solid #D8D8D8;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card .card-body p {
+.order-right .accordion .card .card-body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1887,13 +1891,21 @@ input:checked + .slider:before {
   padding: 10px 0;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card .card-body p span {
+.order-right .accordion .card .card-body p span {
   font-size: 16px;
   color: #343434;
 }
 
-.order-confirmed .order-confirmed-content .order-right .accordion .card .card-body .coupon-code span {
+.order-right .accordion .card .card-body .coupon-code span {
   color: #C72014;
+}
+
+#successModal .order-right {
+  background: transparent;
+}
+
+#successModal .order-right .accordion .card {
+  background: #f5f5f5;
 }
 
 .arizona-sandwich-banner {
@@ -2114,6 +2126,13 @@ input:checked + .slider:before {
   }
   .order-confirmed .order-confirmed-content {
     padding-top: 0;
+  }
+  #successModal .order-right .accordion {
+    margin-top: 20px;
+  }
+  #successModal .order-right .accordion .card {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
@@ -2531,6 +2550,21 @@ input:checked + .slider:before {
   .order-confirmed .success-wrapper h2 span {
     font-size: 18px;
     margin-top: 5px;
+  }
+  #successModal h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #successModal h5 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #successModal .order-right .accordion {
+    margin-top: 20px;
+  }
+  #successModal .order-right .accordion .card {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

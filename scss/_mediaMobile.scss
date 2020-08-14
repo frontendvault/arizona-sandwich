@@ -547,4 +547,29 @@
             }
         }
     }
+
+    #successModal {
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .order-right {
+
+
+            .accordion {
+                margin-top: 20px;
+
+                .card {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
 }

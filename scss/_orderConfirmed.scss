@@ -160,112 +160,132 @@
             }
         }
 
-        .order-right {
-            background: $fade-grey;
-            border-radius: 5px;
 
-            p {
-                font-size: 16px;
-                color: $grey;
-                margin-bottom: 0;
+
+    }
+}
+
+//  right side cart including Modal Car for iPad amd Mobile
+
+#successModal {
+    .close {
+        opacity: 1;
+    }
+}
+
+.order-right {
+    background: $fade-grey;
+    border-radius: 5px;
+
+    p {
+        font-size: 16px;
+        color: $grey;
+        margin-bottom: 0;
+    }
+
+    span {
+        font-size: 14px;
+        color: $medium-grey;
+    }
+
+    small {
+        font-size: 12px;
+        color: $medium-grey;
+    }
+
+    .special-inst {
+        border-top: 2px dashed $light-grey;
+        font-style: italic;
+        font-style: 16px;
+        padding-top: 15px;
+        color: $medium-grey;
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .price {
+        font-size: 16px;
+        color: $medium-grey;
+
+        strong {
+            color: $dark-grey;
+        }
+    }
+
+    .accordion {
+        margin-top: 40px;
+
+        .card {
+            border: none;
+            margin-bottom: 20px;
+            padding: 20px;
+
+            .price-right {
+                margin-right: 50px;
             }
 
-            span {
-                font-size: 14px;
-                color: $medium-grey;
-            }
 
-            small {
-                font-size: 12px;
-                color: $medium-grey;
-            }
+            h2 {
+                display: flex;
+                font-weight: 600;
+                padding: 10px 0;
 
-            .order-summary {}
+                justify-content: space-between;
+                background: url(../images/caret-top.png) no-repeat calc(100% - 10px) center;
+                background-size: 20px;
+                cursor: pointer;
+                font-size: 18px;
 
-            .special-inst {
-                border-top: 2px dashed $light-grey;
-                font-style: italic;
-                font-style: 16px;
-                padding-top: 15px;
-                color: $medium-grey;
+
+                &.collapsed {
+                    background-image: url(../images/caret-bottom.png);
+                }
 
                 span {
-                    font-size: 12px;
-                }
-            }
-
-            .price {
-                font-size: 16px;
-                color: $medium-grey;
-
-                strong {
                     color: $dark-grey;
+                    font-size: 20px;
                 }
             }
 
-            .accordion {
-                margin-top: 40px;
+            .card-body {
+                padding: 0;
+                padding-top: 20px;
+                border-top: 1px solid $light-grey;
 
-                .card {
-                    border: none;
-                    margin-bottom: 20px;
-                    padding: 20px;
 
-                    .price-right {
-                        margin-right: 50px;
+
+                p {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+
+                    span {
+                        font-size: 16px;
+                        color: $dark-grey;
                     }
-
-
-                    h2 {
-                        display: flex;
-                        font-weight: 600;
-                        padding: 10px 0;
-
-                        justify-content: space-between;
-                        background: url(../images/caret-top.png) no-repeat calc(100% - 10px) center;
-                        background-size: 20px;
-                        cursor: pointer;
-                        font-size: 18px;
-
-
-                        &.collapsed {
-                            background-image: url(../images/caret-bottom.png);
-                        }
-
-                        span {
-                            color: $dark-grey;
-                            font-size: 20px;
-                        }
-                    }
-
-                    .card-body {
-                        padding: 0;
-                        padding-top: 20px;
-                        border-top: 1px solid $light-grey;
-
-
-
-                        p {
-                            display: flex;
-                            justify-content: space-between;
-                            padding: 10px 0;
-
-                            span {
-                                font-size: 16px;
-                                color: $dark-grey;
-                            }
-                        }
-
-                        .coupon-code {
-                            span {
-                                color: $dark-red;
-                            }
-                        }
-                    }
-
                 }
+
+                .coupon-code {
+                    span {
+                        color: $dark-red;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+#successModal {
+    .order-right {
+        background: transparent;
+
+        .accordion {
+            .card {
+                background: $fade-grey;
             }
         }
-
     }
 }

@@ -167,7 +167,7 @@
                           </div>
                         </div>
                         <div class="row d-block d-xl-none mx-1">
-                          <div class="col small-devices-cart-success"><div>
+                          <div class="col small-devices-cart-success" data-toggle="modal" data-target="#successModal"><div>
                             <p>1x Blazin Burger,  <br>
                                 1x Grilled Sandwich</p>  
 
@@ -365,7 +365,153 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header border-bottom-0 pb-0">
+              <h4 class="modal-title" id="exampleModalLabel">Order Summary</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"> <img src="images/cross-brown.png" alt=""> </span>
+              </button>
+            </div>
+            <div class="modal-body pt-0">
+                <div
+                class=" order-right"
+              >
+                <div class="row">
+                  <div class="col px-4 pt-3 pb-0 p-md-4">
 
+                    <div
+                      class="row justify-content-between border-bottom pb-3"
+                    >
+                      <div class="col">
+                        <div class="row">
+                          <div class="col">
+                            <h5>Blazin Burger</h5>
+                            <span>Add-ons</span>
+                          </div>
+                          <div class="col text-md-right price">
+                            <strong>$8.50</strong>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <small>Left</small>
+                          </div>
+                          <div class="col">
+                            <p>Ancovies <span> x2</span></p>
+                          </div>
+                          <div class="col text-md-right price">$4.00</div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <small>Right</small>
+                          </div>
+                          <div class="col">
+                            <p>Pepperoni</p>
+                            <span>Add-ons</span>
+                          </div>
+                          <div class="col text-md-right price">$2.00</div>
+                        </div>
+                      </div>
+                      <div class="col-md-11 mx-auto mt-3 special-inst">
+                        <span>Special Instructions: </span>
+                        <p>Make it more spicy</p>
+                      </div>
+                    </div>
+                    <div class="row justify-content-between py-3">
+                      <div class="col">
+                        <div class="row">
+                          <div class="col">
+                            <h5>Grilled Sandwich</h5>
+                            <span>Add-ons</span>
+                          </div>
+                          <div class="col text-md-right price">
+                            <strong>$4.50</strong>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <small>Left</small>
+                          </div>
+                          <div class="col">
+                            <p>Ancovies <span> x2</span></p>
+                          </div>
+                          <div class="col text-md-right price">$4.00</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <div class="accordion" id="accordionExample">
+                          <div class="card">
+                            <div class="card-head" id="headingThree">
+                              <h2
+                                class="mb-0 collapsed"
+                                data-toggle="collapse"
+                                data-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                              >
+                                <span>Total</span>
+                                <span class="price-right"> $15.40</span>
+                              </h2>
+                            </div>
+                            <div
+                              id="collapseThree"
+                              class="collapse"
+                              aria-labelledby="headingThree"
+                              data-parent="#accordionExample"
+                            >
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col">
+                                    <p>
+                                      <span>Sub Total</span>
+                                      <span class="price-right"
+                                        >$13.00</span
+                                      >
+                                    </p>
+                                    <p>
+                                      <span>Tax</span>
+                                      <span class="price-right"
+                                        >$0.10</span
+                                      >
+                                    </p>
+                                    <p>
+                                      <span>Tip</span>
+                                      <span class="price-right"
+                                        >$2.20
+                                      </span>
+                                    </p>
+                                    <p>
+                                      <span>Online Ordering</span>
+                                      <span class="price-right"
+                                        >$0.10</span
+                                      >
+                                    </p>
+                                    <p class="coupon-code">
+                                      <span>Coupon Code</span>
+                                      <span class="price-right"
+                                        >- &nbsp;$0.00</span
+                                      >
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
