@@ -115,7 +115,7 @@
             <div class="row">
               <div class="col order-confirmed">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-xl-6">
                     <div class="row">
                       <!-- Success Message Starts -->
                       <div class="col-md-auto success-wrapper">
@@ -131,7 +131,9 @@
                       <!-- Success Message ends -->
                     </div>
                   </div>
-                  <div class="col-md-6 review-experience text-right">
+                  <div
+                    class="d-none d-md-none d-xl-block col-xl-6 review-experience text-right"
+                  >
                     <p>Review Your Experience</p>
                     <div class="experience-icons">
                       <a href="#">
@@ -147,7 +149,7 @@
                 <div class="row mt-4">
                   <div class="col order-confirmed-content">
                     <div class="row">
-                      <div class="col order-left">
+                      <div class="col-xl-7 order-left">
                         <div class="row order-status">
                           <div class="col-md-12">
                             <h4>Order Status</h4>
@@ -164,111 +166,188 @@
                             >
                           </div>
                         </div>
-                        <div class="row order-details">
-                          <div class="col-md-12">
-                            <h4>Order Status</h4>
-                            <div class="row">
-                              <div class="col d-flex">
-                                <div class="icon-holder">
-                                  <img src="images/order-number.png" alt="" />
-                                </div>
-                                <p><span>Order Number:</span> 128895001</p>
+                        <div class="row d-block d-xl-none mx-1">
+                          <div class="col small-devices-cart-success"><div>
+                            <p>1x Blazin Burger,  <br>
+                                1x Grilled Sandwich</p>  
+
+                          </div>
+                          <div> <p><a href="javascript:;">$15.40 <img src="images/caret-right.png" alt=""></a> </p> </div>
+                        </div>
+                      </div>
+                      <div class="row order-details">
+                        <div class="col-md-12">
+                          <h4>Order Details</h4>
+                          <div class="row">
+                            <div class="col d-flex">
+                              <div class="icon-holder">
+                                <img src="images/order-number.png" alt="" />
                               </div>
-                            </div>
-                            <div class="row">
-                              <div class="col d-flex">
-                                <div class="icon-holder">
-                                  <img src="images/pickup-icon.png" alt="" />
-                                </div>
-                                <p><span>Pickup:</span> Today at 3:30 PM</p>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col d-flex">
-                                <div class="icon-holder">
-                                  <img src="images/pickup-icon.png" alt="" />
-                                </div>
-                                <p><span>Payment:</span> Paid (Visa 4567)</p>
-                              </div>
+                              <p><span>Order Number:</span> 128895001</p>
                             </div>
                           </div>
-                        </div>
-                        <div class="row order-status">
-                          <div class="col-md-12">
-                            <h4>Pickup Address</h4>
-                            <h6>Kyle’s Best Chicken <span>Frisco, TX</span></h6>
-
-                            <p>
-                              Vintage Road, Plaza Square 123223 <br />
-                              Marting Sheen Street Farmers Branch, <br />
-                              Texas 76543
-                            </p>
+                          <div class="row">
+                            <div class="col d-flex">
+                              <div class="icon-holder">
+                                <img src="images/pickup-icon.png" alt="" />
+                              </div>
+                              <p class="pickup-bg">
+                                <span>Pickup:</span> Today at 3:30 PM
+                              </p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col d-flex">
+                              <div class="icon-holder">
+                                <img src="images/payment-icon.png" alt="" />
+                              </div>
+                              <p><span>Payment:</span> Paid (Visa 4567)</p>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6 order-right">
-                        <div class="row">
-                          <div class="col p-4">
-                            <h4>Order Summary</h4>
+                      <div class="row order-status mb-0">
+                        <div class="col-md-12">
+                          <h4>Pickup Address</h4>
+                          <h6>Kyle’s Best Chicken <span>Frisco, TX</span></h6>
 
-                            <div
-                              class="row justify-content-between border-bottom pb-3"
-                            >
-                              <div class="col">
-                                <div class="row">
-                                  <div class="col">
-                                    <h5>Blazin Burger</h5>
-                                    <span>Add-ons</span>
-                                  </div>
-                                  <div class="col text-md-right price">
-                                    <strong>$8.50</strong>
-                                  </div>
+                          <p>
+                            Vintage Road, Plaza Square 123223 <br class="d-none d-xl-block" />
+                            Marting Sheen Street Farmers Branch, <br class="d-none d-xl-block" />
+                            Texas 76543
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-none d-md-none d-xl-block col-xl-5 order-right"
+                    >
+                      <div class="row">
+                        <div class="col p-4">
+                          <h4>Order Summary</h4>
+
+                          <div
+                            class="row justify-content-between border-bottom pb-3"
+                          >
+                            <div class="col">
+                              <div class="row">
+                                <div class="col">
+                                  <h5>Blazin Burger</h5>
+                                  <span>Add-ons</span>
                                 </div>
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <small>Left</small>
-                                  </div>
-                                  <div class="col">
-                                    <p>Ancovies <span> x2</span></p>
-                                  </div>
-                                  <div class="col text-md-right price">$4.00</div>
-                                </div>
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <small>Right</small>
-                                  </div>
-                                  <div class="col">
-                                    <p>Pepperoni</p>
-                                    <span>Add-ons</span>
-                                  </div>
-                                  <div class="col text-md-right price">$2.00</div>
+                                <div class="col text-md-right price">
+                                  <strong>$8.50</strong>
                                 </div>
                               </div>
-                              <div class="col-md-11 mx-auto mt-3 special-inst">
-                                <span>Special Instructions: </span>
-                                <p>Make it more spicy</p>
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <small>Left</small>
+                                </div>
+                                <div class="col">
+                                  <p>Ancovies <span> x2</span></p>
+                                </div>
+                                <div class="col text-md-right price">$4.00</div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <small>Right</small>
+                                </div>
+                                <div class="col">
+                                  <p>Pepperoni</p>
+                                  <span>Add-ons</span>
+                                </div>
+                                <div class="col text-md-right price">$2.00</div>
                               </div>
                             </div>
-                            <div class="row justify-content-between py-3">
-                              <div class="col">
-                                <div class="row">
-                                  <div class="col">
-                                    <h5>Grilled Sandwich</h5>
-                                    <span>Add-ons</span>
+                            <div class="col-md-11 mx-auto mt-3 special-inst">
+                              <span>Special Instructions: </span>
+                              <p>Make it more spicy</p>
+                            </div>
+                          </div>
+                          <div class="row justify-content-between py-3">
+                            <div class="col">
+                              <div class="row">
+                                <div class="col">
+                                  <h5>Grilled Sandwich</h5>
+                                  <span>Add-ons</span>
+                                </div>
+                                <div class="col text-md-right price">
+                                  <strong>$4.50</strong>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <small>Left</small>
+                                </div>
+                                <div class="col">
+                                  <p>Ancovies <span> x2</span></p>
+                                </div>
+                                <div class="col text-md-right price">$4.00</div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col">
+                              <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                  <div class="card-head" id="headingThree">
+                                    <h2
+                                      class="mb-0 collapsed"
+                                      data-toggle="collapse"
+                                      data-target="#collapseThree"
+                                      aria-expanded="false"
+                                      aria-controls="collapseThree"
+                                    >
+                                      <span>Total</span>
+                                      <span class="price-right"> $15.40</span>
+                                    </h2>
                                   </div>
-                                  <div class="col text-md-right price">
-                                    <strong>$4.50</strong>
+                                  <div
+                                    id="collapseThree"
+                                    class="collapse"
+                                    aria-labelledby="headingThree"
+                                    data-parent="#accordionExample"
+                                  >
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col">
+                                          <p>
+                                            <span>Sub Total</span>
+                                            <span class="price-right"
+                                              >$13.00</span
+                                            >
+                                          </p>
+                                          <p>
+                                            <span>Tax</span>
+                                            <span class="price-right"
+                                              >$0.10</span
+                                            >
+                                          </p>
+                                          <p>
+                                            <span>Tip</span>
+                                            <span class="price-right"
+                                              >$2.20
+                                            </span>
+                                          </p>
+                                          <p>
+                                            <span>Online Ordering</span>
+                                            <span class="price-right"
+                                              >$0.10</span
+                                            >
+                                          </p>
+                                          <p class="coupon-code">
+                                            <span>Coupon Code</span>
+                                            <span class="price-right"
+                                              >- &nbsp;$0.00</span
+                                            >
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
                                   </div>
                                 </div>
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <small>Left</small>
-                                  </div>
-                                  <div class="col">
-                                    <p>Ancovies <span> x2</span></p>
-                                  </div>
-                                  <div class="col text-md-right price">$4.00</div>
-                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>

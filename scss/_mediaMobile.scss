@@ -504,4 +504,47 @@
             }
         }
     }
+
+    .order-confirmed {
+        margin-top: 10px;
+        padding: 20px;
+
+        .order-confirmed-content {
+            padding-top: 10px;
+
+            .order-left {
+                padding: 20px;
+
+                .order-details {
+                    margin-bottom: 30px;
+                }
+
+                .order-status {
+                    margin-bottom: 30px;
+                }
+
+                .small-devices-cart-success {
+                    margin-bottom: 30px;
+                    padding: 10px;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+
+
+
+        .success-wrapper {
+            h2 {
+                font-size: 24px;
+
+                span {
+                    font-size: 18px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
 }

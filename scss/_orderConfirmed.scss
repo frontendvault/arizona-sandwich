@@ -72,7 +72,27 @@
         .order-left {
             padding: 40px;
 
+            .small-devices-cart-success {
+                background: $fade-grey;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 30px;
 
+                a {
+                    color: $dark-grey;
+
+                    img {
+                        margin-left: 10px;
+                    }
+                }
+
+                p {
+                    font-weight: 600;
+                }
+            }
 
             h6 {
                 font-size: 18px;
@@ -108,6 +128,18 @@
 
             .order-details {
                 margin-bottom: 50px;
+
+                .pickup-bg {
+                    background: $success;
+                    padding: 0 5px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    color: $white;
+
+                    span {
+                        color: $white;
+                    }
+                }
 
                 .icon-holder {
                     height: 24px;
@@ -168,6 +200,69 @@
 
                 strong {
                     color: $dark-grey;
+                }
+            }
+
+            .accordion {
+                margin-top: 40px;
+
+                .card {
+                    border: none;
+                    margin-bottom: 20px;
+                    padding: 20px;
+
+                    .price-right {
+                        margin-right: 50px;
+                    }
+
+
+                    h2 {
+                        display: flex;
+                        font-weight: 600;
+                        padding: 10px 0;
+
+                        justify-content: space-between;
+                        background: url(../images/caret-top.png) no-repeat calc(100% - 10px) center;
+                        background-size: 20px;
+                        cursor: pointer;
+                        font-size: 18px;
+
+
+                        &.collapsed {
+                            background-image: url(../images/caret-bottom.png);
+                        }
+
+                        span {
+                            color: $dark-grey;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .card-body {
+                        padding: 0;
+                        padding-top: 20px;
+                        border-top: 1px solid $light-grey;
+
+
+
+                        p {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 10px 0;
+
+                            span {
+                                font-size: 16px;
+                                color: $dark-grey;
+                            }
+                        }
+
+                        .coupon-code {
+                            span {
+                                color: $dark-red;
+                            }
+                        }
+                    }
+
                 }
             }
         }
