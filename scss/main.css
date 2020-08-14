@@ -2127,6 +2127,13 @@ input:checked + .slider:before {
   .order-confirmed .order-confirmed-content {
     padding-top: 0;
   }
+  .order-confirmed .success-wrapper h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .order-confirmed .success-wrapper h2 span {
+    font-size: 18px;
+  }
   #successModal .order-right .accordion {
     margin-top: 20px;
   }
