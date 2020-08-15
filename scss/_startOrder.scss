@@ -8,6 +8,39 @@
 .start-order {
     margin-top: -100px !important;
 
+    .takeout-catering {
+
+
+
+        .nav {
+            .nav-item {
+                .nav-link {
+                    color: $brown;
+                    font-weight: 600;
+
+                }
+
+                .nav-link.active {
+                    background: $brown;
+                    color: $white;
+                }
+            }
+
+
+        }
+
+        .btn-outline {
+            border: 2px solid $brown;
+            color: $brown;
+            font-weight: 600;
+
+            &:hover {
+                background: $brown;
+                color: $white;
+            }
+        }
+    }
+
     .pickup-delivery {
         box-shadow: 0px 0px 4px 2px $light-grey;
         background: $white;

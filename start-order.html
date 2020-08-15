@@ -83,8 +83,8 @@
             <nav
               class="nav ml-auto d-flex d-md-none d-xl-none align-items-center"
             >
-              <a href="#" class="nav-link">
-                <div class="btn-group">
+              <!-- <a href="#" class="nav-link">
+                <div class="btn-group">  
                   <button
                     type="button"
                     class="btn btn-secondary dropdown-toggle"
@@ -124,7 +124,7 @@
                     </div>
                   </div>
                 </div>
-              </a>
+              </a> -->
               <a
                 class="nav-link cart-items"
                 href="#"
@@ -178,8 +178,90 @@
             <!-- Alert Ends -->
             <!-- Pick deliver boxes area starts -->
 
-            <div class="row">
-              <div class="col pickup-delivery py-2 py-xl-5">
+            <div class="row mt-5">
+              <div class="col-md-12 px-0 takeout-catering">
+                <ul
+                  class="nav nav-pills mb-3 mt-xl-5"
+                  id="pills-tab"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="pills-home-tab"
+                      data-toggle="pill"
+                      href="#pills-home"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                      >Takeout</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="pills-profile-tab"
+                      data-toggle="pill"
+                      href="#pills-profile"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                      >Catering</a
+                    >
+                  </li>
+                </ul>
+                <div
+                  class="tab-content pickup-delivery p-2 p-xl-5"
+                  id="pills-tabContent"
+                >
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                  >
+                    <div class="row justify-content-center">
+                      <div
+                        class="col-xl-4 pickup-delivery-box mx-3 mx-md-5 mx-xl-2 my-md-4 my-xl-0"
+                      >
+                        <div class="icon-holder mx-auto">
+                          <img src="images/pickup.png" alt="" />
+                        </div>
+                        <h3>Pickup</h3>
+                      </div>
+                      <div
+                        class="col-xl-4 pickup-delivery-box mx-3 mx-md-5 mx-xl-2 my-md-3 mt-md-2 mb-md-4 my-xl-0"
+                      >
+                        <div class="icon-holder mx-auto">
+                          <img src="images/delivery.png" alt="" />
+                        </div>
+
+                        <h3>Delivery</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                  >
+                    <!-- <div
+                      class="col-md-8 offset-md-2 col-xl-4 pickup-delivery-box my-md-4 my-xl-0"
+                    >
+                      <div class="icon-holder mx-auto">
+                        <img src="images/cart-mobile.png" alt="" />
+                      </div>
+                      <h3>Start Order</h3>
+                    </div> -->
+                    <button class="btn lg px-5 py-3 btn-outline m-4">
+                      Start Order
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="col pickup-delivery py-2 py-xl-5">
                 <div class="row justify-content-center">
                   <div
                     class="col-xl-4 pickup-delivery-box mx-3 mx-md-5 mx-xl-2 my-md-4 my-xl-0"
@@ -199,7 +281,7 @@
                     <h3>Delivery</h3>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
             <!-- Pick deliver boxes area starts -->
             <div class="row">
