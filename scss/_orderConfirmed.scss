@@ -159,11 +159,86 @@
                 }
             }
         }
-
-
-
     }
 }
+
+// Order History Starts
+
+.order-history {
+    padding: 40px 50px;
+
+    .order-history-card {
+        background: $fade-grey;
+        padding: 20px;
+        border-radius: 5px;
+        color: $dark-grey;
+
+        h3 {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            // font-weight: 600; 
+
+            span {
+                font-size: 16px;
+                font-weight: 300;
+                margin-left: 10px;
+            }
+        }
+
+        .date {
+
+            font-size: 18px;
+
+
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        small {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 3px;
+            display: block;
+
+        }
+
+        strong {
+            font-size: 20px;
+            background: $white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        .repeat-order {
+            color: $brown;
+
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .btn-outline {
+        border: 2px solid $brown;
+        color: $brown;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:hover {
+            background: $brown;
+            color: $white;
+        }
+    }
+}
+
+
 
 //  right side cart including Modal Car for iPad amd Mobile
 

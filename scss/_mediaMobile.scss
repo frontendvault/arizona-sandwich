@@ -572,4 +572,29 @@
             }
         }
     }
+
+    .order-history {
+        box-shadow: none;
+        margin-top: 0;
+        padding: 10px 20px;
+
+        .order-history-card {
+            box-shadow: 0px 0px 4px 2px $light-grey;
+            background: transparent;
+
+            .date {
+                p {
+                    background: $fade-grey;
+                    padding: 2px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    text-align: center;
+                }
+            }
+
+            .border-bottom {
+                border-bottom: none !important;
+            }
+        }
+    }
 }

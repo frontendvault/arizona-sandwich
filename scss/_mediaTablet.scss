@@ -313,4 +313,12 @@
         }
     }
 
+    .order-history {
+
+        .order-history-card {
+            .border-bottom {
+                border-bottom: none !important;
+            }
+        }
+    }
 }
