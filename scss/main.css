@@ -2235,6 +2235,13 @@ input:checked + .slider:before {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .order-history .order-history-card .date p {
+    background: #fff;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }
   .order-history .order-history-card .border-bottom {
     border-bottom: none !important;
   }

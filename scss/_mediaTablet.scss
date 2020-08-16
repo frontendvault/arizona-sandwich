@@ -313,9 +313,20 @@
         }
     }
 
+    // Order history Page
     .order-history {
 
         .order-history-card {
+            .date {
+                p {
+                    background: $white;
+                    width: auto;
+                    padding: 5px;
+                    border-radius: 5px;
+                    display: inline-block;
+                }
+            }
+
             .border-bottom {
                 border-bottom: none !important;
             }
