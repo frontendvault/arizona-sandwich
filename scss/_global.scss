@@ -29,3 +29,10 @@
         font-size: 14px;
     }
 }
+
+.btn {
+    &:focus {
+
+        box-shadow: none;
+    }
+}

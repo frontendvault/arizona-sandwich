@@ -929,8 +929,8 @@ aside .left-listing .list-group .list-group-item .active {
 }
 
 .location-status-map .location-container .select-btn-container {
-  margin-left: -33px;
-  margin-right: -33px;
+  margin-left: -23px;
+  margin-right: -23px;
   margin-top: 20px;
 }
 
@@ -1301,6 +1301,8 @@ input:checked + .slider:before {
   height: 32px;
   width: 32px;
   margin: 0 10px;
+  padding: 0;
+  text-align: center;
 }
 
 .checkout-pages .table thead tr th {
@@ -1869,7 +1871,7 @@ input:checked + .slider:before {
   color: #9E4122;
 }
 
-.order-history .order-history-card .repeat-order img {
+.order-history .order-history-card .repeat-order svg {
   margin-right: 5px;
 }
 
@@ -2031,6 +2033,11 @@ input:checked + .slider:before {
 
 .mobile-method p {
   font-size: 14px;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -2468,6 +2475,8 @@ input:checked + .slider:before {
     font-weight: 500;
   }
   .location-status-map {
+    -webkit-box-shadow: none;
+            box-shadow: none;
     padding: 15px;
   }
   .location-status-map .location-container {
