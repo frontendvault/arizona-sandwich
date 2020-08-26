@@ -529,6 +529,11 @@ aside .left-listing .list-group .list-group-item .active {
   border-radius: 6px;
 }
 
+.border-left-right {
+  border-right: 1px solid #f5f5f5;
+  border-left: 1px solid #f5f5f5;
+}
+
 /*
  *  STYLE 5
  */
