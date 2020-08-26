@@ -401,6 +401,10 @@ aside .left-listing .list-group .list-group-item .active {
   margin-bottom: 75px;
 }
 
+.arizona-sandwich-banner .arz-sandwich-logo img {
+  width: 110px;
+}
+
 .start-order {
   margin-top: -100px !important;
 }
