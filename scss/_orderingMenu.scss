@@ -7,10 +7,18 @@ aside {
     width: 240px;
 
 
+
     .block-stacked {
+        background: $fade-grey;
+        padding: 20px;
+        height: auto;
+        border-radius: 5px;
+
         button {
             font-weight: bold;
             width: 48%;
+            color: $brown;
+
         }
 
         .btn-brown {
@@ -357,8 +365,11 @@ aside {
                 }
 
                 .sub-total {
+                    padding-top: 30px;
+
+
                     .add-ons {
-                        padding: 15px;
+                        padding: 12px 15px;
                     }
 
                     .total {
