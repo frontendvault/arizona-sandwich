@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        /* height: 842px; */
+        width: 900px;
+        margin: 20px auto;
+        font-family: sans-serif;
+        font-size: 18px;
+      }
+      .margin-0 {
+        margin: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      .container .row {
+        display: flex;
+        justify-content: space-between;
+      }
+      .container .row .right-side {
+        width: 325px;
+      }
+      .container .row .right-side p span {
+        font-size: 40px;
+        font-weight: bold;
+      }
+      ul {
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .delivery-box {
+        border: 1px solid #000;
+        padding: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+      .delivery-box h2 {
+        margin-bottom: 10px;
+      }
+      .delivery-box h5 {
+        background: #000;
+        color: #fff;
+        padding: 5px;
+      }
+      table tr {
+        align-self: start;
+        align-items: flex-start;
+      }
+      table {
+        width: 100%;
+      }
+      table td {
+        padding: 10px;
+        vertical-align: top;
+        width: auto;
+      }
+      .border-bottom {
+        border-bottom: 1px solid #000;
+      }
+      .quantity {
+        border: 1px solid #000;
+        text-align: center;
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+      }
+      tr.border_bottom td {
+        border-bottom: 1px solid black;
+      }
+      .py-1 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col" style="flex: 0.7">
+          <strong>Lal Palmas Mexican Retaurant &amp; Cantina</strong>
+          <p>(757) 467-1105</p>
+          <br />
+          <br />
+
+          <p>Confirmation Code: <strong>8576</strong></p>
+          <p>Order: <strong>#16971262 -- 7815266</strong></p>
+          <p>Order placed on: <strong>Aug 28 2020, 11:22:42 AM</strong></p>
+
+          <div class="delivery-box">
+            <h2><img src="star-circle.png" alt="" /> DELIVERY</h2>
+            <h4 style="margin-left: 32px">
+              Ready for driver by Aug 28, 2020, <br />
+              11:36 AM
+            </h4>
+          </div>
+          <p><strong>2 items - </strong> some contain special instructions</p>
+          <table cellspacing="0">
+            <tr>
+              <td class="border-bottom" style="width: 30px">Qty</td>
+
+              <td class="border-bottom">Description</td>
+              <td class="border-bottom">Price</td>
+            </tr>
+
+            <tr class="border-bottom">
+              <td class="border-bottom"><div class="quantity">1</div></td>
+              <td class="border-bottom">
+                <h3>Tacos de Carne Asada</h3>
+                <ul>
+                  <li>1 Piece</li>
+                </ul>
+              </td>
+              <td class="border-bottom"><h3>$4.25</h3></td>
+            </tr>
+            <tr>
+              <td class="border-bottom"><div class="quantity">1</div></td>
+              <td class="border-bottom">
+                <h3>Burrito California</h3>
+                <p><strong>Instructions: </strong> No guacamole</p>
+                <ul>
+                  <li>Chicken</li>
+                </ul>
+              </td>
+              <td class="border-bottom"><h3>$12.75</h3></td>
+            </tr>
+            <tr class="border-bottom">
+              <td class="border-bottom"><img src="utensils.png" alt="" /></td>
+              <td class="border-bottom">include napkins and utensils?</td>
+              <td class="border-bottom"><h3>YES</h3></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right" class="py-1">
+                <p>Subtotal:</p>
+              </td>
+              <td class="py-1"><h3>$17.00</h3></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right" class="py-1">
+                <p>Delivery Fee:</p>
+              </td>
+              <td class="py-1"><h3>$2.49</h3></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right" class="py-1">
+                <p>Service Fee:</p>
+              </td>
+              <td class="py-1"><h3>$0.89</h3></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right" class="py-1">
+                <p>Tax:</p>
+              </td>
+              <td class="py-1"><h3>$1.96</h3></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="border-bottom py-1" align="right">
+                <p>Tip:</p>
+              </td>
+              <td class="border-bottom"><h3>$3.00</h3></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="right">
+                <p>TOTAL:</p>
+              </td>
+              <td><h3>$26.00</h3></td>
+            </tr>
+          </table>
+
+          <div class="delivery-box">
+            <h2>PREPAID</h2>
+            <p class="margin-0">DO NOT CHARGE</p>
+          </div>
+          <br />
+
+          <p style="text-align: center">END OF ORDER</p>
+        </div>
+        <div class="col right-side">
+          <div style="text-align: right">
+            <h3>GRUBHUB FOR RESTAURANTS</h3>
+            <p>Ordered by <span>GRUBHUB</span></p>
+          </div>
+          <div class="delivery-box" style="margin-top: 120px; margin-bottom: 0">
+            <strong>Deliver to:</strong>
+            <p>Michael D</p>
+            <h4 style="font-weight: normal; font-size: 22px">(352) 480-9396</h4>
+          </div>
+          <div class="delivery-box" style="margin-top: 0; border-top: 0">
+            <h5 style="display: flex; background-color: black">
+              <img src="triangle-warning.png" alt="" /> &nbsp; Contact-free
+              delivery
+            </h5>
+            <ol>
+              <li>Leave order at front door of house/aparment unit</li>
+              <li>Text Customer</li>
+            </ol>
+          </div>
+          <p style="font-style: italic">
+            QUESTIONS? Customer service is available at (877) 585-1085
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
