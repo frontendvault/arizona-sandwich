@@ -52,6 +52,9 @@
         margin-top: 15px;
         margin-bottom: 20px;
       }
+      .delivery-box table td {
+        padding: 3px;
+      }
       .delivery-box h2 {
         margin-bottom: 10px;
       }
@@ -72,6 +75,9 @@
         vertical-align: top;
         width: auto;
       }
+      table p {
+        margin-bottom: 0;
+      }
       .border-bottom {
         border-bottom: 1px solid #000;
       }
@@ -89,27 +95,44 @@
         padding-top: 5px;
         padding-bottom: 5px;
       }
+      .items-padding td {
+        padding: 3px;
+        font-size: 14px;
+        padding-left: 30px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col" style="flex: 0.7">
-          <strong>Lal Palmas Mexican Retaurant &amp; Cantina</strong>
-          <p>(757) 467-1105</p>
+          <strong>Chicken Kitchen Restaurant</strong>
+          <!-- <p>(757) 467-1105</p> -->
           <br />
           <br />
 
           <p>Confirmation Code: <strong>8576</strong></p>
-          <p>Order: <strong>#16971262 -- 7815266</strong></p>
-          <p>Order placed on: <strong>Aug 28 2020, 11:22:42 AM</strong></p>
+          <p>Order: <strong>Order ID: 231</strong></p>
+          <p>Order placed on: <strong>Aug 28 2020, 06:14 PM</strong></p>
 
           <div class="delivery-box">
             <h2><img src="star-circle.png" alt="" /> DELIVERY</h2>
-            <h4 style="margin-left: 32px">
+            <!-- <h4 style="margin-left: 32px">
               Ready for driver by Aug 28, 2020, <br />
               11:36 AM
-            </h4>
+            </h4> -->
+            <table>
+              <tr>
+                <td>Promised:</td>
+                <td>TODAY - 430PM</td>
+              </tr>
+              <tr>
+                <td>Address:</td>
+                <td>
+                  1234 Main street hub Apt 3443 <br />Farmers branch, TX76534
+                </td>
+              </tr>
+            </table>
           </div>
           <p><strong>2 items - </strong> some contain special instructions</p>
           <table cellspacing="0">
@@ -117,34 +140,148 @@
               <td class="border-bottom" style="width: 30px">Qty</td>
 
               <td class="border-bottom">Description</td>
-              <td class="border-bottom">Price</td>
+              <td class="border-bottom" align="right">Price</td>
             </tr>
 
-            <tr class="border-bottom">
-              <td class="border-bottom"><div class="quantity">1</div></td>
-              <td class="border-bottom">
-                <h3>Tacos de Carne Asada</h3>
-                <ul>
-                  <li>1 Piece</li>
-                </ul>
+            <tr>
+              <td><div class="quantity">1</div></td>
+              <td>
+                <h3>1 Double Breast Platter</h3>
               </td>
-              <td class="border-bottom"><h3>$4.25</h3></td>
+              <td align="right"><h3>$4.25</h3></td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- Option:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Two Side Orders</p>
+              </td>
+              <td class="align-right">$2.50</td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- Side Orders:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Classic Coleslaw</p>
+              </td>
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x White Rice</p>
+              </td>
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- CK's Signature Sauces:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Balsamic Vinaigrette</p>
+              </td>
+               
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td class="border-bottom"></td>
+              <td class="border-bottom">
+                <p>1 x Sweet & Sour</p>
+              </td>
+              <td class="align-right border-bottom">--</td>
             </tr>
             <tr>
               <td class="border-bottom"><div class="quantity">1</div></td>
               <td class="border-bottom">
-                <h3>Burrito California</h3>
-                <p><strong>Instructions: </strong> No guacamole</p>
-                <ul>
-                  <li>Chicken</li>
-                </ul>
+                <h3>Classic Chicken Soup</h3>
               </td>
               <td class="border-bottom"><h3>$12.75</h3></td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- Size:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Cup</p>
+              </td>
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>1 Cuban Chop-Chop</td>
+              <td class="align-right">$7.99</td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- Size:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Regular</p>
+              </td>
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- Base:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Shredded Lettuce</p>
+              </td>
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- Add:</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>
+                <p>1 x Extra Portion of Freshly</p>
+              </td>
+              <td class="align-right">--</td>
+            </tr>
+            <tr class="items-padding">
+              <td></td>
+              <td>Grilled Breast</td>
+              <td class="align-right">$2.49</td>
+            </tr>
+            <tr class="items-padding">
+              <td colspan="3">- CK's Signature Sauces:</td>
+            </tr>
+            <tr class="items-padding">
+              <td class="border-bottom"></td>
+              <td class="border-bottom">
+                <p>1 x Mustard'n Curry</p>
+              </td>
+              <td class="align-right border-bottom">--</td>
+            </tr>
+
+            <tr>
+              <td colspan="3" class="border-bottom">
+                <p>Special Instructions:</p>
+                <small>
+                  Can I also get some shredded cheese on top. <br />I didn’t
+                  find that option, i’ll pay for it if its extra. Thanks!
+                </small>
+              </td>
             </tr>
             <tr class="border-bottom">
               <td class="border-bottom"><img src="utensils.png" alt="" /></td>
               <td class="border-bottom">include napkins and utensils?</td>
               <td class="border-bottom"><h3>YES</h3></td>
+            </tr>
+            <tr class="border-bottom">
+              <td class="border-bottom" colspan="2">
+                Preparation Time(approx):
+              </td>
+              <td class="border-bottom">10 min</td>
             </tr>
             <tr>
               <td colspan="2" align="right" class="py-1">
@@ -202,9 +339,17 @@
             </p>
           </div>
           <div class="delivery-box" style="margin-top: 120px; margin-bottom: 0">
-            <strong>Deliver to:</strong>
-            <p>Michael D</p>
-            <h4 style="font-weight: normal; font-size: 22px">(352) 480-9396</h4>
+            <strong>Customer:</strong>
+            <table>
+              <tr>
+                <td>Name</td>
+                <td>Steven Johmson Travis</td>
+              </tr>
+              <tr>
+                <td>Phone</td>
+                <td>123-123-1234</td>
+              </tr>
+            </table>
           </div>
           <div class="delivery-box" style="margin-top: 0; border-top: 0">
             <h5 style="display: flex; background-color: black">
