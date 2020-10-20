@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1260px) {
+    .right-side {
+        .items-section {
+            .item {
+                min-width: 200px;
+                width: 200px;
+                flex: 1;
+                max-width: 228px;
+            }
+        }
+    }
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+}
